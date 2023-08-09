@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Text Processing - Exercise\T02. Character Multiplier\bin\Debug\netcoreapp3.1\T02. Character Multiplier.exe
+D:\Programing Files\C#\Text Processing - Exercise\T02. Character Multiplier\bin\Debug\netcoreapp3.1\T02. Character Multiplier.deps.json
+D:\Programing Files\C#\Text Processing - Exercise\T02. Character Multiplier\bin\Debug\netcoreapp3.1\T02. Character Multiplier.runtimeconfig.json
+D:\Programing Files\C#\Text Processing - Exercise\T02. Character Multiplier\bin\Debug\netcoreapp3.1\T02. Character Multiplier.runtimeconfig.dev.json
+D:\Programing Files\C#\Text Processing - Exercise\T02. Character Multiplier\bin\Debug\netcoreapp3.1\T02. Character Multiplier.dll
+D:\Programing Files\C#\Text Processing - Exercise\T02. Character Multiplier\bin\Debug\netcoreapp3.1\T02. Character Multiplier.pdb
+D:\Programing Files\C#\Text Processing - Exercise\T02. Character Multiplier\obj\Debug\netcoreapp3.1\T02. Character Multiplier.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Text Processing - Exercise\T02. Character Multiplier\obj\Debug\netcoreapp3.1\T02. Character Multiplier.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Text Processing - Exercise\T02. Character Multiplier\obj\Debug\netcoreapp3.1\T02. Character Multiplier.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Text Processing - Exercise\T02. Character Multiplier\obj\Debug\netcoreapp3.1\T02. Character Multiplier.AssemblyInfo.cs
+D:\Programing Files\C#\Text Processing - Exercise\T02. Character Multiplier\obj\Debug\netcoreapp3.1\T02. Character Multiplier.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Text Processing - Exercise\T02. Character Multiplier\obj\Debug\netcoreapp3.1\T02. Character Multiplier.dll
+D:\Programing Files\C#\Text Processing - Exercise\T02. Character Multiplier\obj\Debug\netcoreapp3.1\T02. Character Multiplier.pdb
+D:\Programing Files\C#\Text Processing - Exercise\T02. Character Multiplier\obj\Debug\netcoreapp3.1\T02. Character Multiplier.genruntimeconfig.cache

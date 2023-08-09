@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Arrays - Lab\Т04. Reverse Array of Strings\bin\Debug\netcoreapp3.1\Т04. Reverse Array of Strings.exe
+D:\Programing Files\C#\Arrays - Lab\Т04. Reverse Array of Strings\bin\Debug\netcoreapp3.1\Т04. Reverse Array of Strings.deps.json
+D:\Programing Files\C#\Arrays - Lab\Т04. Reverse Array of Strings\bin\Debug\netcoreapp3.1\Т04. Reverse Array of Strings.runtimeconfig.json
+D:\Programing Files\C#\Arrays - Lab\Т04. Reverse Array of Strings\bin\Debug\netcoreapp3.1\Т04. Reverse Array of Strings.runtimeconfig.dev.json
+D:\Programing Files\C#\Arrays - Lab\Т04. Reverse Array of Strings\bin\Debug\netcoreapp3.1\Т04. Reverse Array of Strings.dll
+D:\Programing Files\C#\Arrays - Lab\Т04. Reverse Array of Strings\bin\Debug\netcoreapp3.1\Т04. Reverse Array of Strings.pdb
+D:\Programing Files\C#\Arrays - Lab\Т04. Reverse Array of Strings\obj\Debug\netcoreapp3.1\Т04. Reverse Array of Strings.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Arrays - Lab\Т04. Reverse Array of Strings\obj\Debug\netcoreapp3.1\Т04. Reverse Array of Strings.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Arrays - Lab\Т04. Reverse Array of Strings\obj\Debug\netcoreapp3.1\Т04. Reverse Array of Strings.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Arrays - Lab\Т04. Reverse Array of Strings\obj\Debug\netcoreapp3.1\Т04. Reverse Array of Strings.AssemblyInfo.cs
+D:\Programing Files\C#\Arrays - Lab\Т04. Reverse Array of Strings\obj\Debug\netcoreapp3.1\Т04. Reverse Array of Strings.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Arrays - Lab\Т04. Reverse Array of Strings\obj\Debug\netcoreapp3.1\Т04. Reverse Array of Strings.dll
+D:\Programing Files\C#\Arrays - Lab\Т04. Reverse Array of Strings\obj\Debug\netcoreapp3.1\Т04. Reverse Array of Strings.pdb
+D:\Programing Files\C#\Arrays - Lab\Т04. Reverse Array of Strings\obj\Debug\netcoreapp3.1\Т04. Reverse Array of Strings.genruntimeconfig.cache

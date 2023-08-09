@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Arrays - More Exercise\T04. Fold and Sum\bin\Debug\netcoreapp3.1\T04. Fold and Sum.exe
+D:\Programing Files\C#\Arrays - More Exercise\T04. Fold and Sum\bin\Debug\netcoreapp3.1\T04. Fold and Sum.deps.json
+D:\Programing Files\C#\Arrays - More Exercise\T04. Fold and Sum\bin\Debug\netcoreapp3.1\T04. Fold and Sum.runtimeconfig.json
+D:\Programing Files\C#\Arrays - More Exercise\T04. Fold and Sum\bin\Debug\netcoreapp3.1\T04. Fold and Sum.runtimeconfig.dev.json
+D:\Programing Files\C#\Arrays - More Exercise\T04. Fold and Sum\bin\Debug\netcoreapp3.1\T04. Fold and Sum.dll
+D:\Programing Files\C#\Arrays - More Exercise\T04. Fold and Sum\bin\Debug\netcoreapp3.1\T04. Fold and Sum.pdb
+D:\Programing Files\C#\Arrays - More Exercise\T04. Fold and Sum\obj\Debug\netcoreapp3.1\T04. Fold and Sum.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Arrays - More Exercise\T04. Fold and Sum\obj\Debug\netcoreapp3.1\T04. Fold and Sum.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Arrays - More Exercise\T04. Fold and Sum\obj\Debug\netcoreapp3.1\T04. Fold and Sum.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Arrays - More Exercise\T04. Fold and Sum\obj\Debug\netcoreapp3.1\T04. Fold and Sum.AssemblyInfo.cs
+D:\Programing Files\C#\Arrays - More Exercise\T04. Fold and Sum\obj\Debug\netcoreapp3.1\T04. Fold and Sum.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Arrays - More Exercise\T04. Fold and Sum\obj\Debug\netcoreapp3.1\T04. Fold and Sum.dll
+D:\Programing Files\C#\Arrays - More Exercise\T04. Fold and Sum\obj\Debug\netcoreapp3.1\T04. Fold and Sum.pdb
+D:\Programing Files\C#\Arrays - More Exercise\T04. Fold and Sum\obj\Debug\netcoreapp3.1\T04. Fold and Sum.genruntimeconfig.cache

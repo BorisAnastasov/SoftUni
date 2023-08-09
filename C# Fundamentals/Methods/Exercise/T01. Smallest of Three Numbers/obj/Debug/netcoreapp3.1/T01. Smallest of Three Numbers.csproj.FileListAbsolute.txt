@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Methods - Exercise\T01. Smallest of Three Numbers\bin\Debug\netcoreapp3.1\T01. Smallest of Three Numbers.exe
+D:\Programing Files\C#\Methods - Exercise\T01. Smallest of Three Numbers\bin\Debug\netcoreapp3.1\T01. Smallest of Three Numbers.deps.json
+D:\Programing Files\C#\Methods - Exercise\T01. Smallest of Three Numbers\bin\Debug\netcoreapp3.1\T01. Smallest of Three Numbers.runtimeconfig.json
+D:\Programing Files\C#\Methods - Exercise\T01. Smallest of Three Numbers\bin\Debug\netcoreapp3.1\T01. Smallest of Three Numbers.runtimeconfig.dev.json
+D:\Programing Files\C#\Methods - Exercise\T01. Smallest of Three Numbers\bin\Debug\netcoreapp3.1\T01. Smallest of Three Numbers.dll
+D:\Programing Files\C#\Methods - Exercise\T01. Smallest of Three Numbers\bin\Debug\netcoreapp3.1\T01. Smallest of Three Numbers.pdb
+D:\Programing Files\C#\Methods - Exercise\T01. Smallest of Three Numbers\obj\Debug\netcoreapp3.1\T01. Smallest of Three Numbers.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Methods - Exercise\T01. Smallest of Three Numbers\obj\Debug\netcoreapp3.1\T01. Smallest of Three Numbers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Methods - Exercise\T01. Smallest of Three Numbers\obj\Debug\netcoreapp3.1\T01. Smallest of Three Numbers.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Methods - Exercise\T01. Smallest of Three Numbers\obj\Debug\netcoreapp3.1\T01. Smallest of Three Numbers.AssemblyInfo.cs
+D:\Programing Files\C#\Methods - Exercise\T01. Smallest of Three Numbers\obj\Debug\netcoreapp3.1\T01. Smallest of Three Numbers.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Methods - Exercise\T01. Smallest of Three Numbers\obj\Debug\netcoreapp3.1\T01. Smallest of Three Numbers.dll
+D:\Programing Files\C#\Methods - Exercise\T01. Smallest of Three Numbers\obj\Debug\netcoreapp3.1\T01. Smallest of Three Numbers.pdb
+D:\Programing Files\C#\Methods - Exercise\T01. Smallest of Three Numbers\obj\Debug\netcoreapp3.1\T01. Smallest of Three Numbers.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Methods - Lab\T07. Repeat String\bin\Debug\netcoreapp3.1\T07. Repeat String.exe
+D:\Programing Files\C#\Methods - Lab\T07. Repeat String\bin\Debug\netcoreapp3.1\T07. Repeat String.deps.json
+D:\Programing Files\C#\Methods - Lab\T07. Repeat String\bin\Debug\netcoreapp3.1\T07. Repeat String.runtimeconfig.json
+D:\Programing Files\C#\Methods - Lab\T07. Repeat String\bin\Debug\netcoreapp3.1\T07. Repeat String.runtimeconfig.dev.json
+D:\Programing Files\C#\Methods - Lab\T07. Repeat String\bin\Debug\netcoreapp3.1\T07. Repeat String.dll
+D:\Programing Files\C#\Methods - Lab\T07. Repeat String\bin\Debug\netcoreapp3.1\T07. Repeat String.pdb
+D:\Programing Files\C#\Methods - Lab\T07. Repeat String\obj\Debug\netcoreapp3.1\T07. Repeat String.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Methods - Lab\T07. Repeat String\obj\Debug\netcoreapp3.1\T07. Repeat String.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Methods - Lab\T07. Repeat String\obj\Debug\netcoreapp3.1\T07. Repeat String.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Methods - Lab\T07. Repeat String\obj\Debug\netcoreapp3.1\T07. Repeat String.AssemblyInfo.cs
+D:\Programing Files\C#\Methods - Lab\T07. Repeat String\obj\Debug\netcoreapp3.1\T07. Repeat String.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Methods - Lab\T07. Repeat String\obj\Debug\netcoreapp3.1\T07. Repeat String.dll
+D:\Programing Files\C#\Methods - Lab\T07. Repeat String\obj\Debug\netcoreapp3.1\T07. Repeat String.pdb
+D:\Programing Files\C#\Methods - Lab\T07. Repeat String\obj\Debug\netcoreapp3.1\T07. Repeat String.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Associative Arrays - Exercise\T03. Orders\bin\Debug\netcoreapp3.1\T03. Orders.exe
+D:\Programing Files\C#\Associative Arrays - Exercise\T03. Orders\bin\Debug\netcoreapp3.1\T03. Orders.deps.json
+D:\Programing Files\C#\Associative Arrays - Exercise\T03. Orders\bin\Debug\netcoreapp3.1\T03. Orders.runtimeconfig.json
+D:\Programing Files\C#\Associative Arrays - Exercise\T03. Orders\bin\Debug\netcoreapp3.1\T03. Orders.runtimeconfig.dev.json
+D:\Programing Files\C#\Associative Arrays - Exercise\T03. Orders\bin\Debug\netcoreapp3.1\T03. Orders.dll
+D:\Programing Files\C#\Associative Arrays - Exercise\T03. Orders\bin\Debug\netcoreapp3.1\T03. Orders.pdb
+D:\Programing Files\C#\Associative Arrays - Exercise\T03. Orders\obj\Debug\netcoreapp3.1\T03. Orders.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Associative Arrays - Exercise\T03. Orders\obj\Debug\netcoreapp3.1\T03. Orders.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Associative Arrays - Exercise\T03. Orders\obj\Debug\netcoreapp3.1\T03. Orders.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Associative Arrays - Exercise\T03. Orders\obj\Debug\netcoreapp3.1\T03. Orders.AssemblyInfo.cs
+D:\Programing Files\C#\Associative Arrays - Exercise\T03. Orders\obj\Debug\netcoreapp3.1\T03. Orders.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Associative Arrays - Exercise\T03. Orders\obj\Debug\netcoreapp3.1\T03. Orders.dll
+D:\Programing Files\C#\Associative Arrays - Exercise\T03. Orders\obj\Debug\netcoreapp3.1\T03. Orders.pdb
+D:\Programing Files\C#\Associative Arrays - Exercise\T03. Orders\obj\Debug\netcoreapp3.1\T03. Orders.genruntimeconfig.cache

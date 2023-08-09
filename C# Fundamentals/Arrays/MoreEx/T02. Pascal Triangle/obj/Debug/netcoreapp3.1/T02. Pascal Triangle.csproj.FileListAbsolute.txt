@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Arrays - More Exercise\T02. Pascal Triangle\bin\Debug\netcoreapp3.1\T02. Pascal Triangle.exe
+D:\Programing Files\C#\Arrays - More Exercise\T02. Pascal Triangle\bin\Debug\netcoreapp3.1\T02. Pascal Triangle.deps.json
+D:\Programing Files\C#\Arrays - More Exercise\T02. Pascal Triangle\bin\Debug\netcoreapp3.1\T02. Pascal Triangle.runtimeconfig.json
+D:\Programing Files\C#\Arrays - More Exercise\T02. Pascal Triangle\bin\Debug\netcoreapp3.1\T02. Pascal Triangle.runtimeconfig.dev.json
+D:\Programing Files\C#\Arrays - More Exercise\T02. Pascal Triangle\bin\Debug\netcoreapp3.1\T02. Pascal Triangle.dll
+D:\Programing Files\C#\Arrays - More Exercise\T02. Pascal Triangle\bin\Debug\netcoreapp3.1\T02. Pascal Triangle.pdb
+D:\Programing Files\C#\Arrays - More Exercise\T02. Pascal Triangle\obj\Debug\netcoreapp3.1\T02. Pascal Triangle.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Arrays - More Exercise\T02. Pascal Triangle\obj\Debug\netcoreapp3.1\T02. Pascal Triangle.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Arrays - More Exercise\T02. Pascal Triangle\obj\Debug\netcoreapp3.1\T02. Pascal Triangle.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Arrays - More Exercise\T02. Pascal Triangle\obj\Debug\netcoreapp3.1\T02. Pascal Triangle.AssemblyInfo.cs
+D:\Programing Files\C#\Arrays - More Exercise\T02. Pascal Triangle\obj\Debug\netcoreapp3.1\T02. Pascal Triangle.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Arrays - More Exercise\T02. Pascal Triangle\obj\Debug\netcoreapp3.1\T02. Pascal Triangle.dll
+D:\Programing Files\C#\Arrays - More Exercise\T02. Pascal Triangle\obj\Debug\netcoreapp3.1\T02. Pascal Triangle.pdb
+D:\Programing Files\C#\Arrays - More Exercise\T02. Pascal Triangle\obj\Debug\netcoreapp3.1\T02. Pascal Triangle.genruntimeconfig.cache

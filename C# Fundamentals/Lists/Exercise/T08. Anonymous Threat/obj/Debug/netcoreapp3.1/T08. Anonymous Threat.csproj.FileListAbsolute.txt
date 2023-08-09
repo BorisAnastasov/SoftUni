@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Lists - Exercise\T08. Anonymous Threat\bin\Debug\netcoreapp3.1\T08. Anonymous Threat.exe
+D:\Programing Files\C#\Lists - Exercise\T08. Anonymous Threat\bin\Debug\netcoreapp3.1\T08. Anonymous Threat.deps.json
+D:\Programing Files\C#\Lists - Exercise\T08. Anonymous Threat\bin\Debug\netcoreapp3.1\T08. Anonymous Threat.runtimeconfig.json
+D:\Programing Files\C#\Lists - Exercise\T08. Anonymous Threat\bin\Debug\netcoreapp3.1\T08. Anonymous Threat.runtimeconfig.dev.json
+D:\Programing Files\C#\Lists - Exercise\T08. Anonymous Threat\bin\Debug\netcoreapp3.1\T08. Anonymous Threat.dll
+D:\Programing Files\C#\Lists - Exercise\T08. Anonymous Threat\bin\Debug\netcoreapp3.1\T08. Anonymous Threat.pdb
+D:\Programing Files\C#\Lists - Exercise\T08. Anonymous Threat\obj\Debug\netcoreapp3.1\T08. Anonymous Threat.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Lists - Exercise\T08. Anonymous Threat\obj\Debug\netcoreapp3.1\T08. Anonymous Threat.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Lists - Exercise\T08. Anonymous Threat\obj\Debug\netcoreapp3.1\T08. Anonymous Threat.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Lists - Exercise\T08. Anonymous Threat\obj\Debug\netcoreapp3.1\T08. Anonymous Threat.AssemblyInfo.cs
+D:\Programing Files\C#\Lists - Exercise\T08. Anonymous Threat\obj\Debug\netcoreapp3.1\T08. Anonymous Threat.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Lists - Exercise\T08. Anonymous Threat\obj\Debug\netcoreapp3.1\T08. Anonymous Threat.dll
+D:\Programing Files\C#\Lists - Exercise\T08. Anonymous Threat\obj\Debug\netcoreapp3.1\T08. Anonymous Threat.pdb
+D:\Programing Files\C#\Lists - Exercise\T08. Anonymous Threat\obj\Debug\netcoreapp3.1\T08. Anonymous Threat.genruntimeconfig.cache

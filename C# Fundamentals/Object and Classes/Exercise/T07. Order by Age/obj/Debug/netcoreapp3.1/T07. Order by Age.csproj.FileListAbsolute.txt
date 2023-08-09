@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Objects and Classes - Exercise\T07. Order by Age\bin\Debug\netcoreapp3.1\T07. Order by Age.exe
+D:\Programing Files\C#\Objects and Classes - Exercise\T07. Order by Age\bin\Debug\netcoreapp3.1\T07. Order by Age.deps.json
+D:\Programing Files\C#\Objects and Classes - Exercise\T07. Order by Age\bin\Debug\netcoreapp3.1\T07. Order by Age.runtimeconfig.json
+D:\Programing Files\C#\Objects and Classes - Exercise\T07. Order by Age\bin\Debug\netcoreapp3.1\T07. Order by Age.runtimeconfig.dev.json
+D:\Programing Files\C#\Objects and Classes - Exercise\T07. Order by Age\bin\Debug\netcoreapp3.1\T07. Order by Age.dll
+D:\Programing Files\C#\Objects and Classes - Exercise\T07. Order by Age\bin\Debug\netcoreapp3.1\T07. Order by Age.pdb
+D:\Programing Files\C#\Objects and Classes - Exercise\T07. Order by Age\obj\Debug\netcoreapp3.1\T07. Order by Age.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Objects and Classes - Exercise\T07. Order by Age\obj\Debug\netcoreapp3.1\T07. Order by Age.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Objects and Classes - Exercise\T07. Order by Age\obj\Debug\netcoreapp3.1\T07. Order by Age.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Objects and Classes - Exercise\T07. Order by Age\obj\Debug\netcoreapp3.1\T07. Order by Age.AssemblyInfo.cs
+D:\Programing Files\C#\Objects and Classes - Exercise\T07. Order by Age\obj\Debug\netcoreapp3.1\T07. Order by Age.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Objects and Classes - Exercise\T07. Order by Age\obj\Debug\netcoreapp3.1\T07. Order by Age.dll
+D:\Programing Files\C#\Objects and Classes - Exercise\T07. Order by Age\obj\Debug\netcoreapp3.1\T07. Order by Age.pdb
+D:\Programing Files\C#\Objects and Classes - Exercise\T07. Order by Age\obj\Debug\netcoreapp3.1\T07. Order by Age.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Text Processing - Exercise\T05. Multiply Big Number\bin\Debug\netcoreapp3.1\T05. Multiply Big Number.exe
+D:\Programing Files\C#\Text Processing - Exercise\T05. Multiply Big Number\bin\Debug\netcoreapp3.1\T05. Multiply Big Number.deps.json
+D:\Programing Files\C#\Text Processing - Exercise\T05. Multiply Big Number\bin\Debug\netcoreapp3.1\T05. Multiply Big Number.runtimeconfig.json
+D:\Programing Files\C#\Text Processing - Exercise\T05. Multiply Big Number\bin\Debug\netcoreapp3.1\T05. Multiply Big Number.runtimeconfig.dev.json
+D:\Programing Files\C#\Text Processing - Exercise\T05. Multiply Big Number\bin\Debug\netcoreapp3.1\T05. Multiply Big Number.dll
+D:\Programing Files\C#\Text Processing - Exercise\T05. Multiply Big Number\bin\Debug\netcoreapp3.1\T05. Multiply Big Number.pdb
+D:\Programing Files\C#\Text Processing - Exercise\T05. Multiply Big Number\obj\Debug\netcoreapp3.1\T05. Multiply Big Number.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Text Processing - Exercise\T05. Multiply Big Number\obj\Debug\netcoreapp3.1\T05. Multiply Big Number.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Text Processing - Exercise\T05. Multiply Big Number\obj\Debug\netcoreapp3.1\T05. Multiply Big Number.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Text Processing - Exercise\T05. Multiply Big Number\obj\Debug\netcoreapp3.1\T05. Multiply Big Number.AssemblyInfo.cs
+D:\Programing Files\C#\Text Processing - Exercise\T05. Multiply Big Number\obj\Debug\netcoreapp3.1\T05. Multiply Big Number.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Text Processing - Exercise\T05. Multiply Big Number\obj\Debug\netcoreapp3.1\T05. Multiply Big Number.dll
+D:\Programing Files\C#\Text Processing - Exercise\T05. Multiply Big Number\obj\Debug\netcoreapp3.1\T05. Multiply Big Number.pdb
+D:\Programing Files\C#\Text Processing - Exercise\T05. Multiply Big Number\obj\Debug\netcoreapp3.1\T05. Multiply Big Number.genruntimeconfig.cache

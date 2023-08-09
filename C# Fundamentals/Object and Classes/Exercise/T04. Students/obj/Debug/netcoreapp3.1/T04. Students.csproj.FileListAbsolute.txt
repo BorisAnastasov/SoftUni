@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Objects and Classes - Exercise\T04. Students\bin\Debug\netcoreapp3.1\T04. Students.exe
+D:\Programing Files\C#\Objects and Classes - Exercise\T04. Students\bin\Debug\netcoreapp3.1\T04. Students.deps.json
+D:\Programing Files\C#\Objects and Classes - Exercise\T04. Students\bin\Debug\netcoreapp3.1\T04. Students.runtimeconfig.json
+D:\Programing Files\C#\Objects and Classes - Exercise\T04. Students\bin\Debug\netcoreapp3.1\T04. Students.runtimeconfig.dev.json
+D:\Programing Files\C#\Objects and Classes - Exercise\T04. Students\bin\Debug\netcoreapp3.1\T04. Students.dll
+D:\Programing Files\C#\Objects and Classes - Exercise\T04. Students\bin\Debug\netcoreapp3.1\T04. Students.pdb
+D:\Programing Files\C#\Objects and Classes - Exercise\T04. Students\obj\Debug\netcoreapp3.1\T04. Students.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Objects and Classes - Exercise\T04. Students\obj\Debug\netcoreapp3.1\T04. Students.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Objects and Classes - Exercise\T04. Students\obj\Debug\netcoreapp3.1\T04. Students.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Objects and Classes - Exercise\T04. Students\obj\Debug\netcoreapp3.1\T04. Students.AssemblyInfo.cs
+D:\Programing Files\C#\Objects and Classes - Exercise\T04. Students\obj\Debug\netcoreapp3.1\T04. Students.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Objects and Classes - Exercise\T04. Students\obj\Debug\netcoreapp3.1\T04. Students.dll
+D:\Programing Files\C#\Objects and Classes - Exercise\T04. Students\obj\Debug\netcoreapp3.1\T04. Students.pdb
+D:\Programing Files\C#\Objects and Classes - Exercise\T04. Students\obj\Debug\netcoreapp3.1\T04. Students.genruntimeconfig.cache

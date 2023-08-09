@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Lists - Exercise\T06. Cards Game\bin\Debug\netcoreapp3.1\T06. Cards Game.exe
+D:\Programing Files\C#\Lists - Exercise\T06. Cards Game\bin\Debug\netcoreapp3.1\T06. Cards Game.deps.json
+D:\Programing Files\C#\Lists - Exercise\T06. Cards Game\bin\Debug\netcoreapp3.1\T06. Cards Game.runtimeconfig.json
+D:\Programing Files\C#\Lists - Exercise\T06. Cards Game\bin\Debug\netcoreapp3.1\T06. Cards Game.runtimeconfig.dev.json
+D:\Programing Files\C#\Lists - Exercise\T06. Cards Game\bin\Debug\netcoreapp3.1\T06. Cards Game.dll
+D:\Programing Files\C#\Lists - Exercise\T06. Cards Game\bin\Debug\netcoreapp3.1\T06. Cards Game.pdb
+D:\Programing Files\C#\Lists - Exercise\T06. Cards Game\obj\Debug\netcoreapp3.1\T06. Cards Game.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Lists - Exercise\T06. Cards Game\obj\Debug\netcoreapp3.1\T06. Cards Game.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Lists - Exercise\T06. Cards Game\obj\Debug\netcoreapp3.1\T06. Cards Game.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Lists - Exercise\T06. Cards Game\obj\Debug\netcoreapp3.1\T06. Cards Game.AssemblyInfo.cs
+D:\Programing Files\C#\Lists - Exercise\T06. Cards Game\obj\Debug\netcoreapp3.1\T06. Cards Game.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Lists - Exercise\T06. Cards Game\obj\Debug\netcoreapp3.1\T06. Cards Game.dll
+D:\Programing Files\C#\Lists - Exercise\T06. Cards Game\obj\Debug\netcoreapp3.1\T06. Cards Game.pdb
+D:\Programing Files\C#\Lists - Exercise\T06. Cards Game\obj\Debug\netcoreapp3.1\T06. Cards Game.genruntimeconfig.cache

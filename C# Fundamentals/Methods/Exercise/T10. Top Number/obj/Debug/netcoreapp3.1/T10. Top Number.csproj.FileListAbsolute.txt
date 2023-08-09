@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Methods - Exercise\T10. Top Number\bin\Debug\netcoreapp3.1\T10. Top Number.exe
+D:\Programing Files\C#\Methods - Exercise\T10. Top Number\bin\Debug\netcoreapp3.1\T10. Top Number.deps.json
+D:\Programing Files\C#\Methods - Exercise\T10. Top Number\bin\Debug\netcoreapp3.1\T10. Top Number.runtimeconfig.json
+D:\Programing Files\C#\Methods - Exercise\T10. Top Number\bin\Debug\netcoreapp3.1\T10. Top Number.runtimeconfig.dev.json
+D:\Programing Files\C#\Methods - Exercise\T10. Top Number\bin\Debug\netcoreapp3.1\T10. Top Number.dll
+D:\Programing Files\C#\Methods - Exercise\T10. Top Number\bin\Debug\netcoreapp3.1\T10. Top Number.pdb
+D:\Programing Files\C#\Methods - Exercise\T10. Top Number\obj\Debug\netcoreapp3.1\T10. Top Number.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Methods - Exercise\T10. Top Number\obj\Debug\netcoreapp3.1\T10. Top Number.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Methods - Exercise\T10. Top Number\obj\Debug\netcoreapp3.1\T10. Top Number.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Methods - Exercise\T10. Top Number\obj\Debug\netcoreapp3.1\T10. Top Number.AssemblyInfo.cs
+D:\Programing Files\C#\Methods - Exercise\T10. Top Number\obj\Debug\netcoreapp3.1\T10. Top Number.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Methods - Exercise\T10. Top Number\obj\Debug\netcoreapp3.1\T10. Top Number.dll
+D:\Programing Files\C#\Methods - Exercise\T10. Top Number\obj\Debug\netcoreapp3.1\T10. Top Number.pdb
+D:\Programing Files\C#\Methods - Exercise\T10. Top Number\obj\Debug\netcoreapp3.1\T10. Top Number.genruntimeconfig.cache

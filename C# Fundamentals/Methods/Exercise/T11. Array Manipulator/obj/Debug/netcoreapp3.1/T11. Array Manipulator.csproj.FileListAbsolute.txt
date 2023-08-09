@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Methods - Exercise\T11. Array Manipulator\bin\Debug\netcoreapp3.1\T11. Array Manipulator.exe
+D:\Programing Files\C#\Methods - Exercise\T11. Array Manipulator\bin\Debug\netcoreapp3.1\T11. Array Manipulator.deps.json
+D:\Programing Files\C#\Methods - Exercise\T11. Array Manipulator\bin\Debug\netcoreapp3.1\T11. Array Manipulator.runtimeconfig.json
+D:\Programing Files\C#\Methods - Exercise\T11. Array Manipulator\bin\Debug\netcoreapp3.1\T11. Array Manipulator.runtimeconfig.dev.json
+D:\Programing Files\C#\Methods - Exercise\T11. Array Manipulator\bin\Debug\netcoreapp3.1\T11. Array Manipulator.dll
+D:\Programing Files\C#\Methods - Exercise\T11. Array Manipulator\bin\Debug\netcoreapp3.1\T11. Array Manipulator.pdb
+D:\Programing Files\C#\Methods - Exercise\T11. Array Manipulator\obj\Debug\netcoreapp3.1\T11. Array Manipulator.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Methods - Exercise\T11. Array Manipulator\obj\Debug\netcoreapp3.1\T11. Array Manipulator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Methods - Exercise\T11. Array Manipulator\obj\Debug\netcoreapp3.1\T11. Array Manipulator.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Methods - Exercise\T11. Array Manipulator\obj\Debug\netcoreapp3.1\T11. Array Manipulator.AssemblyInfo.cs
+D:\Programing Files\C#\Methods - Exercise\T11. Array Manipulator\obj\Debug\netcoreapp3.1\T11. Array Manipulator.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Methods - Exercise\T11. Array Manipulator\obj\Debug\netcoreapp3.1\T11. Array Manipulator.dll
+D:\Programing Files\C#\Methods - Exercise\T11. Array Manipulator\obj\Debug\netcoreapp3.1\T11. Array Manipulator.pdb
+D:\Programing Files\C#\Methods - Exercise\T11. Array Manipulator\obj\Debug\netcoreapp3.1\T11. Array Manipulator.genruntimeconfig.cache

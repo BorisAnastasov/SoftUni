@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Lists - Exercise\T07. Append Arrays\bin\Debug\netcoreapp3.1\T07. Append Arrays.exe
+D:\Programing Files\C#\Lists - Exercise\T07. Append Arrays\bin\Debug\netcoreapp3.1\T07. Append Arrays.deps.json
+D:\Programing Files\C#\Lists - Exercise\T07. Append Arrays\bin\Debug\netcoreapp3.1\T07. Append Arrays.runtimeconfig.json
+D:\Programing Files\C#\Lists - Exercise\T07. Append Arrays\bin\Debug\netcoreapp3.1\T07. Append Arrays.runtimeconfig.dev.json
+D:\Programing Files\C#\Lists - Exercise\T07. Append Arrays\bin\Debug\netcoreapp3.1\T07. Append Arrays.dll
+D:\Programing Files\C#\Lists - Exercise\T07. Append Arrays\bin\Debug\netcoreapp3.1\T07. Append Arrays.pdb
+D:\Programing Files\C#\Lists - Exercise\T07. Append Arrays\obj\Debug\netcoreapp3.1\T07. Append Arrays.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Lists - Exercise\T07. Append Arrays\obj\Debug\netcoreapp3.1\T07. Append Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Lists - Exercise\T07. Append Arrays\obj\Debug\netcoreapp3.1\T07. Append Arrays.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Lists - Exercise\T07. Append Arrays\obj\Debug\netcoreapp3.1\T07. Append Arrays.AssemblyInfo.cs
+D:\Programing Files\C#\Lists - Exercise\T07. Append Arrays\obj\Debug\netcoreapp3.1\T07. Append Arrays.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Lists - Exercise\T07. Append Arrays\obj\Debug\netcoreapp3.1\T07. Append Arrays.dll
+D:\Programing Files\C#\Lists - Exercise\T07. Append Arrays\obj\Debug\netcoreapp3.1\T07. Append Arrays.pdb
+D:\Programing Files\C#\Lists - Exercise\T07. Append Arrays\obj\Debug\netcoreapp3.1\T07. Append Arrays.genruntimeconfig.cache

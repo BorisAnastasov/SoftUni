@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Lists - Lab\T03. Merging Lists\bin\Debug\netcoreapp3.1\T03. Merging Lists.exe
+D:\Programing Files\C#\Lists - Lab\T03. Merging Lists\bin\Debug\netcoreapp3.1\T03. Merging Lists.deps.json
+D:\Programing Files\C#\Lists - Lab\T03. Merging Lists\bin\Debug\netcoreapp3.1\T03. Merging Lists.runtimeconfig.json
+D:\Programing Files\C#\Lists - Lab\T03. Merging Lists\bin\Debug\netcoreapp3.1\T03. Merging Lists.runtimeconfig.dev.json
+D:\Programing Files\C#\Lists - Lab\T03. Merging Lists\bin\Debug\netcoreapp3.1\T03. Merging Lists.dll
+D:\Programing Files\C#\Lists - Lab\T03. Merging Lists\bin\Debug\netcoreapp3.1\T03. Merging Lists.pdb
+D:\Programing Files\C#\Lists - Lab\T03. Merging Lists\obj\Debug\netcoreapp3.1\T03. Merging Lists.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Lists - Lab\T03. Merging Lists\obj\Debug\netcoreapp3.1\T03. Merging Lists.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Lists - Lab\T03. Merging Lists\obj\Debug\netcoreapp3.1\T03. Merging Lists.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Lists - Lab\T03. Merging Lists\obj\Debug\netcoreapp3.1\T03. Merging Lists.AssemblyInfo.cs
+D:\Programing Files\C#\Lists - Lab\T03. Merging Lists\obj\Debug\netcoreapp3.1\T03. Merging Lists.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Lists - Lab\T03. Merging Lists\obj\Debug\netcoreapp3.1\T03. Merging Lists.dll
+D:\Programing Files\C#\Lists - Lab\T03. Merging Lists\obj\Debug\netcoreapp3.1\T03. Merging Lists.pdb
+D:\Programing Files\C#\Lists - Lab\T03. Merging Lists\obj\Debug\netcoreapp3.1\T03. Merging Lists.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Methods - Lab\T08. Math Power\bin\Debug\netcoreapp3.1\T08. Math Power.exe
+D:\Programing Files\C#\Methods - Lab\T08. Math Power\bin\Debug\netcoreapp3.1\T08. Math Power.deps.json
+D:\Programing Files\C#\Methods - Lab\T08. Math Power\bin\Debug\netcoreapp3.1\T08. Math Power.runtimeconfig.json
+D:\Programing Files\C#\Methods - Lab\T08. Math Power\bin\Debug\netcoreapp3.1\T08. Math Power.runtimeconfig.dev.json
+D:\Programing Files\C#\Methods - Lab\T08. Math Power\bin\Debug\netcoreapp3.1\T08. Math Power.dll
+D:\Programing Files\C#\Methods - Lab\T08. Math Power\bin\Debug\netcoreapp3.1\T08. Math Power.pdb
+D:\Programing Files\C#\Methods - Lab\T08. Math Power\obj\Debug\netcoreapp3.1\T08. Math Power.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Methods - Lab\T08. Math Power\obj\Debug\netcoreapp3.1\T08. Math Power.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Methods - Lab\T08. Math Power\obj\Debug\netcoreapp3.1\T08. Math Power.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Methods - Lab\T08. Math Power\obj\Debug\netcoreapp3.1\T08. Math Power.AssemblyInfo.cs
+D:\Programing Files\C#\Methods - Lab\T08. Math Power\obj\Debug\netcoreapp3.1\T08. Math Power.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Methods - Lab\T08. Math Power\obj\Debug\netcoreapp3.1\T08. Math Power.dll
+D:\Programing Files\C#\Methods - Lab\T08. Math Power\obj\Debug\netcoreapp3.1\T08. Math Power.pdb
+D:\Programing Files\C#\Methods - Lab\T08. Math Power\obj\Debug\netcoreapp3.1\T08. Math Power.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Lists - Lab\T06. List Manipulation Basics\bin\Debug\netcoreapp3.1\T06. List Manipulation Basics.exe
+D:\Programing Files\C#\Lists - Lab\T06. List Manipulation Basics\bin\Debug\netcoreapp3.1\T06. List Manipulation Basics.deps.json
+D:\Programing Files\C#\Lists - Lab\T06. List Manipulation Basics\bin\Debug\netcoreapp3.1\T06. List Manipulation Basics.runtimeconfig.json
+D:\Programing Files\C#\Lists - Lab\T06. List Manipulation Basics\bin\Debug\netcoreapp3.1\T06. List Manipulation Basics.runtimeconfig.dev.json
+D:\Programing Files\C#\Lists - Lab\T06. List Manipulation Basics\bin\Debug\netcoreapp3.1\T06. List Manipulation Basics.dll
+D:\Programing Files\C#\Lists - Lab\T06. List Manipulation Basics\bin\Debug\netcoreapp3.1\T06. List Manipulation Basics.pdb
+D:\Programing Files\C#\Lists - Lab\T06. List Manipulation Basics\obj\Debug\netcoreapp3.1\T06. List Manipulation Basics.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Lists - Lab\T06. List Manipulation Basics\obj\Debug\netcoreapp3.1\T06. List Manipulation Basics.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Lists - Lab\T06. List Manipulation Basics\obj\Debug\netcoreapp3.1\T06. List Manipulation Basics.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Lists - Lab\T06. List Manipulation Basics\obj\Debug\netcoreapp3.1\T06. List Manipulation Basics.AssemblyInfo.cs
+D:\Programing Files\C#\Lists - Lab\T06. List Manipulation Basics\obj\Debug\netcoreapp3.1\T06. List Manipulation Basics.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Lists - Lab\T06. List Manipulation Basics\obj\Debug\netcoreapp3.1\T06. List Manipulation Basics.dll
+D:\Programing Files\C#\Lists - Lab\T06. List Manipulation Basics\obj\Debug\netcoreapp3.1\T06. List Manipulation Basics.pdb
+D:\Programing Files\C#\Lists - Lab\T06. List Manipulation Basics\obj\Debug\netcoreapp3.1\T06. List Manipulation Basics.genruntimeconfig.cache

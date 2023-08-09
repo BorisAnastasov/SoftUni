@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Associative Arrays - Exercise\T02. A Miner Task\bin\Debug\netcoreapp3.1\T02. A Miner Task.exe
+D:\Programing Files\C#\Associative Arrays - Exercise\T02. A Miner Task\bin\Debug\netcoreapp3.1\T02. A Miner Task.deps.json
+D:\Programing Files\C#\Associative Arrays - Exercise\T02. A Miner Task\bin\Debug\netcoreapp3.1\T02. A Miner Task.runtimeconfig.json
+D:\Programing Files\C#\Associative Arrays - Exercise\T02. A Miner Task\bin\Debug\netcoreapp3.1\T02. A Miner Task.runtimeconfig.dev.json
+D:\Programing Files\C#\Associative Arrays - Exercise\T02. A Miner Task\bin\Debug\netcoreapp3.1\T02. A Miner Task.dll
+D:\Programing Files\C#\Associative Arrays - Exercise\T02. A Miner Task\bin\Debug\netcoreapp3.1\T02. A Miner Task.pdb
+D:\Programing Files\C#\Associative Arrays - Exercise\T02. A Miner Task\obj\Debug\netcoreapp3.1\T02. A Miner Task.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Associative Arrays - Exercise\T02. A Miner Task\obj\Debug\netcoreapp3.1\T02. A Miner Task.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Associative Arrays - Exercise\T02. A Miner Task\obj\Debug\netcoreapp3.1\T02. A Miner Task.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Associative Arrays - Exercise\T02. A Miner Task\obj\Debug\netcoreapp3.1\T02. A Miner Task.AssemblyInfo.cs
+D:\Programing Files\C#\Associative Arrays - Exercise\T02. A Miner Task\obj\Debug\netcoreapp3.1\T02. A Miner Task.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Associative Arrays - Exercise\T02. A Miner Task\obj\Debug\netcoreapp3.1\T02. A Miner Task.dll
+D:\Programing Files\C#\Associative Arrays - Exercise\T02. A Miner Task\obj\Debug\netcoreapp3.1\T02. A Miner Task.pdb
+D:\Programing Files\C#\Associative Arrays - Exercise\T02. A Miner Task\obj\Debug\netcoreapp3.1\T02. A Miner Task.genruntimeconfig.cache

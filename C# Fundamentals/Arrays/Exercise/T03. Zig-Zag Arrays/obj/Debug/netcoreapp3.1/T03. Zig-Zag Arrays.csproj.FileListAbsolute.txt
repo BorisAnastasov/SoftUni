@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Arrays - Exercise\T03. Zig-Zag Arrays\bin\Debug\netcoreapp3.1\T03. Zig-Zag Arrays.exe
+D:\Programing Files\C#\Arrays - Exercise\T03. Zig-Zag Arrays\bin\Debug\netcoreapp3.1\T03. Zig-Zag Arrays.deps.json
+D:\Programing Files\C#\Arrays - Exercise\T03. Zig-Zag Arrays\bin\Debug\netcoreapp3.1\T03. Zig-Zag Arrays.runtimeconfig.json
+D:\Programing Files\C#\Arrays - Exercise\T03. Zig-Zag Arrays\bin\Debug\netcoreapp3.1\T03. Zig-Zag Arrays.runtimeconfig.dev.json
+D:\Programing Files\C#\Arrays - Exercise\T03. Zig-Zag Arrays\bin\Debug\netcoreapp3.1\T03. Zig-Zag Arrays.dll
+D:\Programing Files\C#\Arrays - Exercise\T03. Zig-Zag Arrays\bin\Debug\netcoreapp3.1\T03. Zig-Zag Arrays.pdb
+D:\Programing Files\C#\Arrays - Exercise\T03. Zig-Zag Arrays\obj\Debug\netcoreapp3.1\T03. Zig-Zag Arrays.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Arrays - Exercise\T03. Zig-Zag Arrays\obj\Debug\netcoreapp3.1\T03. Zig-Zag Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Arrays - Exercise\T03. Zig-Zag Arrays\obj\Debug\netcoreapp3.1\T03. Zig-Zag Arrays.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Arrays - Exercise\T03. Zig-Zag Arrays\obj\Debug\netcoreapp3.1\T03. Zig-Zag Arrays.AssemblyInfo.cs
+D:\Programing Files\C#\Arrays - Exercise\T03. Zig-Zag Arrays\obj\Debug\netcoreapp3.1\T03. Zig-Zag Arrays.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Arrays - Exercise\T03. Zig-Zag Arrays\obj\Debug\netcoreapp3.1\T03. Zig-Zag Arrays.dll
+D:\Programing Files\C#\Arrays - Exercise\T03. Zig-Zag Arrays\obj\Debug\netcoreapp3.1\T03. Zig-Zag Arrays.pdb
+D:\Programing Files\C#\Arrays - Exercise\T03. Zig-Zag Arrays\obj\Debug\netcoreapp3.1\T03. Zig-Zag Arrays.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Lists - Lab\T07. List Manipulation Advanced\bin\Debug\netcoreapp3.1\T07. List Manipulation Advanced.exe
+D:\Programing Files\C#\Lists - Lab\T07. List Manipulation Advanced\bin\Debug\netcoreapp3.1\T07. List Manipulation Advanced.deps.json
+D:\Programing Files\C#\Lists - Lab\T07. List Manipulation Advanced\bin\Debug\netcoreapp3.1\T07. List Manipulation Advanced.runtimeconfig.json
+D:\Programing Files\C#\Lists - Lab\T07. List Manipulation Advanced\bin\Debug\netcoreapp3.1\T07. List Manipulation Advanced.runtimeconfig.dev.json
+D:\Programing Files\C#\Lists - Lab\T07. List Manipulation Advanced\bin\Debug\netcoreapp3.1\T07. List Manipulation Advanced.dll
+D:\Programing Files\C#\Lists - Lab\T07. List Manipulation Advanced\bin\Debug\netcoreapp3.1\T07. List Manipulation Advanced.pdb
+D:\Programing Files\C#\Lists - Lab\T07. List Manipulation Advanced\obj\Debug\netcoreapp3.1\T07. List Manipulation Advanced.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Lists - Lab\T07. List Manipulation Advanced\obj\Debug\netcoreapp3.1\T07. List Manipulation Advanced.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Lists - Lab\T07. List Manipulation Advanced\obj\Debug\netcoreapp3.1\T07. List Manipulation Advanced.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Lists - Lab\T07. List Manipulation Advanced\obj\Debug\netcoreapp3.1\T07. List Manipulation Advanced.AssemblyInfo.cs
+D:\Programing Files\C#\Lists - Lab\T07. List Manipulation Advanced\obj\Debug\netcoreapp3.1\T07. List Manipulation Advanced.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Lists - Lab\T07. List Manipulation Advanced\obj\Debug\netcoreapp3.1\T07. List Manipulation Advanced.dll
+D:\Programing Files\C#\Lists - Lab\T07. List Manipulation Advanced\obj\Debug\netcoreapp3.1\T07. List Manipulation Advanced.pdb
+D:\Programing Files\C#\Lists - Lab\T07. List Manipulation Advanced\obj\Debug\netcoreapp3.1\T07. List Manipulation Advanced.genruntimeconfig.cache

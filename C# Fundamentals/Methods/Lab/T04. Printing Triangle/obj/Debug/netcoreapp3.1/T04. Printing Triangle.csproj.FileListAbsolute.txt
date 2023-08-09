@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Methods - Lab\T04. Printing Triangle\bin\Debug\netcoreapp3.1\T04. Printing Triangle.exe
+D:\Programing Files\C#\Methods - Lab\T04. Printing Triangle\bin\Debug\netcoreapp3.1\T04. Printing Triangle.deps.json
+D:\Programing Files\C#\Methods - Lab\T04. Printing Triangle\bin\Debug\netcoreapp3.1\T04. Printing Triangle.runtimeconfig.json
+D:\Programing Files\C#\Methods - Lab\T04. Printing Triangle\bin\Debug\netcoreapp3.1\T04. Printing Triangle.runtimeconfig.dev.json
+D:\Programing Files\C#\Methods - Lab\T04. Printing Triangle\bin\Debug\netcoreapp3.1\T04. Printing Triangle.dll
+D:\Programing Files\C#\Methods - Lab\T04. Printing Triangle\bin\Debug\netcoreapp3.1\T04. Printing Triangle.pdb
+D:\Programing Files\C#\Methods - Lab\T04. Printing Triangle\obj\Debug\netcoreapp3.1\T04. Printing Triangle.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Methods - Lab\T04. Printing Triangle\obj\Debug\netcoreapp3.1\T04. Printing Triangle.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Methods - Lab\T04. Printing Triangle\obj\Debug\netcoreapp3.1\T04. Printing Triangle.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Methods - Lab\T04. Printing Triangle\obj\Debug\netcoreapp3.1\T04. Printing Triangle.AssemblyInfo.cs
+D:\Programing Files\C#\Methods - Lab\T04. Printing Triangle\obj\Debug\netcoreapp3.1\T04. Printing Triangle.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Methods - Lab\T04. Printing Triangle\obj\Debug\netcoreapp3.1\T04. Printing Triangle.dll
+D:\Programing Files\C#\Methods - Lab\T04. Printing Triangle\obj\Debug\netcoreapp3.1\T04. Printing Triangle.pdb
+D:\Programing Files\C#\Methods - Lab\T04. Printing Triangle\obj\Debug\netcoreapp3.1\T04. Printing Triangle.genruntimeconfig.cache

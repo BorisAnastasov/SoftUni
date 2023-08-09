@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Regular Expressions - Lab\T03. Match Dates\bin\Debug\netcoreapp3.1\T03. Match Dates.exe
+D:\Programing Files\C#\Regular Expressions - Lab\T03. Match Dates\bin\Debug\netcoreapp3.1\T03. Match Dates.deps.json
+D:\Programing Files\C#\Regular Expressions - Lab\T03. Match Dates\bin\Debug\netcoreapp3.1\T03. Match Dates.runtimeconfig.json
+D:\Programing Files\C#\Regular Expressions - Lab\T03. Match Dates\bin\Debug\netcoreapp3.1\T03. Match Dates.runtimeconfig.dev.json
+D:\Programing Files\C#\Regular Expressions - Lab\T03. Match Dates\bin\Debug\netcoreapp3.1\T03. Match Dates.dll
+D:\Programing Files\C#\Regular Expressions - Lab\T03. Match Dates\bin\Debug\netcoreapp3.1\T03. Match Dates.pdb
+D:\Programing Files\C#\Regular Expressions - Lab\T03. Match Dates\obj\Debug\netcoreapp3.1\T03. Match Dates.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Regular Expressions - Lab\T03. Match Dates\obj\Debug\netcoreapp3.1\T03. Match Dates.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Regular Expressions - Lab\T03. Match Dates\obj\Debug\netcoreapp3.1\T03. Match Dates.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Regular Expressions - Lab\T03. Match Dates\obj\Debug\netcoreapp3.1\T03. Match Dates.AssemblyInfo.cs
+D:\Programing Files\C#\Regular Expressions - Lab\T03. Match Dates\obj\Debug\netcoreapp3.1\T03. Match Dates.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Regular Expressions - Lab\T03. Match Dates\obj\Debug\netcoreapp3.1\T03. Match Dates.dll
+D:\Programing Files\C#\Regular Expressions - Lab\T03. Match Dates\obj\Debug\netcoreapp3.1\T03. Match Dates.pdb
+D:\Programing Files\C#\Regular Expressions - Lab\T03. Match Dates\obj\Debug\netcoreapp3.1\T03. Match Dates.genruntimeconfig.cache

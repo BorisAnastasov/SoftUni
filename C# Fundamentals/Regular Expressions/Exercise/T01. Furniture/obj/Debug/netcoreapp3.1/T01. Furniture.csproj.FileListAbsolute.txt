@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Regular Expressions - Exercise\T01. Furniture\bin\Debug\netcoreapp3.1\T01. Furniture.exe
+D:\Programing Files\C#\Regular Expressions - Exercise\T01. Furniture\bin\Debug\netcoreapp3.1\T01. Furniture.deps.json
+D:\Programing Files\C#\Regular Expressions - Exercise\T01. Furniture\bin\Debug\netcoreapp3.1\T01. Furniture.runtimeconfig.json
+D:\Programing Files\C#\Regular Expressions - Exercise\T01. Furniture\bin\Debug\netcoreapp3.1\T01. Furniture.runtimeconfig.dev.json
+D:\Programing Files\C#\Regular Expressions - Exercise\T01. Furniture\bin\Debug\netcoreapp3.1\T01. Furniture.dll
+D:\Programing Files\C#\Regular Expressions - Exercise\T01. Furniture\bin\Debug\netcoreapp3.1\T01. Furniture.pdb
+D:\Programing Files\C#\Regular Expressions - Exercise\T01. Furniture\obj\Debug\netcoreapp3.1\T01. Furniture.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Regular Expressions - Exercise\T01. Furniture\obj\Debug\netcoreapp3.1\T01. Furniture.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Regular Expressions - Exercise\T01. Furniture\obj\Debug\netcoreapp3.1\T01. Furniture.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Regular Expressions - Exercise\T01. Furniture\obj\Debug\netcoreapp3.1\T01. Furniture.AssemblyInfo.cs
+D:\Programing Files\C#\Regular Expressions - Exercise\T01. Furniture\obj\Debug\netcoreapp3.1\T01. Furniture.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Regular Expressions - Exercise\T01. Furniture\obj\Debug\netcoreapp3.1\T01. Furniture.dll
+D:\Programing Files\C#\Regular Expressions - Exercise\T01. Furniture\obj\Debug\netcoreapp3.1\T01. Furniture.pdb
+D:\Programing Files\C#\Regular Expressions - Exercise\T01. Furniture\obj\Debug\netcoreapp3.1\T01. Furniture.genruntimeconfig.cache

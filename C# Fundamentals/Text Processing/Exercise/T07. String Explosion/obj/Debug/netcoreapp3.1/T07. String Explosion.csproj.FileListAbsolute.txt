@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Text Processing - Exercise\T07. String Explosion\bin\Debug\netcoreapp3.1\T07. String Explosion.exe
+D:\Programing Files\C#\Text Processing - Exercise\T07. String Explosion\bin\Debug\netcoreapp3.1\T07. String Explosion.deps.json
+D:\Programing Files\C#\Text Processing - Exercise\T07. String Explosion\bin\Debug\netcoreapp3.1\T07. String Explosion.runtimeconfig.json
+D:\Programing Files\C#\Text Processing - Exercise\T07. String Explosion\bin\Debug\netcoreapp3.1\T07. String Explosion.runtimeconfig.dev.json
+D:\Programing Files\C#\Text Processing - Exercise\T07. String Explosion\bin\Debug\netcoreapp3.1\T07. String Explosion.dll
+D:\Programing Files\C#\Text Processing - Exercise\T07. String Explosion\bin\Debug\netcoreapp3.1\T07. String Explosion.pdb
+D:\Programing Files\C#\Text Processing - Exercise\T07. String Explosion\obj\Debug\netcoreapp3.1\T07. String Explosion.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Text Processing - Exercise\T07. String Explosion\obj\Debug\netcoreapp3.1\T07. String Explosion.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Text Processing - Exercise\T07. String Explosion\obj\Debug\netcoreapp3.1\T07. String Explosion.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Text Processing - Exercise\T07. String Explosion\obj\Debug\netcoreapp3.1\T07. String Explosion.AssemblyInfo.cs
+D:\Programing Files\C#\Text Processing - Exercise\T07. String Explosion\obj\Debug\netcoreapp3.1\T07. String Explosion.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Text Processing - Exercise\T07. String Explosion\obj\Debug\netcoreapp3.1\T07. String Explosion.dll
+D:\Programing Files\C#\Text Processing - Exercise\T07. String Explosion\obj\Debug\netcoreapp3.1\T07. String Explosion.pdb
+D:\Programing Files\C#\Text Processing - Exercise\T07. String Explosion\obj\Debug\netcoreapp3.1\T07. String Explosion.genruntimeconfig.cache

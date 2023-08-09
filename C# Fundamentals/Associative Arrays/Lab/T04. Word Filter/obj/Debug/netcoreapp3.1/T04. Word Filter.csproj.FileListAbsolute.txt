@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Associative Arrays - Lab\T04. Word Filter\bin\Debug\netcoreapp3.1\T04. Word Filter.exe
+D:\Programing Files\C#\Associative Arrays - Lab\T04. Word Filter\bin\Debug\netcoreapp3.1\T04. Word Filter.deps.json
+D:\Programing Files\C#\Associative Arrays - Lab\T04. Word Filter\bin\Debug\netcoreapp3.1\T04. Word Filter.runtimeconfig.json
+D:\Programing Files\C#\Associative Arrays - Lab\T04. Word Filter\bin\Debug\netcoreapp3.1\T04. Word Filter.runtimeconfig.dev.json
+D:\Programing Files\C#\Associative Arrays - Lab\T04. Word Filter\bin\Debug\netcoreapp3.1\T04. Word Filter.dll
+D:\Programing Files\C#\Associative Arrays - Lab\T04. Word Filter\bin\Debug\netcoreapp3.1\T04. Word Filter.pdb
+D:\Programing Files\C#\Associative Arrays - Lab\T04. Word Filter\obj\Debug\netcoreapp3.1\T04. Word Filter.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Associative Arrays - Lab\T04. Word Filter\obj\Debug\netcoreapp3.1\T04. Word Filter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Associative Arrays - Lab\T04. Word Filter\obj\Debug\netcoreapp3.1\T04. Word Filter.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Associative Arrays - Lab\T04. Word Filter\obj\Debug\netcoreapp3.1\T04. Word Filter.AssemblyInfo.cs
+D:\Programing Files\C#\Associative Arrays - Lab\T04. Word Filter\obj\Debug\netcoreapp3.1\T04. Word Filter.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Associative Arrays - Lab\T04. Word Filter\obj\Debug\netcoreapp3.1\T04. Word Filter.dll
+D:\Programing Files\C#\Associative Arrays - Lab\T04. Word Filter\obj\Debug\netcoreapp3.1\T04. Word Filter.pdb
+D:\Programing Files\C#\Associative Arrays - Lab\T04. Word Filter\obj\Debug\netcoreapp3.1\T04. Word Filter.genruntimeconfig.cache

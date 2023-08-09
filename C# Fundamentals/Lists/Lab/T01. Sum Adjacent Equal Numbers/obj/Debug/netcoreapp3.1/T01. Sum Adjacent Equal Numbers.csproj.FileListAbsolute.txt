@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Lists - Lab\T01. Sum Adjacent Equal Numbers\bin\Debug\netcoreapp3.1\T01. Sum Adjacent Equal Numbers.exe
+D:\Programing Files\C#\Lists - Lab\T01. Sum Adjacent Equal Numbers\bin\Debug\netcoreapp3.1\T01. Sum Adjacent Equal Numbers.deps.json
+D:\Programing Files\C#\Lists - Lab\T01. Sum Adjacent Equal Numbers\bin\Debug\netcoreapp3.1\T01. Sum Adjacent Equal Numbers.runtimeconfig.json
+D:\Programing Files\C#\Lists - Lab\T01. Sum Adjacent Equal Numbers\bin\Debug\netcoreapp3.1\T01. Sum Adjacent Equal Numbers.runtimeconfig.dev.json
+D:\Programing Files\C#\Lists - Lab\T01. Sum Adjacent Equal Numbers\bin\Debug\netcoreapp3.1\T01. Sum Adjacent Equal Numbers.dll
+D:\Programing Files\C#\Lists - Lab\T01. Sum Adjacent Equal Numbers\bin\Debug\netcoreapp3.1\T01. Sum Adjacent Equal Numbers.pdb
+D:\Programing Files\C#\Lists - Lab\T01. Sum Adjacent Equal Numbers\obj\Debug\netcoreapp3.1\T01. Sum Adjacent Equal Numbers.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Lists - Lab\T01. Sum Adjacent Equal Numbers\obj\Debug\netcoreapp3.1\T01. Sum Adjacent Equal Numbers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Lists - Lab\T01. Sum Adjacent Equal Numbers\obj\Debug\netcoreapp3.1\T01. Sum Adjacent Equal Numbers.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Lists - Lab\T01. Sum Adjacent Equal Numbers\obj\Debug\netcoreapp3.1\T01. Sum Adjacent Equal Numbers.AssemblyInfo.cs
+D:\Programing Files\C#\Lists - Lab\T01. Sum Adjacent Equal Numbers\obj\Debug\netcoreapp3.1\T01. Sum Adjacent Equal Numbers.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Lists - Lab\T01. Sum Adjacent Equal Numbers\obj\Debug\netcoreapp3.1\T01. Sum Adjacent Equal Numbers.dll
+D:\Programing Files\C#\Lists - Lab\T01. Sum Adjacent Equal Numbers\obj\Debug\netcoreapp3.1\T01. Sum Adjacent Equal Numbers.pdb
+D:\Programing Files\C#\Lists - Lab\T01. Sum Adjacent Equal Numbers\obj\Debug\netcoreapp3.1\T01. Sum Adjacent Equal Numbers.genruntimeconfig.cache

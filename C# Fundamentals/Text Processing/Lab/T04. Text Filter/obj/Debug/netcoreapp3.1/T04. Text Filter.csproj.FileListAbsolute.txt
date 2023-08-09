@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Text Processing - Lab\T04. Text Filter\bin\Debug\netcoreapp3.1\T04. Text Filter.exe
+D:\Programing Files\C#\Text Processing - Lab\T04. Text Filter\bin\Debug\netcoreapp3.1\T04. Text Filter.deps.json
+D:\Programing Files\C#\Text Processing - Lab\T04. Text Filter\bin\Debug\netcoreapp3.1\T04. Text Filter.runtimeconfig.json
+D:\Programing Files\C#\Text Processing - Lab\T04. Text Filter\bin\Debug\netcoreapp3.1\T04. Text Filter.runtimeconfig.dev.json
+D:\Programing Files\C#\Text Processing - Lab\T04. Text Filter\bin\Debug\netcoreapp3.1\T04. Text Filter.dll
+D:\Programing Files\C#\Text Processing - Lab\T04. Text Filter\bin\Debug\netcoreapp3.1\T04. Text Filter.pdb
+D:\Programing Files\C#\Text Processing - Lab\T04. Text Filter\obj\Debug\netcoreapp3.1\T04. Text Filter.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Text Processing - Lab\T04. Text Filter\obj\Debug\netcoreapp3.1\T04. Text Filter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Text Processing - Lab\T04. Text Filter\obj\Debug\netcoreapp3.1\T04. Text Filter.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Text Processing - Lab\T04. Text Filter\obj\Debug\netcoreapp3.1\T04. Text Filter.AssemblyInfo.cs
+D:\Programing Files\C#\Text Processing - Lab\T04. Text Filter\obj\Debug\netcoreapp3.1\T04. Text Filter.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Text Processing - Lab\T04. Text Filter\obj\Debug\netcoreapp3.1\T04. Text Filter.dll
+D:\Programing Files\C#\Text Processing - Lab\T04. Text Filter\obj\Debug\netcoreapp3.1\T04. Text Filter.pdb
+D:\Programing Files\C#\Text Processing - Lab\T04. Text Filter\obj\Debug\netcoreapp3.1\T04. Text Filter.genruntimeconfig.cache

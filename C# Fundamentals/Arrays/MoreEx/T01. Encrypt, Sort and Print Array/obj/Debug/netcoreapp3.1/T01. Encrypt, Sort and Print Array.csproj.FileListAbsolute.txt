@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Arrays - More Exercise\T01. Encrypt, Sort and Print Array\bin\Debug\netcoreapp3.1\T01. Encrypt, Sort and Print Array.exe
+D:\Programing Files\C#\Arrays - More Exercise\T01. Encrypt, Sort and Print Array\bin\Debug\netcoreapp3.1\T01. Encrypt, Sort and Print Array.deps.json
+D:\Programing Files\C#\Arrays - More Exercise\T01. Encrypt, Sort and Print Array\bin\Debug\netcoreapp3.1\T01. Encrypt, Sort and Print Array.runtimeconfig.json
+D:\Programing Files\C#\Arrays - More Exercise\T01. Encrypt, Sort and Print Array\bin\Debug\netcoreapp3.1\T01. Encrypt, Sort and Print Array.runtimeconfig.dev.json
+D:\Programing Files\C#\Arrays - More Exercise\T01. Encrypt, Sort and Print Array\bin\Debug\netcoreapp3.1\T01. Encrypt, Sort and Print Array.dll
+D:\Programing Files\C#\Arrays - More Exercise\T01. Encrypt, Sort and Print Array\bin\Debug\netcoreapp3.1\T01. Encrypt, Sort and Print Array.pdb
+D:\Programing Files\C#\Arrays - More Exercise\T01. Encrypt, Sort and Print Array\obj\Debug\netcoreapp3.1\T01. Encrypt, Sort and Print Array.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Arrays - More Exercise\T01. Encrypt, Sort and Print Array\obj\Debug\netcoreapp3.1\T01. Encrypt, Sort and Print Array.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Arrays - More Exercise\T01. Encrypt, Sort and Print Array\obj\Debug\netcoreapp3.1\T01. Encrypt, Sort and Print Array.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Arrays - More Exercise\T01. Encrypt, Sort and Print Array\obj\Debug\netcoreapp3.1\T01. Encrypt, Sort and Print Array.AssemblyInfo.cs
+D:\Programing Files\C#\Arrays - More Exercise\T01. Encrypt, Sort and Print Array\obj\Debug\netcoreapp3.1\T01. Encrypt, Sort and Print Array.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Arrays - More Exercise\T01. Encrypt, Sort and Print Array\obj\Debug\netcoreapp3.1\T01. Encrypt, Sort and Print Array.dll
+D:\Programing Files\C#\Arrays - More Exercise\T01. Encrypt, Sort and Print Array\obj\Debug\netcoreapp3.1\T01. Encrypt, Sort and Print Array.pdb
+D:\Programing Files\C#\Arrays - More Exercise\T01. Encrypt, Sort and Print Array\obj\Debug\netcoreapp3.1\T01. Encrypt, Sort and Print Array.genruntimeconfig.cache

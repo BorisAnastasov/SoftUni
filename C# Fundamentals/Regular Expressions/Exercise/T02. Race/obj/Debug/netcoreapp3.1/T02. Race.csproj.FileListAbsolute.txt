@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Regular Expressions - Exercise\T02. Race\obj\Debug\netcoreapp3.1\T02. Race.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Regular Expressions - Exercise\T02. Race\obj\Debug\netcoreapp3.1\T02. Race.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Regular Expressions - Exercise\T02. Race\obj\Debug\netcoreapp3.1\T02. Race.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Regular Expressions - Exercise\T02. Race\obj\Debug\netcoreapp3.1\T02. Race.AssemblyInfo.cs
+D:\Programing Files\C#\Regular Expressions - Exercise\T02. Race\obj\Debug\netcoreapp3.1\T02. Race.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Regular Expressions - Exercise\T02. Race\bin\Debug\netcoreapp3.1\T02. Race.exe
+D:\Programing Files\C#\Regular Expressions - Exercise\T02. Race\bin\Debug\netcoreapp3.1\T02. Race.deps.json
+D:\Programing Files\C#\Regular Expressions - Exercise\T02. Race\bin\Debug\netcoreapp3.1\T02. Race.runtimeconfig.json
+D:\Programing Files\C#\Regular Expressions - Exercise\T02. Race\bin\Debug\netcoreapp3.1\T02. Race.runtimeconfig.dev.json
+D:\Programing Files\C#\Regular Expressions - Exercise\T02. Race\bin\Debug\netcoreapp3.1\T02. Race.dll
+D:\Programing Files\C#\Regular Expressions - Exercise\T02. Race\bin\Debug\netcoreapp3.1\T02. Race.pdb
+D:\Programing Files\C#\Regular Expressions - Exercise\T02. Race\obj\Debug\netcoreapp3.1\T02. Race.dll
+D:\Programing Files\C#\Regular Expressions - Exercise\T02. Race\obj\Debug\netcoreapp3.1\T02. Race.pdb
+D:\Programing Files\C#\Regular Expressions - Exercise\T02. Race\obj\Debug\netcoreapp3.1\T02. Race.genruntimeconfig.cache

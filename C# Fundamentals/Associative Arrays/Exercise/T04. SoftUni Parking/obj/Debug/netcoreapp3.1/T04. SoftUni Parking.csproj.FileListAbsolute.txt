@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Associative Arrays - Exercise\T04. SoftUni Parking\bin\Debug\netcoreapp3.1\T04. SoftUni Parking.exe
+D:\Programing Files\C#\Associative Arrays - Exercise\T04. SoftUni Parking\bin\Debug\netcoreapp3.1\T04. SoftUni Parking.deps.json
+D:\Programing Files\C#\Associative Arrays - Exercise\T04. SoftUni Parking\bin\Debug\netcoreapp3.1\T04. SoftUni Parking.runtimeconfig.json
+D:\Programing Files\C#\Associative Arrays - Exercise\T04. SoftUni Parking\bin\Debug\netcoreapp3.1\T04. SoftUni Parking.runtimeconfig.dev.json
+D:\Programing Files\C#\Associative Arrays - Exercise\T04. SoftUni Parking\bin\Debug\netcoreapp3.1\T04. SoftUni Parking.dll
+D:\Programing Files\C#\Associative Arrays - Exercise\T04. SoftUni Parking\bin\Debug\netcoreapp3.1\T04. SoftUni Parking.pdb
+D:\Programing Files\C#\Associative Arrays - Exercise\T04. SoftUni Parking\obj\Debug\netcoreapp3.1\T04. SoftUni Parking.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Associative Arrays - Exercise\T04. SoftUni Parking\obj\Debug\netcoreapp3.1\T04. SoftUni Parking.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Associative Arrays - Exercise\T04. SoftUni Parking\obj\Debug\netcoreapp3.1\T04. SoftUni Parking.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Associative Arrays - Exercise\T04. SoftUni Parking\obj\Debug\netcoreapp3.1\T04. SoftUni Parking.AssemblyInfo.cs
+D:\Programing Files\C#\Associative Arrays - Exercise\T04. SoftUni Parking\obj\Debug\netcoreapp3.1\T04. SoftUni Parking.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Associative Arrays - Exercise\T04. SoftUni Parking\obj\Debug\netcoreapp3.1\T04. SoftUni Parking.dll
+D:\Programing Files\C#\Associative Arrays - Exercise\T04. SoftUni Parking\obj\Debug\netcoreapp3.1\T04. SoftUni Parking.pdb
+D:\Programing Files\C#\Associative Arrays - Exercise\T04. SoftUni Parking\obj\Debug\netcoreapp3.1\T04. SoftUni Parking.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Methods - Exercise\T08. Factorial Division\bin\Debug\netcoreapp3.1\T08. Factorial Division.exe
+D:\Programing Files\C#\Methods - Exercise\T08. Factorial Division\bin\Debug\netcoreapp3.1\T08. Factorial Division.deps.json
+D:\Programing Files\C#\Methods - Exercise\T08. Factorial Division\bin\Debug\netcoreapp3.1\T08. Factorial Division.runtimeconfig.json
+D:\Programing Files\C#\Methods - Exercise\T08. Factorial Division\bin\Debug\netcoreapp3.1\T08. Factorial Division.runtimeconfig.dev.json
+D:\Programing Files\C#\Methods - Exercise\T08. Factorial Division\bin\Debug\netcoreapp3.1\T08. Factorial Division.dll
+D:\Programing Files\C#\Methods - Exercise\T08. Factorial Division\bin\Debug\netcoreapp3.1\T08. Factorial Division.pdb
+D:\Programing Files\C#\Methods - Exercise\T08. Factorial Division\obj\Debug\netcoreapp3.1\T08. Factorial Division.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Methods - Exercise\T08. Factorial Division\obj\Debug\netcoreapp3.1\T08. Factorial Division.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Methods - Exercise\T08. Factorial Division\obj\Debug\netcoreapp3.1\T08. Factorial Division.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Methods - Exercise\T08. Factorial Division\obj\Debug\netcoreapp3.1\T08. Factorial Division.AssemblyInfo.cs
+D:\Programing Files\C#\Methods - Exercise\T08. Factorial Division\obj\Debug\netcoreapp3.1\T08. Factorial Division.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Methods - Exercise\T08. Factorial Division\obj\Debug\netcoreapp3.1\T08. Factorial Division.dll
+D:\Programing Files\C#\Methods - Exercise\T08. Factorial Division\obj\Debug\netcoreapp3.1\T08. Factorial Division.pdb
+D:\Programing Files\C#\Methods - Exercise\T08. Factorial Division\obj\Debug\netcoreapp3.1\T08. Factorial Division.genruntimeconfig.cache

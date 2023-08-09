@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Arrays - Exercise\Т10. LadyBugs\bin\Debug\netcoreapp3.1\Т10. LadyBugs.exe
+D:\Programing Files\C#\Arrays - Exercise\Т10. LadyBugs\bin\Debug\netcoreapp3.1\Т10. LadyBugs.deps.json
+D:\Programing Files\C#\Arrays - Exercise\Т10. LadyBugs\bin\Debug\netcoreapp3.1\Т10. LadyBugs.runtimeconfig.json
+D:\Programing Files\C#\Arrays - Exercise\Т10. LadyBugs\bin\Debug\netcoreapp3.1\Т10. LadyBugs.runtimeconfig.dev.json
+D:\Programing Files\C#\Arrays - Exercise\Т10. LadyBugs\bin\Debug\netcoreapp3.1\Т10. LadyBugs.dll
+D:\Programing Files\C#\Arrays - Exercise\Т10. LadyBugs\bin\Debug\netcoreapp3.1\Т10. LadyBugs.pdb
+D:\Programing Files\C#\Arrays - Exercise\Т10. LadyBugs\obj\Debug\netcoreapp3.1\Т10. LadyBugs.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Arrays - Exercise\Т10. LadyBugs\obj\Debug\netcoreapp3.1\Т10. LadyBugs.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Arrays - Exercise\Т10. LadyBugs\obj\Debug\netcoreapp3.1\Т10. LadyBugs.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Arrays - Exercise\Т10. LadyBugs\obj\Debug\netcoreapp3.1\Т10. LadyBugs.AssemblyInfo.cs
+D:\Programing Files\C#\Arrays - Exercise\Т10. LadyBugs\obj\Debug\netcoreapp3.1\Т10. LadyBugs.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Arrays - Exercise\Т10. LadyBugs\obj\Debug\netcoreapp3.1\Т10. LadyBugs.dll
+D:\Programing Files\C#\Arrays - Exercise\Т10. LadyBugs\obj\Debug\netcoreapp3.1\Т10. LadyBugs.pdb
+D:\Programing Files\C#\Arrays - Exercise\Т10. LadyBugs\obj\Debug\netcoreapp3.1\Т10. LadyBugs.genruntimeconfig.cache

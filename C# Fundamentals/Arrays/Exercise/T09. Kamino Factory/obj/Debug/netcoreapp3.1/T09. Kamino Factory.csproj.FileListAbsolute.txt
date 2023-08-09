@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Arrays - Exercise\T09. Kamino Factory\bin\Debug\netcoreapp3.1\T09. Kamino Factory.exe
+D:\Programing Files\C#\Arrays - Exercise\T09. Kamino Factory\bin\Debug\netcoreapp3.1\T09. Kamino Factory.deps.json
+D:\Programing Files\C#\Arrays - Exercise\T09. Kamino Factory\bin\Debug\netcoreapp3.1\T09. Kamino Factory.runtimeconfig.json
+D:\Programing Files\C#\Arrays - Exercise\T09. Kamino Factory\bin\Debug\netcoreapp3.1\T09. Kamino Factory.runtimeconfig.dev.json
+D:\Programing Files\C#\Arrays - Exercise\T09. Kamino Factory\bin\Debug\netcoreapp3.1\T09. Kamino Factory.dll
+D:\Programing Files\C#\Arrays - Exercise\T09. Kamino Factory\bin\Debug\netcoreapp3.1\T09. Kamino Factory.pdb
+D:\Programing Files\C#\Arrays - Exercise\T09. Kamino Factory\obj\Debug\netcoreapp3.1\T09. Kamino Factory.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Arrays - Exercise\T09. Kamino Factory\obj\Debug\netcoreapp3.1\T09. Kamino Factory.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Arrays - Exercise\T09. Kamino Factory\obj\Debug\netcoreapp3.1\T09. Kamino Factory.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Arrays - Exercise\T09. Kamino Factory\obj\Debug\netcoreapp3.1\T09. Kamino Factory.AssemblyInfo.cs
+D:\Programing Files\C#\Arrays - Exercise\T09. Kamino Factory\obj\Debug\netcoreapp3.1\T09. Kamino Factory.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Arrays - Exercise\T09. Kamino Factory\obj\Debug\netcoreapp3.1\T09. Kamino Factory.dll
+D:\Programing Files\C#\Arrays - Exercise\T09. Kamino Factory\obj\Debug\netcoreapp3.1\T09. Kamino Factory.pdb
+D:\Programing Files\C#\Arrays - Exercise\T09. Kamino Factory\obj\Debug\netcoreapp3.1\T09. Kamino Factory.genruntimeconfig.cache

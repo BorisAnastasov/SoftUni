@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Lists - Exercise\T04. List Operations\bin\Debug\netcoreapp3.1\T04. List Operations.exe
+D:\Programing Files\C#\Lists - Exercise\T04. List Operations\bin\Debug\netcoreapp3.1\T04. List Operations.deps.json
+D:\Programing Files\C#\Lists - Exercise\T04. List Operations\bin\Debug\netcoreapp3.1\T04. List Operations.runtimeconfig.json
+D:\Programing Files\C#\Lists - Exercise\T04. List Operations\bin\Debug\netcoreapp3.1\T04. List Operations.runtimeconfig.dev.json
+D:\Programing Files\C#\Lists - Exercise\T04. List Operations\bin\Debug\netcoreapp3.1\T04. List Operations.dll
+D:\Programing Files\C#\Lists - Exercise\T04. List Operations\bin\Debug\netcoreapp3.1\T04. List Operations.pdb
+D:\Programing Files\C#\Lists - Exercise\T04. List Operations\obj\Debug\netcoreapp3.1\T04. List Operations.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Lists - Exercise\T04. List Operations\obj\Debug\netcoreapp3.1\T04. List Operations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Lists - Exercise\T04. List Operations\obj\Debug\netcoreapp3.1\T04. List Operations.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Lists - Exercise\T04. List Operations\obj\Debug\netcoreapp3.1\T04. List Operations.AssemblyInfo.cs
+D:\Programing Files\C#\Lists - Exercise\T04. List Operations\obj\Debug\netcoreapp3.1\T04. List Operations.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Lists - Exercise\T04. List Operations\obj\Debug\netcoreapp3.1\T04. List Operations.dll
+D:\Programing Files\C#\Lists - Exercise\T04. List Operations\obj\Debug\netcoreapp3.1\T04. List Operations.pdb
+D:\Programing Files\C#\Lists - Exercise\T04. List Operations\obj\Debug\netcoreapp3.1\T04. List Operations.genruntimeconfig.cache

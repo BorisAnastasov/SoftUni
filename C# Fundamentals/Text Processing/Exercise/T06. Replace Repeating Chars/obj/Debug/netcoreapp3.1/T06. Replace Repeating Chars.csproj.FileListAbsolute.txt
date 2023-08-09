@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Text Processing - Exercise\T06. Replace Repeating Chars\bin\Debug\netcoreapp3.1\T06. Replace Repeating Chars.exe
+D:\Programing Files\C#\Text Processing - Exercise\T06. Replace Repeating Chars\bin\Debug\netcoreapp3.1\T06. Replace Repeating Chars.deps.json
+D:\Programing Files\C#\Text Processing - Exercise\T06. Replace Repeating Chars\bin\Debug\netcoreapp3.1\T06. Replace Repeating Chars.runtimeconfig.json
+D:\Programing Files\C#\Text Processing - Exercise\T06. Replace Repeating Chars\bin\Debug\netcoreapp3.1\T06. Replace Repeating Chars.runtimeconfig.dev.json
+D:\Programing Files\C#\Text Processing - Exercise\T06. Replace Repeating Chars\bin\Debug\netcoreapp3.1\T06. Replace Repeating Chars.dll
+D:\Programing Files\C#\Text Processing - Exercise\T06. Replace Repeating Chars\bin\Debug\netcoreapp3.1\T06. Replace Repeating Chars.pdb
+D:\Programing Files\C#\Text Processing - Exercise\T06. Replace Repeating Chars\obj\Debug\netcoreapp3.1\T06. Replace Repeating Chars.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Text Processing - Exercise\T06. Replace Repeating Chars\obj\Debug\netcoreapp3.1\T06. Replace Repeating Chars.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Text Processing - Exercise\T06. Replace Repeating Chars\obj\Debug\netcoreapp3.1\T06. Replace Repeating Chars.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Text Processing - Exercise\T06. Replace Repeating Chars\obj\Debug\netcoreapp3.1\T06. Replace Repeating Chars.AssemblyInfo.cs
+D:\Programing Files\C#\Text Processing - Exercise\T06. Replace Repeating Chars\obj\Debug\netcoreapp3.1\T06. Replace Repeating Chars.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Text Processing - Exercise\T06. Replace Repeating Chars\obj\Debug\netcoreapp3.1\T06. Replace Repeating Chars.dll
+D:\Programing Files\C#\Text Processing - Exercise\T06. Replace Repeating Chars\obj\Debug\netcoreapp3.1\T06. Replace Repeating Chars.pdb
+D:\Programing Files\C#\Text Processing - Exercise\T06. Replace Repeating Chars\obj\Debug\netcoreapp3.1\T06. Replace Repeating Chars.genruntimeconfig.cache

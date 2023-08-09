@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Methods - Exercise\T06. Middle Characters\bin\Debug\netcoreapp3.1\T06. Middle Characters.exe
+D:\Programing Files\C#\Methods - Exercise\T06. Middle Characters\bin\Debug\netcoreapp3.1\T06. Middle Characters.deps.json
+D:\Programing Files\C#\Methods - Exercise\T06. Middle Characters\bin\Debug\netcoreapp3.1\T06. Middle Characters.runtimeconfig.json
+D:\Programing Files\C#\Methods - Exercise\T06. Middle Characters\bin\Debug\netcoreapp3.1\T06. Middle Characters.runtimeconfig.dev.json
+D:\Programing Files\C#\Methods - Exercise\T06. Middle Characters\bin\Debug\netcoreapp3.1\T06. Middle Characters.dll
+D:\Programing Files\C#\Methods - Exercise\T06. Middle Characters\bin\Debug\netcoreapp3.1\T06. Middle Characters.pdb
+D:\Programing Files\C#\Methods - Exercise\T06. Middle Characters\obj\Debug\netcoreapp3.1\T06. Middle Characters.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Methods - Exercise\T06. Middle Characters\obj\Debug\netcoreapp3.1\T06. Middle Characters.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Methods - Exercise\T06. Middle Characters\obj\Debug\netcoreapp3.1\T06. Middle Characters.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Methods - Exercise\T06. Middle Characters\obj\Debug\netcoreapp3.1\T06. Middle Characters.AssemblyInfo.cs
+D:\Programing Files\C#\Methods - Exercise\T06. Middle Characters\obj\Debug\netcoreapp3.1\T06. Middle Characters.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Methods - Exercise\T06. Middle Characters\obj\Debug\netcoreapp3.1\T06. Middle Characters.dll
+D:\Programing Files\C#\Methods - Exercise\T06. Middle Characters\obj\Debug\netcoreapp3.1\T06. Middle Characters.pdb
+D:\Programing Files\C#\Methods - Exercise\T06. Middle Characters\obj\Debug\netcoreapp3.1\T06. Middle Characters.genruntimeconfig.cache

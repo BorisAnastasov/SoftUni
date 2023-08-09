@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Methods - Exercise\T07. NxN Matrix\bin\Debug\netcoreapp3.1\T07. NxN Matrix.exe
+D:\Programing Files\C#\Methods - Exercise\T07. NxN Matrix\bin\Debug\netcoreapp3.1\T07. NxN Matrix.deps.json
+D:\Programing Files\C#\Methods - Exercise\T07. NxN Matrix\bin\Debug\netcoreapp3.1\T07. NxN Matrix.runtimeconfig.json
+D:\Programing Files\C#\Methods - Exercise\T07. NxN Matrix\bin\Debug\netcoreapp3.1\T07. NxN Matrix.runtimeconfig.dev.json
+D:\Programing Files\C#\Methods - Exercise\T07. NxN Matrix\bin\Debug\netcoreapp3.1\T07. NxN Matrix.dll
+D:\Programing Files\C#\Methods - Exercise\T07. NxN Matrix\bin\Debug\netcoreapp3.1\T07. NxN Matrix.pdb
+D:\Programing Files\C#\Methods - Exercise\T07. NxN Matrix\obj\Debug\netcoreapp3.1\T07. NxN Matrix.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Methods - Exercise\T07. NxN Matrix\obj\Debug\netcoreapp3.1\T07. NxN Matrix.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Methods - Exercise\T07. NxN Matrix\obj\Debug\netcoreapp3.1\T07. NxN Matrix.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Methods - Exercise\T07. NxN Matrix\obj\Debug\netcoreapp3.1\T07. NxN Matrix.AssemblyInfo.cs
+D:\Programing Files\C#\Methods - Exercise\T07. NxN Matrix\obj\Debug\netcoreapp3.1\T07. NxN Matrix.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Methods - Exercise\T07. NxN Matrix\obj\Debug\netcoreapp3.1\T07. NxN Matrix.dll
+D:\Programing Files\C#\Methods - Exercise\T07. NxN Matrix\obj\Debug\netcoreapp3.1\T07. NxN Matrix.pdb
+D:\Programing Files\C#\Methods - Exercise\T07. NxN Matrix\obj\Debug\netcoreapp3.1\T07. NxN Matrix.genruntimeconfig.cache

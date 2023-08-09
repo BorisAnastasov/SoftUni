@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Methods - Exercise\T09. Palindrome Integers\bin\Debug\netcoreapp3.1\T09. Palindrome Integers.exe
+D:\Programing Files\C#\Methods - Exercise\T09. Palindrome Integers\bin\Debug\netcoreapp3.1\T09. Palindrome Integers.deps.json
+D:\Programing Files\C#\Methods - Exercise\T09. Palindrome Integers\bin\Debug\netcoreapp3.1\T09. Palindrome Integers.runtimeconfig.json
+D:\Programing Files\C#\Methods - Exercise\T09. Palindrome Integers\bin\Debug\netcoreapp3.1\T09. Palindrome Integers.runtimeconfig.dev.json
+D:\Programing Files\C#\Methods - Exercise\T09. Palindrome Integers\bin\Debug\netcoreapp3.1\T09. Palindrome Integers.dll
+D:\Programing Files\C#\Methods - Exercise\T09. Palindrome Integers\bin\Debug\netcoreapp3.1\T09. Palindrome Integers.pdb
+D:\Programing Files\C#\Methods - Exercise\T09. Palindrome Integers\obj\Debug\netcoreapp3.1\T09. Palindrome Integers.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Methods - Exercise\T09. Palindrome Integers\obj\Debug\netcoreapp3.1\T09. Palindrome Integers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Methods - Exercise\T09. Palindrome Integers\obj\Debug\netcoreapp3.1\T09. Palindrome Integers.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Methods - Exercise\T09. Palindrome Integers\obj\Debug\netcoreapp3.1\T09. Palindrome Integers.AssemblyInfo.cs
+D:\Programing Files\C#\Methods - Exercise\T09. Palindrome Integers\obj\Debug\netcoreapp3.1\T09. Palindrome Integers.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Methods - Exercise\T09. Palindrome Integers\obj\Debug\netcoreapp3.1\T09. Palindrome Integers.dll
+D:\Programing Files\C#\Methods - Exercise\T09. Palindrome Integers\obj\Debug\netcoreapp3.1\T09. Palindrome Integers.pdb
+D:\Programing Files\C#\Methods - Exercise\T09. Palindrome Integers\obj\Debug\netcoreapp3.1\T09. Palindrome Integers.genruntimeconfig.cache

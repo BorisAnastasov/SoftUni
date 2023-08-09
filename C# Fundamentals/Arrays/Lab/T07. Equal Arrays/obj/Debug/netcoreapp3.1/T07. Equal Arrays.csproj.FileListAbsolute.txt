@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Arrays - Lab\T07. Equal Arrays\bin\Debug\netcoreapp3.1\T07. Equal Arrays.exe
+D:\Programing Files\C#\Arrays - Lab\T07. Equal Arrays\bin\Debug\netcoreapp3.1\T07. Equal Arrays.deps.json
+D:\Programing Files\C#\Arrays - Lab\T07. Equal Arrays\bin\Debug\netcoreapp3.1\T07. Equal Arrays.runtimeconfig.json
+D:\Programing Files\C#\Arrays - Lab\T07. Equal Arrays\bin\Debug\netcoreapp3.1\T07. Equal Arrays.runtimeconfig.dev.json
+D:\Programing Files\C#\Arrays - Lab\T07. Equal Arrays\bin\Debug\netcoreapp3.1\T07. Equal Arrays.dll
+D:\Programing Files\C#\Arrays - Lab\T07. Equal Arrays\bin\Debug\netcoreapp3.1\T07. Equal Arrays.pdb
+D:\Programing Files\C#\Arrays - Lab\T07. Equal Arrays\obj\Debug\netcoreapp3.1\T07. Equal Arrays.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Arrays - Lab\T07. Equal Arrays\obj\Debug\netcoreapp3.1\T07. Equal Arrays.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Arrays - Lab\T07. Equal Arrays\obj\Debug\netcoreapp3.1\T07. Equal Arrays.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Arrays - Lab\T07. Equal Arrays\obj\Debug\netcoreapp3.1\T07. Equal Arrays.AssemblyInfo.cs
+D:\Programing Files\C#\Arrays - Lab\T07. Equal Arrays\obj\Debug\netcoreapp3.1\T07. Equal Arrays.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Arrays - Lab\T07. Equal Arrays\obj\Debug\netcoreapp3.1\T07. Equal Arrays.dll
+D:\Programing Files\C#\Arrays - Lab\T07. Equal Arrays\obj\Debug\netcoreapp3.1\T07. Equal Arrays.pdb
+D:\Programing Files\C#\Arrays - Lab\T07. Equal Arrays\obj\Debug\netcoreapp3.1\T07. Equal Arrays.genruntimeconfig.cache

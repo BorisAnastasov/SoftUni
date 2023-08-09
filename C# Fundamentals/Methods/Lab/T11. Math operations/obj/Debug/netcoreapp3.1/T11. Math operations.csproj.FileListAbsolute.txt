@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Methods - Lab\T11. Math operations\bin\Debug\netcoreapp3.1\T11. Math operations.exe
+D:\Programing Files\C#\Methods - Lab\T11. Math operations\bin\Debug\netcoreapp3.1\T11. Math operations.deps.json
+D:\Programing Files\C#\Methods - Lab\T11. Math operations\bin\Debug\netcoreapp3.1\T11. Math operations.runtimeconfig.json
+D:\Programing Files\C#\Methods - Lab\T11. Math operations\bin\Debug\netcoreapp3.1\T11. Math operations.runtimeconfig.dev.json
+D:\Programing Files\C#\Methods - Lab\T11. Math operations\bin\Debug\netcoreapp3.1\T11. Math operations.dll
+D:\Programing Files\C#\Methods - Lab\T11. Math operations\bin\Debug\netcoreapp3.1\T11. Math operations.pdb
+D:\Programing Files\C#\Methods - Lab\T11. Math operations\obj\Debug\netcoreapp3.1\T11. Math operations.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Methods - Lab\T11. Math operations\obj\Debug\netcoreapp3.1\T11. Math operations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Methods - Lab\T11. Math operations\obj\Debug\netcoreapp3.1\T11. Math operations.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Methods - Lab\T11. Math operations\obj\Debug\netcoreapp3.1\T11. Math operations.AssemblyInfo.cs
+D:\Programing Files\C#\Methods - Lab\T11. Math operations\obj\Debug\netcoreapp3.1\T11. Math operations.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Methods - Lab\T11. Math operations\obj\Debug\netcoreapp3.1\T11. Math operations.dll
+D:\Programing Files\C#\Methods - Lab\T11. Math operations\obj\Debug\netcoreapp3.1\T11. Math operations.pdb
+D:\Programing Files\C#\Methods - Lab\T11. Math operations\obj\Debug\netcoreapp3.1\T11. Math operations.genruntimeconfig.cache
