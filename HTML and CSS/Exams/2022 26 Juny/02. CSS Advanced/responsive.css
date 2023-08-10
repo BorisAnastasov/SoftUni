@@ -1,0 +1,91 @@
+@media screen and (max-width:600px) {
+  body {
+    margin: 0;
+  }
+
+  main {
+    margin: 0;
+    width: auto;
+  }
+
+  .left-to-right:first-child {
+    transform: scale(1.0);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .left-to-right:first-child article {
+    border-radius: 20%;
+    transform: scale(0.8);
+    width: 80%;
+  }
+
+  .left-to-right:first-child * {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 10px 30px;
+  }
+
+  .left-to-right:first-child button {
+    display: none;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section article * {
+    padding: 15px 0;
+    margin: 3px;
+    font-size: 20px;
+  }
+
+  section article h1 {
+    padding: 20px 0;
+    font-size: 40px;
+  }
+
+  section article button {
+    display: none;
+  }
+
+  main section:nth-child(2) article img {
+    transform: scale(1.1);
+    float: right;
+    margin-left: 40px;
+  }
+
+  main .left-to-right article {
+    border-radius: 20%;
+    transform: scale(0.78);
+    margin-top: 45px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  form label {
+    margin-left: 14%;
+    padding: 3px 0;
+  }
+
+  form input[type="submit"] {
+    margin-left: 14%;
+  }
+
+  main section:nth-child(4) article img {
+    margin-left: 10%;
+  }
+
+
+}

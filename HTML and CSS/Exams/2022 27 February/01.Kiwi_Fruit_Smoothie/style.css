@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=PT+Serif&display=swap');
+
+
+body{
+    font-family: 'PT Serif', serif;
+    font-weight: 500;
+}
+
+section{
+    font-size: 15px;
+    background-image: url(image/image1.png);
+    background-repeat: repeat-y;
+    max-width: 1000px;
+    height: 430px;
+    display: flex;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.info, img{
+   margin: 15px 25px;
+   max-width: 450px;
+   max-height: 400px;
+}
+.main-title{
+   text-align: center;
+   border-bottom: 2px dotted green;
+   margin: 20px 30px;
+   margin-left: 0;
+}
+.short{
+    display: flex;
+    justify-content:space-between;
+    font-style: italic;
+}
+ul{
+    list-style: none;
+    margin: 35px 0;
+    padding: 0;
+}
+li{
+    padding: 2px 0 ;
+}
+strong{
+    color: green;
+    font-weight: 700;
+}
+.macronutririons{
+    font-weight: 700;
+}
+p{
+    margin-bottom: 25px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+td{
+    text-align: center;
+    border: 1.5px solid green;
+    padding: 0;
+}
+
+.example-image{
+    width:450px; 
+    height:auto;
+}
+ 

@@ -1,0 +1,14 @@
+html{
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+div{
+  display: flex;
+  align-items: center;
+  max-width: 15vw;
+  height: 35rem;
+  flex-direction: column;
+}
+span{
+  border: 1px solid black;  
+}

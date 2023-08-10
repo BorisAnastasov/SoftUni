@@ -1,0 +1,31 @@
+body{
+  background-color: rgb(238, 238, 238);
+}
+div{
+  display: flex;
+  flex-wrap: wrap;
+}
+img{
+  background-color: rgb(255, 255, 255);
+}
+blockquote{
+  font-family: Georgia, serif;
+}
+a{
+  color: rgb(0, 153, 0);
+  text-decoration:none;
+}
+aside{
+  margin-left: -1px;
+}
+h1,h2{
+font-weight: bold;
+font-family: Georgia, serif;
+}
+h1,h2{
+  font-family: Georgia, serif;
+}
+p{
+  display: flex;
+  flex-wrap: wrap
+}

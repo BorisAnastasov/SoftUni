@@ -1,0 +1,102 @@
+@media screen and (max-width:600px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-options {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+
+  header div {
+    background-image: url("../image/dancing-girl.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+
+  .trainings {
+    flex-direction: column;
+  }
+
+  .trainings div {
+    width: 70%;
+  }
+
+  .instructors p {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .instructors ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .classes li {
+    width: 45%;
+    padding: 5px;
+    margin: 10px;
+  }
+
+  .classes li div h3 {
+    font-size: 20px;
+  }
+
+  .classes li div p {
+    font-size: 13px;
+  }
+
+  .getInTouch {
+    flex-direction: column;
+  }
+
+  .getInTouch .form form {
+    width: 100%;
+    text-align: center;
+    width: max-content;
+  }
+
+  .getInTouch .form form textarea {
+    width: 87%;
+  }
+
+  .getInTouch .form p {
+    margin: 0;
+    width: 100%;
+    height: min-content;
+  }
+
+  .getInTouch .form p input {
+    width: fit-content;
+  }
+
+  .getInTouch .form p textarea {
+    height: min-content;
+  }
+
+  .getInTouch .map {
+    overflow: visible;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about>p {
+    font-size: 12px;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .site-footer .wrapper .about {
+    flex-basis: 100%;
+  }
+}

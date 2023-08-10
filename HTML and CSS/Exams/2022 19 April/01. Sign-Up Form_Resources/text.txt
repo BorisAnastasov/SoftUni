@@ -1,0 +1,16 @@
+
+
+
+  
+USERNAME 
+
+
+EMAIL 
+
+
+PASSWORD 
+
+
+REPEAT PASSWORD 
+
+

@@ -1,0 +1,217 @@
+@import url('https://use.fontawesome.com/releases/v6.4.2/css/all.css');
+
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 25vh;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  margin-right: 100px;
+}
+
+.nav-top,
+.nav-main {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  margin: 0px;
+  color: rgb(69, 65, 77);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.nav-top {
+  margin-top: 7px;
+}
+
+.nav-top li {
+  display: flex;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-top: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-top li i {
+  font-size: 20px;
+}
+
+.nav-main li {
+  padding-left: 25px;
+}
+
+nav div {
+  height: 17%;
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  left: 60px;
+  top: 30px;
+  background-color: rgb(172, 144, 42);
+  padding: 10px;
+  z-index: 1;
+}
+
+.main-top {
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.main-top .shuttle {
+  padding: 30px;
+  width: 400px;
+  background-color: rgb(0, 0, 0, 0.6);
+  position: absolute;
+  left: 10%;
+  bottom: 20%;
+  z-index: 1;
+}
+
+.shuttle h1 {
+  margin-top: 10px;
+  color: white;
+  font-size: 25px;
+  font-weight: 550;
+}
+
+.shuttle p {
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.shuttle button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: orange;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 1px;
+}
+
+.main-middle {
+  height: 55vh;
+  background-color: rgb(171, 141, 42);
+  padding: 15px;
+  color: white;
+
+}
+
+.main-middle div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.main-middle h1 {
+  padding-top: 30px;
+}
+
+.main-middle ul {
+  list-style: none;
+}
+
+.main-middle ul li {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.main-middle button {
+  background-color: transparent;
+  border: 3px solid white;
+  border-radius: 1px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.main-bottom {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 13%;
+  margin-bottom: 130px;
+}
+
+.main-bottom h1 {
+  font-size: 40px;
+  margin: 40px;
+
+}
+
+.main-bottom .saveMore {
+  margin: 0;
+  font-size: 18px;
+}
+
+.main-bottom ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-bottom ul .post img {
+  border-radius: 50%;
+  padding: 3px;
+  border: 3px solid gray;
+}
+
+footer {
+  height: 15vh;
+}
+
+.footer-top {
+  background-color: rgb(171, 141, 42);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-top div {
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.footer-top button {
+  color: white;
+  font-weight: 700;
+  border: 3px solid white;
+  background-color: transparent;
+  font-size: 20px;
+  margin: 1% 1%;
+  border-radius: 2px;
+}
+
+.footer-main p {
+  display: flex;
+  justify-content: center;
+}

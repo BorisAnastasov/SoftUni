@@ -1,0 +1,110 @@
+@media screen and (max-width:600px) {
+  header {
+    background-position: center center;
+    background-position-x: center;
+  }
+
+  header nav {
+    display: block;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7px 0;
+  }
+
+  header nav ul li {
+    margin: 3px 0;
+  }
+
+  .header-title {
+    margin: 0 10px;
+    padding: 0;
+
+  }
+
+  .header-title h1 {
+    font-size: 27px;
+  }
+
+  .team-description ul {
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+
+  .team-description ul li {
+    width: 35%;
+    margin: 0;
+    padding: 0;
+    transform: scale(0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-description ul li {
+    width: 35%;
+    margin: 0;
+    padding: 0;
+    transform: scale(0.8);
+    text-align: center;
+  }
+
+  .team-description-wrapper {
+    margin: 50px;
+  }
+
+  .team-description ul li {
+    width: 35%;
+    margin: 0;
+    padding: 0;
+    transform: scale(0.8);
+    text-align: center;
+  }
+
+  .about-us p:nth-child(3) {
+    width: 100%;
+  }
+
+  .choose-us ul {
+    flex-direction: column;
+    width: 50%;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .choose-us ul li p {
+    font-size: 12px;
+  }
+
+  .blog-news ul {
+    flex-direction: column;
+    margin: 10px auto;
+  }
+
+  .blog-news ul li {
+    margin: 4%;
+  }
+
+  .blog-news ul .item * {
+    box-sizing: content-box;
+  }
+
+  .blog-news ul .item {
+    width: 80%;
+    align-self: center;
+  }
+
+
+  .blog-news ul .item .avatar img {
+    height: 100%;
+  }
+
+  .blog-news .content p {
+    font-size: 14px;
+  }
+}

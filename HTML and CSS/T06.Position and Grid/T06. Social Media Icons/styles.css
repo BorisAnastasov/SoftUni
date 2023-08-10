@@ -1,0 +1,22 @@
+@import "path/to/font-awesome/css/font-awesome.min.css";
+li{
+  display: inline-block;
+}
+a{
+border-radius: 50%;
+}
+i.fa-facebook:h0ver{
+  background-color: lightblue;
+}
+i.fa-twitter:h0ver{
+  background-color: blue;
+}
+i.fa-google-plus-g:h0ver{
+  background-color: red;
+}
+i.fa-linkedin:h0ver{
+  background-color: lightblue;
+}
+i.fa-instagram:h0ver{
+  background-color: lightblue;
+}

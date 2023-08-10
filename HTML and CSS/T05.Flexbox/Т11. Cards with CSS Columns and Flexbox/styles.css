@@ -1,0 +1,20 @@
+body{
+  background-color: rgb(238, 238, 238);
+  margin-left: 25em;
+}
+.card{
+  background-color: white;
+  border: 1px solid black;
+  width: 300px;
+  height: auto;
+  font-size: 25px;
+  margin: 20px;
+}
+.masonry.card{
+  display: grid;
+  
+}
+img{
+  width: 100%;
+  
+}

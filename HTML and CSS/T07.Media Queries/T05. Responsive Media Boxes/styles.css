@@ -1,0 +1,19 @@
+html{
+  font-family: Helvetica, sans-serif ;
+}
+body{
+  background: rgb(238, 238, 238);
+}
+
+section{
+  background: rgb(255, 255, 255) ;
+  display: inline-block;
+}
+
+button{
+  background: rgb(0, 153, 0) ;
+}
+h2{
+  font-family: Georgia, serif;
+  font-size: 1em/1.2 ;
+}

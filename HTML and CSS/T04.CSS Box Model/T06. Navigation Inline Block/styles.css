@@ -1,0 +1,17 @@
+html{
+  font-family: Helvetica, sans-serif;
+}
+nav{
+  display: inline-block;
+}
+header>h1{
+  font-weight: bold;
+}
+li{
+  display: inline-block;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: green;
+}
