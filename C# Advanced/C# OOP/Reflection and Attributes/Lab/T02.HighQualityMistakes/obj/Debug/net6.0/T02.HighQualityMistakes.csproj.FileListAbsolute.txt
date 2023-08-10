@@ -1,0 +1,15 @@
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\bin\Debug\net6.0\T02.HighQualityMistakes.exe
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\bin\Debug\net6.0\T02.HighQualityMistakes.deps.json
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\bin\Debug\net6.0\T02.HighQualityMistakes.runtimeconfig.json
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\bin\Debug\net6.0\T02.HighQualityMistakes.dll
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\bin\Debug\net6.0\T02.HighQualityMistakes.pdb
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\obj\Debug\net6.0\T02.HighQualityMistakes.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\obj\Debug\net6.0\T02.HighQualityMistakes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\obj\Debug\net6.0\T02.HighQualityMistakes.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\obj\Debug\net6.0\T02.HighQualityMistakes.AssemblyInfo.cs
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\obj\Debug\net6.0\T02.HighQualityMistakes.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\obj\Debug\net6.0\T02.HighQualityMistakes.dll
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\obj\Debug\net6.0\refint\T02.HighQualityMistakes.dll
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\obj\Debug\net6.0\T02.HighQualityMistakes.pdb
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\obj\Debug\net6.0\T02.HighQualityMistakes.genruntimeconfig.cache
+D:\Programing Files\C#\Reflection and Attributes - Lab\T02.HighQualityMistakes\obj\Debug\net6.0\ref\T02.HighQualityMistakes.dll

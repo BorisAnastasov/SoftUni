@@ -1,0 +1,15 @@
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\bin\Debug\net6.0\T06.FoodShortage.exe
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\bin\Debug\net6.0\T06.FoodShortage.deps.json
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\bin\Debug\net6.0\T06.FoodShortage.runtimeconfig.json
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\bin\Debug\net6.0\T06.FoodShortage.dll
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\bin\Debug\net6.0\T06.FoodShortage.pdb
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\obj\Debug\net6.0\T06.FoodShortage.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\obj\Debug\net6.0\T06.FoodShortage.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\obj\Debug\net6.0\T06.FoodShortage.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\obj\Debug\net6.0\T06.FoodShortage.AssemblyInfo.cs
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\obj\Debug\net6.0\T06.FoodShortage.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\obj\Debug\net6.0\T06.FoodShortage.dll
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\obj\Debug\net6.0\refint\T06.FoodShortage.dll
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\obj\Debug\net6.0\T06.FoodShortage.pdb
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\obj\Debug\net6.0\T06.FoodShortage.genruntimeconfig.cache
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T06.FoodShortage\obj\Debug\net6.0\ref\T06.FoodShortage.dll

@@ -1,0 +1,15 @@
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\bin\Debug\net6.0\T01.CommandPattern.exe
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\bin\Debug\net6.0\T01.CommandPattern.deps.json
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\bin\Debug\net6.0\T01.CommandPattern.runtimeconfig.json
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\bin\Debug\net6.0\T01.CommandPattern.dll
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\bin\Debug\net6.0\T01.CommandPattern.pdb
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\obj\Debug\net6.0\T01.CommandPattern.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\obj\Debug\net6.0\T01.CommandPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\obj\Debug\net6.0\T01.CommandPattern.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\obj\Debug\net6.0\T01.CommandPattern.AssemblyInfo.cs
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\obj\Debug\net6.0\T01.CommandPattern.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\obj\Debug\net6.0\T01.CommandPattern.dll
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\obj\Debug\net6.0\refint\T01.CommandPattern.dll
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\obj\Debug\net6.0\T01.CommandPattern.pdb
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\obj\Debug\net6.0\T01.CommandPattern.genruntimeconfig.cache
+D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\obj\Debug\net6.0\ref\T01.CommandPattern.dll

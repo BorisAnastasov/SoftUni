@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "T04.BorderControl/1.0.0": {
+        "runtime": {
+          "T04.BorderControl.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "T04.BorderControl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

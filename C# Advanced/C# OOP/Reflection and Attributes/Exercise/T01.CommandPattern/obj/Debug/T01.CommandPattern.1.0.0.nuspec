@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>T01.CommandPattern</id>
+    <version>1.0.0</version>
+    <authors>T01.CommandPattern</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\bin\Debug\net6.0\T01.CommandPattern.runtimeconfig.json" target="lib\net6.0\T01.CommandPattern.runtimeconfig.json" />
+    <file src="D:\Programing Files\C#\Reflection and Attributes - Exercise\T01.CommandPattern\bin\Debug\net6.0\T01.CommandPattern.dll" target="lib\net6.0\T01.CommandPattern.dll" />
+  </files>
+</package>

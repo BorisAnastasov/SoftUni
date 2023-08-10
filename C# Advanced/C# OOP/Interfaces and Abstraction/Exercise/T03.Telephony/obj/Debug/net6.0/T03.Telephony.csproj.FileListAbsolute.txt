@@ -1,0 +1,15 @@
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\bin\Debug\net6.0\T03.Telephony.exe
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\bin\Debug\net6.0\T03.Telephony.deps.json
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\bin\Debug\net6.0\T03.Telephony.runtimeconfig.json
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\bin\Debug\net6.0\T03.Telephony.dll
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\bin\Debug\net6.0\T03.Telephony.pdb
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\obj\Debug\net6.0\T03.Telephony.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\obj\Debug\net6.0\T03.Telephony.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\obj\Debug\net6.0\T03.Telephony.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\obj\Debug\net6.0\T03.Telephony.AssemblyInfo.cs
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\obj\Debug\net6.0\T03.Telephony.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\obj\Debug\net6.0\T03.Telephony.dll
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\obj\Debug\net6.0\refint\T03.Telephony.dll
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\obj\Debug\net6.0\T03.Telephony.pdb
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\obj\Debug\net6.0\T03.Telephony.genruntimeconfig.cache
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T03.Telephony\obj\Debug\net6.0\ref\T03.Telephony.dll

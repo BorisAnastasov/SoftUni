@@ -1,0 +1,15 @@
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\bin\Debug\net6.0\T01.DefineAnInterfaceIPerson.exe
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\bin\Debug\net6.0\T01.DefineAnInterfaceIPerson.deps.json
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\bin\Debug\net6.0\T01.DefineAnInterfaceIPerson.runtimeconfig.json
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\bin\Debug\net6.0\T01.DefineAnInterfaceIPerson.dll
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\bin\Debug\net6.0\T01.DefineAnInterfaceIPerson.pdb
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\obj\Debug\net6.0\T01.DefineAnInterfaceIPerson.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\obj\Debug\net6.0\T01.DefineAnInterfaceIPerson.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\obj\Debug\net6.0\T01.DefineAnInterfaceIPerson.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\obj\Debug\net6.0\T01.DefineAnInterfaceIPerson.AssemblyInfo.cs
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\obj\Debug\net6.0\T01.DefineAnInterfaceIPerson.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\obj\Debug\net6.0\T01.DefineAnInterfaceIPerson.dll
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\obj\Debug\net6.0\refint\T01.DefineAnInterfaceIPerson.dll
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\obj\Debug\net6.0\T01.DefineAnInterfaceIPerson.pdb
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\obj\Debug\net6.0\T01.DefineAnInterfaceIPerson.genruntimeconfig.cache
+D:\Programing Files\C#\Interfaces and Abstraction - Exercise\T01.DefineAnInterfaceIPerson\obj\Debug\net6.0\ref\T01.DefineAnInterfaceIPerson.dll

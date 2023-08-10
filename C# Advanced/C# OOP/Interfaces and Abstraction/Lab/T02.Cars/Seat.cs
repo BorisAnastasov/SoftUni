@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Cars
+{
+    public class Seat : ICar
+    {
+        public string Model { get; private set; }
+        public string Color { get; private set; }
+        public Seat(string model, string color)
+        { 
+            Model= model;
+            Color= color;
+        }
+        public string Start()
+        {
+            return $"{Color} Seat {Model}\nEngine start";
+        }
+        public string Stop()
+        {
+            return "Breaaak!";
+        }
+        public override string ToString()
+        {
+            return $"{Start()}\n{Stop()}" ;
+            
+        }
+    }
+
+}
