@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script>
+    function generateReport() {
+    let ths = document.querySelectorAll("thead tr th");
+    let nths = [];
+    let result = [];
+    for (let i = 0; i < ths.length; i++) {
+        const element = ths[i];
+        let input = element.querySelector("input");
+        if(input.checked){
+            nths.push(i+1);
+        }
+    }
+    let trs = document.querySelectorAll("tbody tr");
+    for (let z = 0; z < trs.length; z++) {
+        let obj = {};
+        for (let i = 0; i < nths.length; i++) {
+         let type = document.querySelector(`thead tr th:nth-child(${nths[i]})`).textContent.toLowerCase();
+         let value = document.querySelector(`tbody tr:nth-child(${z+1}) td:nth-child(${nths[i]})`).textContent;
+        obj[type] = value;
+        }
+        result.push(obj);
+    } 
+    document.getElementById("output").value = JSON.stringify(result, null, 2);
+}
+  </script>
+</head>
+<body>
+  <main>
+  <table>
+    <thead>
+        <tr>
+            <th>First <input type="checkbox" name="first"></th>
+            <th>Second <input type="checkbox" name="second"></th>
+            <th>Third <input type="checkbox" name="third"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Word1</td>
+            <td>Word2</td>
+            <td>Word3</td>
+        </tr>
+        <tr>
+            <td>Word4</td>
+            <td>Word5</td>
+            <td>Word6</td>
+        </tr>
+        <tr>
+            <td>Word7</td>
+            <td>Word8</td>
+            <td>Word9</td>
+        </tr>
+    </tbody>
+</table>
+
+     <div>
+        <button onclick="generateReport()">Generate Report</button>
+     </div>
+     <div>
+        <textarea id="output" cols="20"></textarea>
+     </div>
+</main>
+</body>
+</html>
