@@ -1,0 +1,15 @@
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\bin\Debug\net6.0\T9. Pokemon Trainer.exe
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\bin\Debug\net6.0\T9. Pokemon Trainer.deps.json
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\bin\Debug\net6.0\T9. Pokemon Trainer.runtimeconfig.json
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\bin\Debug\net6.0\T9. Pokemon Trainer.dll
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\bin\Debug\net6.0\T9. Pokemon Trainer.pdb
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\obj\Debug\net6.0\T9. Pokemon Trainer.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\obj\Debug\net6.0\T9. Pokemon Trainer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\obj\Debug\net6.0\T9. Pokemon Trainer.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\obj\Debug\net6.0\T9. Pokemon Trainer.AssemblyInfo.cs
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\obj\Debug\net6.0\T9. Pokemon Trainer.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\obj\Debug\net6.0\T9. Pokemon Trainer.dll
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\obj\Debug\net6.0\refint\T9. Pokemon Trainer.dll
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\obj\Debug\net6.0\T9. Pokemon Trainer.pdb
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\obj\Debug\net6.0\T9. Pokemon Trainer.genruntimeconfig.cache
+D:\Programing Files\C#\Defining Classes Exercise\T9. Pokemon Trainer\obj\Debug\net6.0\ref\T9. Pokemon Trainer.dll

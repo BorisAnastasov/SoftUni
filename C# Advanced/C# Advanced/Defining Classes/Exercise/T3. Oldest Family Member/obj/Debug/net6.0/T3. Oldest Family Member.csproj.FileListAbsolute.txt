@@ -1,0 +1,15 @@
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\bin\Debug\net6.0\T3. Oldest Family Member.exe
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\bin\Debug\net6.0\T3. Oldest Family Member.deps.json
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\bin\Debug\net6.0\T3. Oldest Family Member.runtimeconfig.json
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\bin\Debug\net6.0\T3. Oldest Family Member.dll
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\bin\Debug\net6.0\T3. Oldest Family Member.pdb
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\obj\Debug\net6.0\T3. Oldest Family Member.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\obj\Debug\net6.0\T3. Oldest Family Member.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\obj\Debug\net6.0\T3. Oldest Family Member.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\obj\Debug\net6.0\T3. Oldest Family Member.AssemblyInfo.cs
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\obj\Debug\net6.0\T3. Oldest Family Member.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\obj\Debug\net6.0\T3. Oldest Family Member.dll
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\obj\Debug\net6.0\refint\T3. Oldest Family Member.dll
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\obj\Debug\net6.0\T3. Oldest Family Member.pdb
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\obj\Debug\net6.0\T3. Oldest Family Member.genruntimeconfig.cache
+D:\Programing Files\C#\Defining Classes Exercise\T3. Oldest Family Member\obj\Debug\net6.0\ref\T3. Oldest Family Member.dll

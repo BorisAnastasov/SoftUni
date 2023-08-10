@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T08. Ranking\bin\Debug\netcoreapp3.1\T08. Ranking.exe
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T08. Ranking\bin\Debug\netcoreapp3.1\T08. Ranking.deps.json
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T08. Ranking\bin\Debug\netcoreapp3.1\T08. Ranking.runtimeconfig.json
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T08. Ranking\bin\Debug\netcoreapp3.1\T08. Ranking.runtimeconfig.dev.json
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T08. Ranking\bin\Debug\netcoreapp3.1\T08. Ranking.dll
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T08. Ranking\bin\Debug\netcoreapp3.1\T08. Ranking.pdb
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T08. Ranking\obj\Debug\netcoreapp3.1\T08. Ranking.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T08. Ranking\obj\Debug\netcoreapp3.1\T08. Ranking.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T08. Ranking\obj\Debug\netcoreapp3.1\T08. Ranking.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T08. Ranking\obj\Debug\netcoreapp3.1\T08. Ranking.AssemblyInfo.cs
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T08. Ranking\obj\Debug\netcoreapp3.1\T08. Ranking.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T08. Ranking\obj\Debug\netcoreapp3.1\T08. Ranking.dll
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T08. Ranking\obj\Debug\netcoreapp3.1\T08. Ranking.pdb
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T08. Ranking\obj\Debug\netcoreapp3.1\T08. Ranking.genruntimeconfig.cache

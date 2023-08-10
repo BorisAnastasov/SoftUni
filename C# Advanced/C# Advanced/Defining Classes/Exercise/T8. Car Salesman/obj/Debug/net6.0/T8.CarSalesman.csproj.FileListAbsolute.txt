@@ -1,0 +1,15 @@
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\bin\Debug\net6.0\T8.CarSalesman.exe
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\bin\Debug\net6.0\T8.CarSalesman.deps.json
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\bin\Debug\net6.0\T8.CarSalesman.runtimeconfig.json
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\bin\Debug\net6.0\T8.CarSalesman.dll
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\bin\Debug\net6.0\T8.CarSalesman.pdb
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8.CarSalesman.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8.CarSalesman.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8.CarSalesman.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8.CarSalesman.AssemblyInfo.cs
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8.CarSalesman.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8.CarSalesman.dll
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\refint\T8.CarSalesman.dll
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8.CarSalesman.pdb
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8.CarSalesman.genruntimeconfig.cache
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\ref\T8.CarSalesman.dll

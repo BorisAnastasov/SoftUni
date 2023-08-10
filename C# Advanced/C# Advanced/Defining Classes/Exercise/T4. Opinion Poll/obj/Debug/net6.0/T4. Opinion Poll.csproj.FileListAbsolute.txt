@@ -1,0 +1,15 @@
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\bin\Debug\net6.0\T4. Opinion Poll.exe
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\bin\Debug\net6.0\T4. Opinion Poll.deps.json
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\bin\Debug\net6.0\T4. Opinion Poll.runtimeconfig.json
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\bin\Debug\net6.0\T4. Opinion Poll.dll
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\bin\Debug\net6.0\T4. Opinion Poll.pdb
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\obj\Debug\net6.0\T4. Opinion Poll.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\obj\Debug\net6.0\T4. Opinion Poll.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\obj\Debug\net6.0\T4. Opinion Poll.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\obj\Debug\net6.0\T4. Opinion Poll.AssemblyInfo.cs
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\obj\Debug\net6.0\T4. Opinion Poll.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\obj\Debug\net6.0\T4. Opinion Poll.dll
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\obj\Debug\net6.0\refint\T4. Opinion Poll.dll
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\obj\Debug\net6.0\T4. Opinion Poll.pdb
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\obj\Debug\net6.0\T4. Opinion Poll.genruntimeconfig.cache
+D:\Programing Files\C#\Defining Classes Exercise\T4. Opinion Poll\obj\Debug\net6.0\ref\T4. Opinion Poll.dll

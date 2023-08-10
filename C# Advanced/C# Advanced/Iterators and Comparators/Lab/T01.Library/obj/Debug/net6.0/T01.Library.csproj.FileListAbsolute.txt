@@ -1,0 +1,15 @@
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\bin\Debug\net6.0\T01.Library.exe
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\bin\Debug\net6.0\T01.Library.deps.json
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\bin\Debug\net6.0\T01.Library.runtimeconfig.json
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\bin\Debug\net6.0\T01.Library.dll
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\bin\Debug\net6.0\T01.Library.pdb
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\obj\Debug\net6.0\T01.Library.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\obj\Debug\net6.0\T01.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\obj\Debug\net6.0\T01.Library.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\obj\Debug\net6.0\T01.Library.AssemblyInfo.cs
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\obj\Debug\net6.0\T01.Library.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\obj\Debug\net6.0\T01.Library.dll
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\obj\Debug\net6.0\refint\T01.Library.dll
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\obj\Debug\net6.0\T01.Library.pdb
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\obj\Debug\net6.0\T01.Library.genruntimeconfig.cache
+D:\Programing Files\C#\Iterators and Comparators - Lab\T01.Library\obj\Debug\net6.0\ref\T01.Library.dll

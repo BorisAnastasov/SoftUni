@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Functional Programming - Exercise\T09. Predicate Party!\bin\Debug\netcoreapp3.1\T09. Predicate Party!.exe
+D:\Programing Files\C#\Functional Programming - Exercise\T09. Predicate Party!\bin\Debug\netcoreapp3.1\T09. Predicate Party!.deps.json
+D:\Programing Files\C#\Functional Programming - Exercise\T09. Predicate Party!\bin\Debug\netcoreapp3.1\T09. Predicate Party!.runtimeconfig.json
+D:\Programing Files\C#\Functional Programming - Exercise\T09. Predicate Party!\bin\Debug\netcoreapp3.1\T09. Predicate Party!.runtimeconfig.dev.json
+D:\Programing Files\C#\Functional Programming - Exercise\T09. Predicate Party!\bin\Debug\netcoreapp3.1\T09. Predicate Party!.dll
+D:\Programing Files\C#\Functional Programming - Exercise\T09. Predicate Party!\bin\Debug\netcoreapp3.1\T09. Predicate Party!.pdb
+D:\Programing Files\C#\Functional Programming - Exercise\T09. Predicate Party!\obj\Debug\netcoreapp3.1\T09. Predicate Party!.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Functional Programming - Exercise\T09. Predicate Party!\obj\Debug\netcoreapp3.1\T09. Predicate Party!.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Functional Programming - Exercise\T09. Predicate Party!\obj\Debug\netcoreapp3.1\T09. Predicate Party!.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Functional Programming - Exercise\T09. Predicate Party!\obj\Debug\netcoreapp3.1\T09. Predicate Party!.AssemblyInfo.cs
+D:\Programing Files\C#\Functional Programming - Exercise\T09. Predicate Party!\obj\Debug\netcoreapp3.1\T09. Predicate Party!.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Functional Programming - Exercise\T09. Predicate Party!\obj\Debug\netcoreapp3.1\T09. Predicate Party!.dll
+D:\Programing Files\C#\Functional Programming - Exercise\T09. Predicate Party!\obj\Debug\netcoreapp3.1\T09. Predicate Party!.pdb
+D:\Programing Files\C#\Functional Programming - Exercise\T09. Predicate Party!\obj\Debug\netcoreapp3.1\T09. Predicate Party!.genruntimeconfig.cache

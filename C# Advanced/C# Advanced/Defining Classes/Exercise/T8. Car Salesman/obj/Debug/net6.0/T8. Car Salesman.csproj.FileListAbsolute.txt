@@ -1,0 +1,15 @@
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8. Car Salesman.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8. Car Salesman.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8. Car Salesman.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8. Car Salesman.AssemblyInfo.cs
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8. Car Salesman.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\bin\Debug\net6.0\T8. Car Salesman.exe
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\bin\Debug\net6.0\T8. Car Salesman.deps.json
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\bin\Debug\net6.0\T8. Car Salesman.runtimeconfig.json
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\bin\Debug\net6.0\T8. Car Salesman.dll
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\bin\Debug\net6.0\T8. Car Salesman.pdb
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8. Car Salesman.dll
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\refint\T8. Car Salesman.dll
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8. Car Salesman.pdb
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\T8. Car Salesman.genruntimeconfig.cache
+D:\Programing Files\C#\Defining Classes Exercise\T8. Car Salesman\obj\Debug\net6.0\ref\T8. Car Salesman.dll

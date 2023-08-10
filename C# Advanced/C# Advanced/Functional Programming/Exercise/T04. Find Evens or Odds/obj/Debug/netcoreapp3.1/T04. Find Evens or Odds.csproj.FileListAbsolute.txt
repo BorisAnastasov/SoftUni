@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Functional Programming - Exercise\T04. Find Evens or Odds\bin\Debug\netcoreapp3.1\T04. Find Evens or Odds.exe
+D:\Programing Files\C#\Functional Programming - Exercise\T04. Find Evens or Odds\bin\Debug\netcoreapp3.1\T04. Find Evens or Odds.deps.json
+D:\Programing Files\C#\Functional Programming - Exercise\T04. Find Evens or Odds\bin\Debug\netcoreapp3.1\T04. Find Evens or Odds.runtimeconfig.json
+D:\Programing Files\C#\Functional Programming - Exercise\T04. Find Evens or Odds\bin\Debug\netcoreapp3.1\T04. Find Evens or Odds.runtimeconfig.dev.json
+D:\Programing Files\C#\Functional Programming - Exercise\T04. Find Evens or Odds\bin\Debug\netcoreapp3.1\T04. Find Evens or Odds.dll
+D:\Programing Files\C#\Functional Programming - Exercise\T04. Find Evens or Odds\bin\Debug\netcoreapp3.1\T04. Find Evens or Odds.pdb
+D:\Programing Files\C#\Functional Programming - Exercise\T04. Find Evens or Odds\obj\Debug\netcoreapp3.1\T04. Find Evens or Odds.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Functional Programming - Exercise\T04. Find Evens or Odds\obj\Debug\netcoreapp3.1\T04. Find Evens or Odds.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Functional Programming - Exercise\T04. Find Evens or Odds\obj\Debug\netcoreapp3.1\T04. Find Evens or Odds.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Functional Programming - Exercise\T04. Find Evens or Odds\obj\Debug\netcoreapp3.1\T04. Find Evens or Odds.AssemblyInfo.cs
+D:\Programing Files\C#\Functional Programming - Exercise\T04. Find Evens or Odds\obj\Debug\netcoreapp3.1\T04. Find Evens or Odds.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Functional Programming - Exercise\T04. Find Evens or Odds\obj\Debug\netcoreapp3.1\T04. Find Evens or Odds.dll
+D:\Programing Files\C#\Functional Programming - Exercise\T04. Find Evens or Odds\obj\Debug\netcoreapp3.1\T04. Find Evens or Odds.pdb
+D:\Programing Files\C#\Functional Programming - Exercise\T04. Find Evens or Odds\obj\Debug\netcoreapp3.1\T04. Find Evens or Odds.genruntimeconfig.cache

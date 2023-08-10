@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T01. Unique Usernames\bin\Debug\netcoreapp3.1\T01. Unique Usernames.exe
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T01. Unique Usernames\bin\Debug\netcoreapp3.1\T01. Unique Usernames.deps.json
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T01. Unique Usernames\bin\Debug\netcoreapp3.1\T01. Unique Usernames.runtimeconfig.json
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T01. Unique Usernames\bin\Debug\netcoreapp3.1\T01. Unique Usernames.runtimeconfig.dev.json
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T01. Unique Usernames\bin\Debug\netcoreapp3.1\T01. Unique Usernames.dll
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T01. Unique Usernames\bin\Debug\netcoreapp3.1\T01. Unique Usernames.pdb
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T01. Unique Usernames\obj\Debug\netcoreapp3.1\T01. Unique Usernames.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T01. Unique Usernames\obj\Debug\netcoreapp3.1\T01. Unique Usernames.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T01. Unique Usernames\obj\Debug\netcoreapp3.1\T01. Unique Usernames.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T01. Unique Usernames\obj\Debug\netcoreapp3.1\T01. Unique Usernames.AssemblyInfo.cs
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T01. Unique Usernames\obj\Debug\netcoreapp3.1\T01. Unique Usernames.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T01. Unique Usernames\obj\Debug\netcoreapp3.1\T01. Unique Usernames.dll
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T01. Unique Usernames\obj\Debug\netcoreapp3.1\T01. Unique Usernames.pdb
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Exercise\T01. Unique Usernames\obj\Debug\netcoreapp3.1\T01. Unique Usernames.genruntimeconfig.cache

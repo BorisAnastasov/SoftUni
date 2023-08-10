@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T03. Largest 3 Numbers\bin\Debug\netcoreapp3.1\T03. Largest 3 Numbers.exe
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T03. Largest 3 Numbers\bin\Debug\netcoreapp3.1\T03. Largest 3 Numbers.deps.json
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T03. Largest 3 Numbers\bin\Debug\netcoreapp3.1\T03. Largest 3 Numbers.runtimeconfig.json
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T03. Largest 3 Numbers\bin\Debug\netcoreapp3.1\T03. Largest 3 Numbers.runtimeconfig.dev.json
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T03. Largest 3 Numbers\bin\Debug\netcoreapp3.1\T03. Largest 3 Numbers.dll
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T03. Largest 3 Numbers\bin\Debug\netcoreapp3.1\T03. Largest 3 Numbers.pdb
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T03. Largest 3 Numbers\obj\Debug\netcoreapp3.1\T03. Largest 3 Numbers.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T03. Largest 3 Numbers\obj\Debug\netcoreapp3.1\T03. Largest 3 Numbers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T03. Largest 3 Numbers\obj\Debug\netcoreapp3.1\T03. Largest 3 Numbers.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T03. Largest 3 Numbers\obj\Debug\netcoreapp3.1\T03. Largest 3 Numbers.AssemblyInfo.cs
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T03. Largest 3 Numbers\obj\Debug\netcoreapp3.1\T03. Largest 3 Numbers.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T03. Largest 3 Numbers\obj\Debug\netcoreapp3.1\T03. Largest 3 Numbers.dll
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T03. Largest 3 Numbers\obj\Debug\netcoreapp3.1\T03. Largest 3 Numbers.pdb
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T03. Largest 3 Numbers\obj\Debug\netcoreapp3.1\T03. Largest 3 Numbers.genruntimeconfig.cache

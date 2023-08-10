@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Functional Programming - Exercise\T08. List Of Predicates\bin\Debug\netcoreapp3.1\T08. List Of Predicates.exe
+D:\Programing Files\C#\Functional Programming - Exercise\T08. List Of Predicates\bin\Debug\netcoreapp3.1\T08. List Of Predicates.deps.json
+D:\Programing Files\C#\Functional Programming - Exercise\T08. List Of Predicates\bin\Debug\netcoreapp3.1\T08. List Of Predicates.runtimeconfig.json
+D:\Programing Files\C#\Functional Programming - Exercise\T08. List Of Predicates\bin\Debug\netcoreapp3.1\T08. List Of Predicates.runtimeconfig.dev.json
+D:\Programing Files\C#\Functional Programming - Exercise\T08. List Of Predicates\bin\Debug\netcoreapp3.1\T08. List Of Predicates.dll
+D:\Programing Files\C#\Functional Programming - Exercise\T08. List Of Predicates\bin\Debug\netcoreapp3.1\T08. List Of Predicates.pdb
+D:\Programing Files\C#\Functional Programming - Exercise\T08. List Of Predicates\obj\Debug\netcoreapp3.1\T08. List Of Predicates.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Functional Programming - Exercise\T08. List Of Predicates\obj\Debug\netcoreapp3.1\T08. List Of Predicates.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Functional Programming - Exercise\T08. List Of Predicates\obj\Debug\netcoreapp3.1\T08. List Of Predicates.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Functional Programming - Exercise\T08. List Of Predicates\obj\Debug\netcoreapp3.1\T08. List Of Predicates.AssemblyInfo.cs
+D:\Programing Files\C#\Functional Programming - Exercise\T08. List Of Predicates\obj\Debug\netcoreapp3.1\T08. List Of Predicates.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Functional Programming - Exercise\T08. List Of Predicates\obj\Debug\netcoreapp3.1\T08. List Of Predicates.dll
+D:\Programing Files\C#\Functional Programming - Exercise\T08. List Of Predicates\obj\Debug\netcoreapp3.1\T08. List Of Predicates.pdb
+D:\Programing Files\C#\Functional Programming - Exercise\T08. List Of Predicates\obj\Debug\netcoreapp3.1\T08. List Of Predicates.genruntimeconfig.cache

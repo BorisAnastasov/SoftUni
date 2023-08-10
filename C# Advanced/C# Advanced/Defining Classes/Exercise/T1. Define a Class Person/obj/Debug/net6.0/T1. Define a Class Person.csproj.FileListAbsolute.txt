@@ -1,0 +1,5 @@
+D:\Programing Files\C#\Defining Classes Exercise\T1. Define a Class Person\obj\Debug\net6.0\T1. Define a Class Person.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Defining Classes Exercise\T1. Define a Class Person\obj\Debug\net6.0\T1. Define a Class Person.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Defining Classes Exercise\T1. Define a Class Person\obj\Debug\net6.0\T1. Define a Class Person.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Defining Classes Exercise\T1. Define a Class Person\obj\Debug\net6.0\T1. Define a Class Person.AssemblyInfo.cs
+D:\Programing Files\C#\Defining Classes Exercise\T1. Define a Class Person\obj\Debug\net6.0\T1. Define a Class Person.csproj.CoreCompileInputs.cache

@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Functional Programming - Lab\T01. Sort Even Numbers\bin\Debug\netcoreapp3.1\T01. Sort Even Numbers.exe
+D:\Programing Files\C#\Functional Programming - Lab\T01. Sort Even Numbers\bin\Debug\netcoreapp3.1\T01. Sort Even Numbers.deps.json
+D:\Programing Files\C#\Functional Programming - Lab\T01. Sort Even Numbers\bin\Debug\netcoreapp3.1\T01. Sort Even Numbers.runtimeconfig.json
+D:\Programing Files\C#\Functional Programming - Lab\T01. Sort Even Numbers\bin\Debug\netcoreapp3.1\T01. Sort Even Numbers.runtimeconfig.dev.json
+D:\Programing Files\C#\Functional Programming - Lab\T01. Sort Even Numbers\bin\Debug\netcoreapp3.1\T01. Sort Even Numbers.dll
+D:\Programing Files\C#\Functional Programming - Lab\T01. Sort Even Numbers\bin\Debug\netcoreapp3.1\T01. Sort Even Numbers.pdb
+D:\Programing Files\C#\Functional Programming - Lab\T01. Sort Even Numbers\obj\Debug\netcoreapp3.1\T01. Sort Even Numbers.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Functional Programming - Lab\T01. Sort Even Numbers\obj\Debug\netcoreapp3.1\T01. Sort Even Numbers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Functional Programming - Lab\T01. Sort Even Numbers\obj\Debug\netcoreapp3.1\T01. Sort Even Numbers.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Functional Programming - Lab\T01. Sort Even Numbers\obj\Debug\netcoreapp3.1\T01. Sort Even Numbers.AssemblyInfo.cs
+D:\Programing Files\C#\Functional Programming - Lab\T01. Sort Even Numbers\obj\Debug\netcoreapp3.1\T01. Sort Even Numbers.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Functional Programming - Lab\T01. Sort Even Numbers\obj\Debug\netcoreapp3.1\T01. Sort Even Numbers.dll
+D:\Programing Files\C#\Functional Programming - Lab\T01. Sort Even Numbers\obj\Debug\netcoreapp3.1\T01. Sort Even Numbers.pdb
+D:\Programing Files\C#\Functional Programming - Lab\T01. Sort Even Numbers\obj\Debug\netcoreapp3.1\T01. Sort Even Numbers.genruntimeconfig.cache

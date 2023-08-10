@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Functional Programming - Exercise\T06. Reverse And Exclude\bin\Debug\netcoreapp3.1\T06. Reverse And Exclude.exe
+D:\Programing Files\C#\Functional Programming - Exercise\T06. Reverse And Exclude\bin\Debug\netcoreapp3.1\T06. Reverse And Exclude.deps.json
+D:\Programing Files\C#\Functional Programming - Exercise\T06. Reverse And Exclude\bin\Debug\netcoreapp3.1\T06. Reverse And Exclude.runtimeconfig.json
+D:\Programing Files\C#\Functional Programming - Exercise\T06. Reverse And Exclude\bin\Debug\netcoreapp3.1\T06. Reverse And Exclude.runtimeconfig.dev.json
+D:\Programing Files\C#\Functional Programming - Exercise\T06. Reverse And Exclude\bin\Debug\netcoreapp3.1\T06. Reverse And Exclude.dll
+D:\Programing Files\C#\Functional Programming - Exercise\T06. Reverse And Exclude\bin\Debug\netcoreapp3.1\T06. Reverse And Exclude.pdb
+D:\Programing Files\C#\Functional Programming - Exercise\T06. Reverse And Exclude\obj\Debug\netcoreapp3.1\T06. Reverse And Exclude.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Functional Programming - Exercise\T06. Reverse And Exclude\obj\Debug\netcoreapp3.1\T06. Reverse And Exclude.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Functional Programming - Exercise\T06. Reverse And Exclude\obj\Debug\netcoreapp3.1\T06. Reverse And Exclude.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Functional Programming - Exercise\T06. Reverse And Exclude\obj\Debug\netcoreapp3.1\T06. Reverse And Exclude.AssemblyInfo.cs
+D:\Programing Files\C#\Functional Programming - Exercise\T06. Reverse And Exclude\obj\Debug\netcoreapp3.1\T06. Reverse And Exclude.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Functional Programming - Exercise\T06. Reverse And Exclude\obj\Debug\netcoreapp3.1\T06. Reverse And Exclude.dll
+D:\Programing Files\C#\Functional Programming - Exercise\T06. Reverse And Exclude\obj\Debug\netcoreapp3.1\T06. Reverse And Exclude.pdb
+D:\Programing Files\C#\Functional Programming - Exercise\T06. Reverse And Exclude\obj\Debug\netcoreapp3.1\T06. Reverse And Exclude.genruntimeconfig.cache

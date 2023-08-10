@@ -1,0 +1,14 @@
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T04. Product Shop\bin\Debug\netcoreapp3.1\T04. Product Shop.exe
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T04. Product Shop\bin\Debug\netcoreapp3.1\T04. Product Shop.deps.json
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T04. Product Shop\bin\Debug\netcoreapp3.1\T04. Product Shop.runtimeconfig.json
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T04. Product Shop\bin\Debug\netcoreapp3.1\T04. Product Shop.runtimeconfig.dev.json
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T04. Product Shop\bin\Debug\netcoreapp3.1\T04. Product Shop.dll
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T04. Product Shop\bin\Debug\netcoreapp3.1\T04. Product Shop.pdb
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T04. Product Shop\obj\Debug\netcoreapp3.1\T04. Product Shop.csproj.AssemblyReference.cache
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T04. Product Shop\obj\Debug\netcoreapp3.1\T04. Product Shop.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T04. Product Shop\obj\Debug\netcoreapp3.1\T04. Product Shop.AssemblyInfoInputs.cache
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T04. Product Shop\obj\Debug\netcoreapp3.1\T04. Product Shop.AssemblyInfo.cs
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T04. Product Shop\obj\Debug\netcoreapp3.1\T04. Product Shop.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T04. Product Shop\obj\Debug\netcoreapp3.1\T04. Product Shop.dll
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T04. Product Shop\obj\Debug\netcoreapp3.1\T04. Product Shop.pdb
+D:\Programing Files\C#\Sets and Dictionaries Advanced - Lab\T04. Product Shop\obj\Debug\netcoreapp3.1\T04. Product Shop.genruntimeconfig.cache
