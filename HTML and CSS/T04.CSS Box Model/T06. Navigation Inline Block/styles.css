@@ -1,16 +1,32 @@
-html{
+html {
   font-family: Helvetica, sans-serif;
 }
-nav{
-  display: inline-block;
+
+body {
+  margin: 60px;
 }
-header>h1{
+
+
+nav {
+  display: inline-block;
+  margin-left: 35px;
+}
+
+header {
+  border-bottom: 2px solid black;
+}
+
+header>h1 {
   font-weight: bold;
-}
-li{
   display: inline-block;
 }
-a{
+
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+a {
   display: inline-block;
   text-decoration: none;
   color: green;

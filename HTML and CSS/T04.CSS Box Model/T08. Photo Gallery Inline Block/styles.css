@@ -1,13 +1,19 @@
-body{
+body {
   padding: 5rem;
   background-color: #eee;
 }
-.gallery{
+
+.gallery {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
-li{
+
+ul {
+  padding: 0;
+}
+
+li {
   width: 18rem;
   display: inline-block;
   background-color: #fff;
@@ -16,7 +22,8 @@ li{
   vertical-align: middle;
   margin: 0.5rem;
 }
-img{
+
+img {
   display: block;
   width: 100%;
   height: auto;
