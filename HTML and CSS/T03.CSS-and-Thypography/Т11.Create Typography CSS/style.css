@@ -1,23 +1,45 @@
-html{
+html {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Georgia, serif;
 }
-th{
+
+th {
   background-color: lightblue;
 }
-thead{
+
+thead {
   background-color: #ccc;
 }
-th,td{
+
+th,
+td {
   width: 144px;
   height: 32px;
   border: 1px solid #ccc;
   padding-left: 5px;
 }
-blockquote{
+
+blockquote {
+  border-left: 3px solid #ccc;
+  padding-left: 15px;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+figcaption {
+  display: flex;
+  justify-content: flex-end;
+  margin: 40px 10px;
   font-style: italic;
 }
