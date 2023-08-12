@@ -1,38 +1,50 @@
-body{
+body {
   background-color: #EEE;
   padding: 5rem;
   display: flex;
   flex-wrap: wrap;
 }
-header{
+
+body * {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+header {
   flex-basis: 100%;
   padding: 2rem;
   background-color: #FFF;
-  border-radius: 0.4rem;
+  border-radius: 5px;
   color: #000;
-  margin:20px;
+  margin: 20px;
+  height: 100px;
 }
-main{
+
+main {
   flex: 8 1 40rem;
   padding: 2rem;
   background-color: #FFF;
-  border-radius: 0.4rem;
+  border-radius: 5px;
   color: #000;
-  margin:20px;
+  margin: 20px;
+  height: 200px;
 }
-aside{
+
+aside {
   flex: 2 1 20rem;
   padding: 2rem;
   background-color: #FFF;
-  border-radius: 0.4rem;
+  border-radius: 5px;
   color: #000;
-  margin:20px;
+  margin: 20px;
 }
-footer{
+
+footer {
+  flex-basis: 100%;
   padding: 2rem;
   background-color: #FFF;
-  border-radius: 0.4rem;
+  border-radius: 5px;
   color: #000;
-  margin:20px;
+  margin: 20px;
   display: inline;
+  height: 50px;
 }

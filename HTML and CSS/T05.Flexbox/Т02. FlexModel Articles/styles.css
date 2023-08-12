@@ -1,13 +1,27 @@
-html{
+html {
   font-family: Helvetica, sans-serif;
   line-height: 1.5;
 }
-h2{
+
+h2 {
   font-family: Georgia, serif;
   line-height: 1.2;
+  font-weight: 500;
+  font-size: 40px;
 }
-section{
+
+p {
+  font-size: 20px;
+}
+
+section {
+  margin: 8% auto;
   display: flex;
   justify-content: space-between;
   max-width: 70vw;
+  height: auto;
+}
+
+article {
+  padding: 35px;
 }

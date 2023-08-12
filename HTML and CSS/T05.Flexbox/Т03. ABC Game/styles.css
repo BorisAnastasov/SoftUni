@@ -1,14 +1,72 @@
-html{
+html {
   font-family: Helvetica, sans-serif;
   font-size: 20px;
 }
-div{
+
+div {
   display: flex;
   align-items: center;
   max-width: 15vw;
   height: 35rem;
   flex-direction: column;
+  flex-wrap: wrap;
 }
-span{
-  border: 1px solid black;  
+
+span {
+  border: 1px solid black;
+  width: 40%;
+  height: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px;
+}
+
+span#one {
+  order: 1;
+}
+
+span#two {
+  order: 2;
+}
+
+span#three {
+  order: 3;
+}
+
+span#four {
+  order: 4;
+}
+
+span#five {
+  order: 5;
+}
+
+span#six {
+  order: 6;
+}
+
+span#seven {
+  order: 7;
+}
+
+span#eight {
+  order: 8;
+}
+
+span#nine {
+  order: 9;
+}
+
+span#ten {
+  order: 10;
+}
+
+span#eleven {
+  order: 11;
+}
+
+span#twelve {
+  order: 12;
 }
