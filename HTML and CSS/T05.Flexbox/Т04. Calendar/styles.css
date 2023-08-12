@@ -1,0 +1,11 @@
+.container span {
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.container {
+  max-width: 65vh;
+  height: 350px;
+  margin: 5% auto;
+
+}
