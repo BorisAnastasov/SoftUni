@@ -1,11 +1,22 @@
-.container span {
+* {
   box-sizing: border-box;
-  border: 1px solid black;
+}
+
+.container,
+.week,
+.notes {
+  display: flex;
+  align-items: center;
 }
 
 .container {
-  max-width: 65vh;
-  height: 350px;
-  margin: 5% auto;
+  max-width: 65vw;
+}
 
+span {
+  border: 1px solid black;
+}
+
+.notes {
+  flex-direction: column;
 }
