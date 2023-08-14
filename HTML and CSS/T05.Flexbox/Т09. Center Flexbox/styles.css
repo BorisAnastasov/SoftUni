@@ -1,8 +1,12 @@
-body{
+body {
   background-color: rgb(238, 238, 238);
+  height: 100%;
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
-div{
-  background-color: rgb(255, 255, 255)
-  ;
+
+div {
+  background-color: rgb(255, 255, 255);
 }
