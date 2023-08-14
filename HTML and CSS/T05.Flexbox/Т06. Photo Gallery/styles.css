@@ -1,6 +1,35 @@
-body,ul,li{
+body {
+  margin: 80px 120px;
+  background-color: rgb(214, 214, 214);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+ul,
+li {
   display: flex;
 }
-ul{
-  justify-content: space-between;
+
+ul {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+li {
+  padding: 10px;
+  margin: 15px;
+  background-color: white;
+  display: flex;
+  flex: 0 0 23%;
+  border: 7px solid black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }

@@ -1,22 +1,50 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .container,
 .week,
 .notes {
   display: flex;
-  align-items: center;
-}
-
-.container {
+  flex-wrap: wrap;
   max-width: 65vw;
 }
 
-span {
-  border: 1px solid black;
+.container {
+  margin: 5% auto;
 }
 
 .notes {
   flex-direction: column;
+}
+
+.notes span {
+  display: flex;
+  flex: 1 1 50%;
+}
+
+span {
+  border: 2px solid black;
+  text-align: center;
+  padding: 25px 0;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  border-collapse: collapse;
+}
+
+.title {
+  display: flex;
+  flex: 1 1 100%;
+  justify-content: center;
+}
+
+.workDay {
+  flex: 1 1 20%;
+}
+
+.weekendDay {
+  flex: 1 1 50%;
 }
