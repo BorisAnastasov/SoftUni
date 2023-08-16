@@ -27,4 +27,8 @@ img {
   width: 100px;
 }
 
-.big {}
+.big {
+  border-left: 20px solid black;
+  border-right: 20px solid black;
+
+}
