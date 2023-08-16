@@ -1,20 +1,44 @@
-body{
+body {
   background-color: rgb(238, 238, 238);
-  margin-left: 25em;
+  margin: 0 10%;
 }
-.card{
+
+.card {
   background-color: white;
-  border: 1px solid black;
   width: 300px;
   height: auto;
   font-size: 25px;
   margin: 20px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 8px;
 }
-.masonry.card{
-  display: grid;
-  
-}
-img{
+
+.card img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   width: 100%;
-  
+}
+
+.card footer {
+  border-top: 2px solid rgba(27, 31, 35, 0.15);
+}
+
+.card section,
+.card footer {
+  padding: 20px;
+}
+
+.masonry {
+  display: flex;
+}
+
+.masonry .card {
+  height: fit-content;
+}
+
+.cards-layout {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
