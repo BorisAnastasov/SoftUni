@@ -11,11 +11,11 @@ namespace _01._Monster_Extermination
                      int monstersKilled = 0;
                      Queue<int> armors = new Queue<int>();
                      List<int> arr1 = Console.ReadLine().Split(",").Select(int.Parse).ToList();
-                     arr1.ForEach(i => armors.Enqueue(i));
+                     arr1.ForEach(armors.Enqueue);
 
                      Stack<int> strikes = new Stack<int>();
                      List<int> arr2 = Console.ReadLine().Split(",").Select(int.Parse).ToList();
-                     arr2.ForEach(i => strikes.Push(i));
+                     arr2.ForEach(strikes.Push);
 
                      while (strikes.Any() && armors.Any())
                      {
@@ -24,7 +24,14 @@ namespace _01._Monster_Extermination
                             if (armor < strike)
                             {
                                    strike -= armor;
-                                   strikes.Push(strikes.Pop() + strike);
+                                   if (strikes.Any())
+                                   {
+                                          strikes.Push(strikes.Pop() + strike);
+                                   }
+                                   else
+                                   {
+                                          strikes.Push(strike);
+                                   }
                                    monstersKilled++;
                             }
                             else if (armor > strike)
@@ -37,15 +44,16 @@ namespace _01._Monster_Extermination
                                    monstersKilled++;
                             }
                      }
-                     if (!strikes.Any())
-                     {
-                            Console.WriteLine("The soldier has been defeated.");
-                     }
-                     else if (!armors.Any())
+                     if (!armors.Any())
                      {
                             Console.WriteLine("All monsters have been killed!");
 
                      }
+                     if (!strikes.Any())//not said but id important that this is not else if
+                     {
+                            Console.WriteLine("The soldier has been defeated.");
+                     }
+                     
                      Console.WriteLine($"Total monsters killed: {monstersKilled}");
               }
        }
