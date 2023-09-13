@@ -1,0 +1,14 @@
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\01. Monster Extermination\obj\Debug\net7.0\01. Monster Extermination.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\01. Monster Extermination\obj\Debug\net7.0\01. Monster Extermination.AssemblyInfoInputs.cache
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\01. Monster Extermination\obj\Debug\net7.0\01. Monster Extermination.AssemblyInfo.cs
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\01. Monster Extermination\obj\Debug\net7.0\01. Monster Extermination.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\01. Monster Extermination\bin\Debug\net7.0\01. Monster Extermination.exe
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\01. Monster Extermination\bin\Debug\net7.0\01. Monster Extermination.deps.json
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\01. Monster Extermination\bin\Debug\net7.0\01. Monster Extermination.runtimeconfig.json
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\01. Monster Extermination\bin\Debug\net7.0\01. Monster Extermination.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\01. Monster Extermination\bin\Debug\net7.0\01. Monster Extermination.pdb
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\01. Monster Extermination\obj\Debug\net7.0\01. Monster Extermination.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\01. Monster Extermination\obj\Debug\net7.0\refint\01. Monster Extermination.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\01. Monster Extermination\obj\Debug\net7.0\01. Monster Extermination.pdb
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\01. Monster Extermination\obj\Debug\net7.0\01. Monster Extermination.genruntimeconfig.cache
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\01. Monster Extermination\obj\Debug\net7.0\ref\01. Monster Extermination.dll
