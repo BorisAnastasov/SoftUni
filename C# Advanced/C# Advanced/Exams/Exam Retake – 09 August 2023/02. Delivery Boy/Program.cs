@@ -2,15 +2,20 @@
 {
        internal class Program
        {
+              public static int startRow = 0;
+              public static int startCol = 0;
               public static int rowBoy = 0;
               public static int colBoy = 0;
+              public static int[] changing = new int[2];
+              public static bool IsPizzaCollected = false;
+
               static void Main(string[] args)
               {
                      int[] paramaters = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
                      int rows, cols;
                      rows = paramaters[0];
                      cols = paramaters[1];
-                     int[,] matrix = new int[rows, cols];
+                     char[,] matrix = new char[rows, cols];
 
                      for (int i = 0; i < matrix.GetLength(0); i++)
                      {
@@ -21,48 +26,135 @@
                                    {
                                           rowBoy = i;
                                           colBoy = z;
+                                          startRow = i;
+                                          startCol = z;
                                    }
                                    matrix[i, z] = line[z];
                             }
                      }
                      string cmd;
-                     while ((cmd = Console.ReadLine()) != null)
+                     while (true)
                      {
-                            matrix[rowBoy, colBoy] = '.';
-
+                            cmd = Console.ReadLine();
                             if (cmd == "up")
                             {
-                                   colBoy++;
-
+                                   rowBoy--;
+                                   changing[0]--;
+                                   if (IsNotLate(matrix))
+                                   {
+                                          DeliveryMover(ref matrix);
+                                   }
+                                   else
+                                   {
+                                          matrix[startRow, startCol] = ' ';
+                                          Console.WriteLine("The delivery is late. Order is canceled.");
+                                          PrintingMatrix(matrix);
+                                          return;
+                                   }
+                                   changing[0] = 0;
                             }
                             else if (cmd == "down")
                             {
-                                   colBoy--;
+                                   rowBoy++;
+                                   changing[0]++;
+                                   if (IsNotLate(matrix))
+                                   {
+                                          DeliveryMover(ref matrix);
+                                   }
+                                   else
+                                   {
+                                          matrix[startRow, startCol] = ' ';
+                                          Console.WriteLine("The delivery is late. Order is canceled.");
+                                          PrintingMatrix(matrix);
+                                          return;
+                                   }
+                                   changing[0] = 0;
 
                             }
                             else if (cmd == "right")
                             {
-                                   rowBoy++;
+                                   colBoy++;
+                                   changing[1]++;
+                                   if (IsNotLate(matrix))
+                                   {
+                                          DeliveryMover(ref matrix);
+                                   }
+                                   else
+                                   {
+                                          matrix[startRow, startCol] = ' ';
+                                          Console.WriteLine("The delivery is late. Order is canceled.");
+                                          PrintingMatrix(matrix);
+                                          return;
+                                   }
+                                   changing[1] = 0;
                             }
                             else //left
                             {
-                                   rowBoy--;
+                                   colBoy--;
+                                   changing[1]--;
+                                   if (IsNotLate(matrix))
+                                   {
+                                          DeliveryMover(ref matrix);
+                                   }
+                                   else
+                                   {
+                                          matrix[startRow, startCol] = ' ';
+                                          Console.WriteLine("The delivery is late. Order is canceled.");
+                                          PrintingMatrix(matrix);
+                                          return;
+                                   }
+                                   changing[1] = 0;
                             }
                      }
               }
 
-              public bool IsLate(int row, int col, ref int[,] matrix)
+              public static bool IsNotLate(char[,] matrix)
               {
-                     return matrix.GetLength(0) >= row + 1 &&
-                     matrix.GetLength(1) >= col + 1 &&
-                     0 <= row &&
-                     0 <= col;
+                     return matrix.GetLength(0) >= rowBoy + 1 &&
+                     matrix.GetLength(1) >= colBoy + 1 &&
+                     0 <= rowBoy &&
+                     0 <= colBoy;
               }
 
-              public int[] DeliveryMover(int row, int col, ref int[,] matrix)
+              public static void DeliveryMover(ref char[,] matrix)
               {
+                     if (matrix[rowBoy, colBoy] == '-' || matrix[rowBoy, colBoy] == 'B' || matrix[rowBoy, colBoy] == '.')
+                     {
+                            matrix[rowBoy, colBoy] = '.';
+                     }
+                     else if (matrix[rowBoy, colBoy] == '*')
+                     {
+                            rowBoy -= changing[0];
+                            colBoy -= changing[1];
+                     }
+                     else if (matrix[rowBoy, colBoy] == 'P')
+                     {
+                            matrix[rowBoy, colBoy] = 'R';
+                            Console.WriteLine("Pizza is collected. 10 minutes for delivery.");
+                            IsPizzaCollected = true;
+                     }
+                     else if (matrix[rowBoy, colBoy] == 'A')
+                     {
+                            if (IsPizzaCollected)
+                            {
+                                   matrix[rowBoy, colBoy] = 'P';
+                                   Console.WriteLine("Pizza is delivered on time! Next order...");
+                                   PrintingMatrix(matrix);
+                                   return;
+                            }
+                     }
+              }
 
-                     if ()
+              public static void PrintingMatrix(char[,] matrix)
+              {
+                     for (int i = 0; i < matrix.GetLength(0); i++)
+                     {
+                            for (int z = 0; z < matrix.GetLength(1); z++)
+                            {
+                                   Console.Write($"{matrix[i, z]}");
+                            }
+                            Console.WriteLine();
+                     }
               }
        }
 }

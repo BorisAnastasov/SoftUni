@@ -1,0 +1,14 @@
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\02. Delivery Boy\bin\Debug\net7.0\02. Delivery Boy.exe
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\02. Delivery Boy\bin\Debug\net7.0\02. Delivery Boy.deps.json
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\02. Delivery Boy\bin\Debug\net7.0\02. Delivery Boy.runtimeconfig.json
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\02. Delivery Boy\bin\Debug\net7.0\02. Delivery Boy.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\02. Delivery Boy\bin\Debug\net7.0\02. Delivery Boy.pdb
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\02. Delivery Boy\obj\Debug\net7.0\02. Delivery Boy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\02. Delivery Boy\obj\Debug\net7.0\02. Delivery Boy.AssemblyInfoInputs.cache
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\02. Delivery Boy\obj\Debug\net7.0\02. Delivery Boy.AssemblyInfo.cs
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\02. Delivery Boy\obj\Debug\net7.0\02. Delivery Boy.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\02. Delivery Boy\obj\Debug\net7.0\02. Delivery Boy.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\02. Delivery Boy\obj\Debug\net7.0\refint\02. Delivery Boy.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\02. Delivery Boy\obj\Debug\net7.0\02. Delivery Boy.pdb
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\02. Delivery Boy\obj\Debug\net7.0\02. Delivery Boy.genruntimeconfig.cache
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# Advanced\C# Advanced\Exams\Exam Retake – 09 August 2023\02. Delivery Boy\obj\Debug\net7.0\ref\02. Delivery Boy.dll
