@@ -1,5 +1,5 @@
 USE [master];
---Part I – Queries for SoftUni Database
+--Part I â€“ Queries for SoftUni Database
 USE SoftUni;
 --2. Find All the Information About Departments
 SELECT * FROM Departments;
@@ -97,16 +97,17 @@ ORDER BY HireDate DESC;
 --21. Increase Salaries
 --modified
 UPDATE Employees
-SET Salary*=1.12
-WHERE DepartmentID IN (1,2,4,11);
+SET Salary *= 1.12
+WHERE DepartmentID IN(1, 2, 4, 11);
 
 SELECT Salary FROM Employees;
+
 --original
 UPDATE Employees
 SET Salary = Salary / 1.12
 WHERE DepartmentID IN (1, 2, 4, 11);
 
---Part II – Queries for Geography Database
+--Part II â€“ Queries for Geography Database
 USE [Geography];
 
 --22. All Mountain Peaks
@@ -130,7 +131,7 @@ FROM Countries
 ORDER BY CountryName ASC
 
 
---Part III – Queries for Diablo Database
+--Part III â€“ Queries for Diablo Database
 USE Diablo;
 
 --25. All Diablo Characters
