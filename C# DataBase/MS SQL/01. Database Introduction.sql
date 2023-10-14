@@ -46,7 +46,7 @@ DROP TABLE Towns;
 CREATE TABLE People(
  Id INT PRIMARY KEY IDENTITY,
  [Name] NVARCHAR(200) NOT NULL,
- Picture VARBINARY(MAX) NULL,
+ Picture IMAGE,
  Height DECIMAL(5,2) NULL,
  [Weight] DECIMAL(5,2) NULL,
  Gender CHAR(1) NOT NULL CHECK (Gender IN ('m', 'f')),
@@ -56,18 +56,18 @@ CREATE TABLE People(
 
 INSERT INTO People([Name], Picture, Height, [Weight], Gender, BirthDate, Biography)
 VALUES
-('Ivan', 'fqwcqwdfFQ', 12.45, 60.00, 'm', '2000-04-23', 'qdjwiefnoIEWFNjwfoWEFNOnwf'),
-('Martin', 'fweashrtyfhx', 15.40, 65.00, 'm', '2001-11-07', 'ejgnakosdvsdjfbnpov'),
-('Kristian', 'fqwcqwdfFQ', 12.45, 60.00, 'm', '2001-09-18', 'qdjwiefnoIEWFNjwfoWEFNOnwf'),
-('Alex', 'fqwcqwdfFQ', 12.45, 60.00, 'm', '2008-08-01', 'qdjwiefnoIEWFNjwfoWEFNOnwf'),
-('Maria', 'fqwcqwdfFQ', 12.45, 60.00, 'f', '2006-07-10', 'qdjwiefnoIEWFNjwfoWEFNOnwf')
+('Ivan', NULL, 12.45, 60.00, 'm', '2000-04-23', 'qdjwiefnoIEWFNjwfoWEFNOnwf'),
+('Martin', NULL, 15.40, 65.00, 'm', '2001-11-07', 'ejgnakosdvsdjfbnpov'),
+('Kristian', NULL, 12.45, 60.00, 'm', '2001-09-18', 'qdjwiefnoIEWFNjwfoWEFNOnwf'),
+('Alex', NULL, 12.45, 60.00, 'm', '2008-08-01', 'qdjwiefnoIEWFNjwfoWEFNOnwf'),
+('Maria', NULL, 12.45, 60.00, 'f', '2006-07-10', 'qdjwiefnoIEWFNjwfoWEFNOnwf')
 
 --8
 CREATE TABLE Users(
  Id INT PRIMARY KEY IDENTITY,
  Username VARCHAR(30) NOT NULL,
  [Password] VARCHAR(26) NOT NULL,
- ProfilePicture VARBINARY(MAX),
+ ProfilePicture IMAGE,
  LastLoginTime DATETIME2,
  IsDeleted BIT
 )
