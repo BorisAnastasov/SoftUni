@@ -19,6 +19,9 @@ namespace _04._Add_Minion
                      using SqlConnection connection = new SqlConnection(Config.ConnectionString);
                      connection.Open();
 
+                     object? 
+                     
+
 
                      try
                      {
