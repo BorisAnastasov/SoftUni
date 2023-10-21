@@ -27,14 +27,14 @@ namespace _04._Add_Minion
                      try
                      {
                             //town
-                            SqlCommand townSelectCmd = new SqlCommand(SQLQueries.SelectTowns, connection);
+                            SqlCommand townSelectCmd = new SqlCommand(SQLQueries.SelectTowns, connection, transaction);
                             townSelectCmd.Parameters.AddWithValue("@townName", townName);
 
                             int? townId = (int)townSelectCmd.ExecuteScalar();
 
                             if (townId == null)
                             {
-                                   SqlCommand townAddCmd = new SqlCommand(SQLQueries.InsertTowns, connection);
+                                   SqlCommand townAddCmd = new SqlCommand(SQLQueries.InsertTowns, connection, transaction);
                                    townAddCmd.Parameters.AddWithValue("@townName", townName);
                                    townAddCmd.ExecuteNonQuery();
 
@@ -44,14 +44,14 @@ namespace _04._Add_Minion
                             }
 
                             //villain
-                            SqlCommand villainSelectCmd = new SqlCommand(SQLQueries.SelectVillains, connection);
+                            SqlCommand villainSelectCmd = new SqlCommand(SQLQueries.SelectVillains, connection, transaction);
                             villainSelectCmd.Parameters.AddWithValue("@Name", villainName);
 
                             int? villainIdObj = (int)villainSelectCmd.ExecuteScalar();
 
                             if (villainIdObj == null)
                             {
-                                   SqlCommand villainAddCmd = new SqlCommand(SQLQueries.InsertVillains, connection);
+                                   SqlCommand villainAddCmd = new SqlCommand(SQLQueries.InsertVillains, connection, transaction);
                                    villainSelectCmd.Parameters.AddWithValue("@villainName", villainName);
                                    villainAddCmd.ExecuteNonQuery();
                                    sb.AppendLine($"Villain {villainName} was added to the database.");
@@ -59,14 +59,14 @@ namespace _04._Add_Minion
                             }
 
                             //minion
-                            SqlCommand minionSelectCmd = new SqlCommand(SQLQueries.SelectMinions, connection);
+                            SqlCommand minionSelectCmd = new SqlCommand(SQLQueries.SelectMinions, connection, transaction);
                             minionSelectCmd.Parameters.AddWithValue("@Name", minionName);
 
                             int? minionIdObj = (int)minionSelectCmd.ExecuteScalar();
 
-                            if (minionIdObj == null) 
-                            { 
-                                   SqlCommand minionAddCmd = new SqlCommand( SQLQueries.InsertMinions, connection);
+                            if (minionIdObj == null)
+                            {
+                                   SqlCommand minionAddCmd = new SqlCommand(SQLQueries.InsertMinions, connection, transaction);
                                    minionAddCmd.Parameters.AddWithValue("@name", minionName);
                                    minionAddCmd.Parameters.AddWithValue("@age", minionAge);
                                    minionAddCmd.Parameters.AddWithValue("@townId", townId);
@@ -76,13 +76,17 @@ namespace _04._Add_Minion
                                    minionIdObj = (int)minionSelectCmd.ExecuteScalar();
                             }
 
-                            SqlCommand minionVillainCmd = new SqlCommand(SQLQueries.InsertMinionsVillains, connection);
+                            SqlCommand minionVillainCmd = new SqlCommand(SQLQueries.InsertMinionsVillains, connection, transaction);
                             minionVillainCmd.Parameters.AddWithValue("@minionId", minionIdObj);
                             minionVillainCmd.Parameters.AddWithValue("@villainId", villainIdObj);
 
                             minionVillainCmd.ExecuteNonQuery();
 
                             sb.AppendLine($"Successfully added {minionName} to be minion of {villainName}.");
+
+                            Console.WriteLine(sb.ToString());
+
+                            transaction.Commit();
 
                      }
                      catch (Exception e)
