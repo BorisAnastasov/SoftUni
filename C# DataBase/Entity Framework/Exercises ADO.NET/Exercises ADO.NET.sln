@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Change Town Names Casin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Remove Villain", "06. Remove Villain\06. Remove Villain.csproj", "{E2F1574A-906F-4168-851B-4344F08AE028}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Print All Minion Names", "07. Print All Minion Names\07. Print All Minion Names.csproj", "{406F3221-149B-4729-A77B-FE1038790898}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{E2F1574A-906F-4168-851B-4344F08AE028}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2F1574A-906F-4168-851B-4344F08AE028}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2F1574A-906F-4168-851B-4344F08AE028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406F3221-149B-4729-A77B-FE1038790898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406F3221-149B-4729-A77B-FE1038790898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406F3221-149B-4729-A77B-FE1038790898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406F3221-149B-4729-A77B-FE1038790898}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
