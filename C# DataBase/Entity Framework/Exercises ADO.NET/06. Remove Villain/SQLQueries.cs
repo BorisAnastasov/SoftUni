@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _03._Minion_Names
+namespace _06._Remove_Villain
 {
        public static class SQLQueries
        {

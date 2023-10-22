@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01._Initial_Setup
+namespace _06._Remove_Villain
 {
        internal static class Config
        {

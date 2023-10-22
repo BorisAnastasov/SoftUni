@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01._Initial_Setup
+namespace _04._Add_Minion
 {
        internal static class Config
        {

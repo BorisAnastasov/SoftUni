@@ -1,5 +1,4 @@
-﻿using _01._Initial_Setup;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 
 namespace _03._Minion_Names
 {

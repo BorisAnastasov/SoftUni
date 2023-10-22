@@ -1,5 +1,4 @@
-﻿using _01._Initial_Setup;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 
 namespace _02._Villain_Names
 {

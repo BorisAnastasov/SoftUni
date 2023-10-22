@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01._Initial_Setup
+namespace _07._Print_All_Minion_Names
 {
        internal static class Config
        {

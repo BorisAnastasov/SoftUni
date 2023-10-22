@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _03._Minion_Names
+namespace _05._Change_Town_Names_Casing
 {
        public static class SQLQueries
        {

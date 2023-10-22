@@ -1,6 +1,4 @@
-﻿using _01._Initial_Setup;
-using _03._Minion_Names;
-using Microsoft.Data.SqlClient;
+﻿using Microsoft.Data.SqlClient;
 using System.Text;
 
 namespace _07._Print_All_Minion_Names

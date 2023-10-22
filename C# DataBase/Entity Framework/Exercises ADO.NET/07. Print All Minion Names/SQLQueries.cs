@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _03._Minion_Names
+namespace _07._Print_All_Minion_Names
 {
        public static class SQLQueries
        {
