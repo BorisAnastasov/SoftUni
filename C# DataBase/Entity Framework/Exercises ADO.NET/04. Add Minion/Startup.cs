@@ -31,7 +31,6 @@ namespace _04._Add_Minion
 
                             object? townObj = townSelectCmd.ExecuteScalar();
 
-                            int townId;
                             if (townObj == null)
                             {
                                    SqlCommand townAddCmd = new SqlCommand(SQLQueries.InsertTowns, connection, transaction);
@@ -41,14 +40,13 @@ namespace _04._Add_Minion
                                    sb.AppendLine($"Town {townName} was added to the database.");
                             }
 
-                            townId = (int)townSelectCmd.ExecuteScalar();
+                            int townId = (int)townSelectCmd.ExecuteScalar();
 
                             //villain
                             SqlCommand villainSelectCmd = new SqlCommand(SQLQueries.SelectVillains, connection, transaction);
                             villainSelectCmd.Parameters.AddWithValue("@Name", villainName);
 
                             object? villainObj = villainSelectCmd.ExecuteScalar();
-                            int villainId;
                             if (villainObj == null)
                             {
                                    SqlCommand villainAddCmd = new SqlCommand(SQLQueries.InsertVillains, connection, transaction);
@@ -57,15 +55,13 @@ namespace _04._Add_Minion
                                    sb.AppendLine($"Villain {villainName} was added to the database.");
                             }
 
-                            villainId = (int)villainSelectCmd.ExecuteScalar();
+                            int villainId = (int)villainSelectCmd.ExecuteScalar();
 
                             //minion
                             SqlCommand minionSelectCmd = new SqlCommand(SQLQueries.SelectMinions, connection, transaction);
                             minionSelectCmd.Parameters.AddWithValue("@Name", minionName);
 
                             object? minionObj = minionSelectCmd.ExecuteScalar();
-                            int minionId;
-
                             if (minionObj == null)
                             {
                                    SqlCommand minionAddCmd = new SqlCommand(SQLQueries.InsertMinions, connection, transaction);
@@ -77,7 +73,7 @@ namespace _04._Add_Minion
 
                                    
                             }
-                            minionId = (int)minionSelectCmd.ExecuteScalar();
+                            int minionId = (int)minionSelectCmd.ExecuteScalar();
 
 
                             if (minionObj == null || villainObj == null)
