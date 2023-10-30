@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Employees from Research
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Adding a New Address and Updating Employee", "06. Adding a New Address and Updating Employee\06. Adding a New Address and Updating Employee.csproj", "{6588C778-64EB-4AB8-B099-850C1F54B472}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Employees and Projects", "07. Employees and Projects\07. Employees and Projects.csproj", "{2EC81283-243B-4DA0-8B5D-0BBA5B2F7CFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Addresses by Town", "08. Addresses by Town\08. Addresses by Town.csproj", "{B8C70C22-9119-4B8D-8355-6F99DF92FDF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{6588C778-64EB-4AB8-B099-850C1F54B472}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6588C778-64EB-4AB8-B099-850C1F54B472}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6588C778-64EB-4AB8-B099-850C1F54B472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC81283-243B-4DA0-8B5D-0BBA5B2F7CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC81283-243B-4DA0-8B5D-0BBA5B2F7CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC81283-243B-4DA0-8B5D-0BBA5B2F7CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC81283-243B-4DA0-8B5D-0BBA5B2F7CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C70C22-9119-4B8D-8355-6F99DF92FDF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C70C22-9119-4B8D-8355-6F99DF92FDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C70C22-9119-4B8D-8355-6F99DF92FDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C70C22-9119-4B8D-8355-6F99DF92FDF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
