@@ -1,21 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace SoftUni.Models;
-
-public partial class Town
+namespace SoftUni.Models
 {
-    [Key]
-    [Column("TownID")]
-    public int TownId { get; set; }
+    public partial class Town
+    {
+        public Town()
+        {
+            Addresses = new HashSet<Address>();
+        }
 
-    [StringLength(50)]
-    [Unicode(false)]
-    public string Name { get; set; } = null!;
+        public int TownId { get; set; }
+        public string Name { get; set; } = null!;
 
-    [InverseProperty("Town")]
-    public virtual ICollection<Address> Addresses { get; set; } = new List<Address>();
+        public virtual ICollection<Address> Addresses { get; set; }
+    }
 }

@@ -1,67 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace SoftUni.Models;
-
-public partial class Employee
+namespace SoftUni.Models
 {
-    [Key]
-    [Column("EmployeeID")]
-    public int EmployeeId { get; set; }
+       public partial class Employee
+       {
+              public Employee()
+              {
+                     Departments = new HashSet<Department>();
+                     InverseManager = new HashSet<Employee>();
+                     EmployeesProjects = new HashSet<EmployeeProject>();
+              }
 
-    [StringLength(50)]
-    [Unicode(false)]
-    public string FirstName { get; set; } = null!;
+              public int EmployeeId { get; set; }
+              public string FirstName { get; set; } = null!;
+              public string LastName { get; set; } = null!;
+              public string? MiddleName { get; set; }
+              public string JobTitle { get; set; } = null!;
+              public int DepartmentId { get; set; }
+              public int? ManagerId { get; set; }
+              public DateTime HireDate { get; set; }
+              public decimal Salary { get; set; }
+              public int? AddressId { get; set; }
 
-    [StringLength(50)]
-    [Unicode(false)]
-    public string LastName { get; set; } = null!;
+              public virtual Address? Address { get; set; }
+              public virtual Department Department { get; set; } = null!;
+              public virtual Employee? Manager { get; set; }
+              public virtual ICollection<Department> Departments { get; set; }
+              public virtual ICollection<Employee> InverseManager { get; set; }
 
-    [StringLength(50)]
-    [Unicode(false)]
-    public string? MiddleName { get; set; }
-
-    [StringLength(50)]
-    [Unicode(false)]
-    public string JobTitle { get; set; } = null!;
-
-    [Column("DepartmentID")]
-    public int DepartmentId { get; set; }
-
-    [Column("ManagerID")]
-    public int? ManagerId { get; set; }
-
-    [Column(TypeName = "smalldatetime")]
-    public DateTime HireDate { get; set; }
-
-    [Column(TypeName = "decimal(15, 4)")]
-    public decimal Salary { get; set; }
-
-    [Column("AddressID")]
-    public int? AddressId { get; set; }
-
-    [ForeignKey("AddressId")]
-    [InverseProperty("Employees")]
-    public virtual Address? Address { get; set; }
-
-    [ForeignKey("DepartmentId")]
-    [InverseProperty("Employees")]
-    public virtual Department Department { get; set; } = null!;
-
-    [InverseProperty("Manager")]
-    public virtual ICollection<Department> Departments { get; set; } = new List<Department>();
-
-    [InverseProperty("Manager")]
-    public virtual ICollection<Employee> InverseManager { get; set; } = new List<Employee>();
-
-    [ForeignKey("ManagerId")]
-    [InverseProperty("InverseManager")]
-    public virtual Employee? Manager { get; set; }
-
-    [ForeignKey("EmployeeId")]
-    [InverseProperty("Employees")]
-    public virtual ICollection<Project> Projects { get; set; } = new List<Project>();
+              public virtual ICollection<EmployeeProject> EmployeesProjects { get; set; }
+       }
 }

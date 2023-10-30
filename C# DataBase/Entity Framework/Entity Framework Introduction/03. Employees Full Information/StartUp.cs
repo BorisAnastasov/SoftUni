@@ -19,7 +19,7 @@ namespace SoftUni
                      StringBuilder sb = new();
 
                      var employees = context.Employees
-                     .OrderBy(e=> e.EmployeeId)
+                            .OrderBy(e=> e.EmployeeId)
                             .Select(e => new
                             {
                                    Id = e.EmployeeId,

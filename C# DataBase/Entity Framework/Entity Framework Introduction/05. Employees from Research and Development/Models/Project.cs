@@ -1,31 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using Microsoft.EntityFrameworkCore;
 
-namespace SoftUni.Models;
-
-public partial class Project
+namespace SoftUni.Models
 {
-    [Key]
-    [Column("ProjectID")]
-    public int ProjectId { get; set; }
+       public partial class Project
+       {
+              public Project()
+              {
+                     EmployeesProjects = new HashSet<EmployeeProject>();
+              }
 
-    [StringLength(50)]
-    [Unicode(false)]
-    public string Name { get; set; } = null!;
+              public int ProjectId { get; set; }
+              public string Name { get; set; } = null!;
+              public string? Description { get; set; }
+              public DateTime StartDate { get; set; }
+              public DateTime? EndDate { get; set; }
 
-    [Column(TypeName = "ntext")]
-    public string? Description { get; set; }
-
-    [Column(TypeName = "smalldatetime")]
-    public DateTime StartDate { get; set; }
-
-    [Column(TypeName = "smalldatetime")]
-    public DateTime? EndDate { get; set; }
-
-    [ForeignKey("ProjectId")]
-    [InverseProperty("Projects")]
-    public virtual ICollection<Employee> Employees { get; set; } = new List<Employee>();
+              public virtual ICollection<EmployeeProject> EmployeesProjects { get; set; }
+       }
 }
