@@ -11,34 +11,24 @@ namespace SoftUni
               {
                      using SoftUniContext context = new SoftUniContext();
 
-                     string result = GetAddressesByTown(context);
+                     string result = GetEmployee147(context);
 
                      Console.WriteLine(result);
               }
 
-              public static string GetAddressesByTown(SoftUniContext context)
+              public static string GetEmployee147(SoftUniContext context)
               {
                      StringBuilder sb = new StringBuilder();
 
+                     var employee = context.Employees
+                                                 .FirstOrDefault(e=>e.EmployeeId ==147);
+                     sb.AppendLine($"{employee.FirstName} {employee.LastName} - {employee.JobTitle}");
 
-                     var addresses = context.Addresses
-                                                 .OrderByDescending(a => a.Employees.Count)
-                                                 .ThenBy(a => a.Town.Name)
-                                                 .ThenBy(a => a.AddressText)
-                                                 .Take(10)
-                                                 .Select(a => new
-                                                 {
-                                                        a.AddressText,
-                                                        TownName = a.Town.Name,
-                                                        EmployeesCount = a.Employees.Count
+                     var projects = employee.EmployeesProjects.OrderBy(ep=>ep.Project.Name).ToList();
 
-                                                 })
-                                                 .ToArray();
-
-                     foreach (var a in addresses)
+                     foreach (var p in projects)
                      {
-                            sb.AppendLine($"{a.AddressText}, {a.TownName} - {a.EmployeesCount} employees");
-
+                            sb.AppendLine(p.Project.Name);
                      }
 
                      return sb.ToString().Trim();
