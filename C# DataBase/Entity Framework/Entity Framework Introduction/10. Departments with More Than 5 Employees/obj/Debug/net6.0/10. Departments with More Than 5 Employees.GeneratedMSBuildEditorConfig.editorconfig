@@ -1,0 +1,11 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _10._Departments_with_More_Than_5_Employees
+build_property.ProjectDir = D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\10. Departments with More Than 5 Employees\
