@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Increase Salaries", "12
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Find Employees by Starting With Sa", "13. Find Employees by Starting With Sa\13. Find Employees by Starting With Sa.csproj", "{7154EA86-5A53-4A38-BDB7-5C66F6B2E292}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Delete Project by Id", "14. Delete Project by Id\14. Delete Project by Id.csproj", "{54443CED-A173-44D6-8262-0C5AA6331CFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{7154EA86-5A53-4A38-BDB7-5C66F6B2E292}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7154EA86-5A53-4A38-BDB7-5C66F6B2E292}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7154EA86-5A53-4A38-BDB7-5C66F6B2E292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54443CED-A173-44D6-8262-0C5AA6331CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54443CED-A173-44D6-8262-0C5AA6331CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54443CED-A173-44D6-8262-0C5AA6331CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54443CED-A173-44D6-8262-0C5AA6331CFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
