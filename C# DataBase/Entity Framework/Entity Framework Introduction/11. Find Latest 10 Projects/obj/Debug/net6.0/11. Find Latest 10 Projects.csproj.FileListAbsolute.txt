@@ -1,0 +1,58 @@
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\11. Find Latest 10 Projects.exe
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\11. Find Latest 10 Projects.deps.json
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\11. Find Latest 10 Projects.runtimeconfig.json
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\11. Find Latest 10 Projects.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\11. Find Latest 10 Projects.pdb
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Humanizer.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\obj\Debug\net6.0\11. Find Latest 10 Projects.csproj.AssemblyReference.cache
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\obj\Debug\net6.0\11. Find Latest 10 Projects.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\obj\Debug\net6.0\11. Find Latest 10 Projects.AssemblyInfoInputs.cache
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\obj\Debug\net6.0\11. Find Latest 10 Projects.AssemblyInfo.cs
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\obj\Debug\net6.0\11. Find Latest 10 Projects.csproj.CoreCompileInputs.cache
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\obj\Debug\net6.0\11. Find Latest 10 Projects.csproj.CopyComplete
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\obj\Debug\net6.0\11. Find Latest 10 Projects.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\obj\Debug\net6.0\refint\11. Find Latest 10 Projects.dll
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\obj\Debug\net6.0\11. Find Latest 10 Projects.pdb
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\obj\Debug\net6.0\11. Find Latest 10 Projects.genruntimeconfig.cache
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Framework Introduction\11. Find Latest 10 Projects\obj\Debug\net6.0\ref\11. Find Latest 10 Projects.dll
