@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Departments with More T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Find Latest 10 Projects", "11. Find Latest 10 Projects\11. Find Latest 10 Projects.csproj", "{1736AD28-70F5-4176-94E8-D5C18A8D269E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Increase Salaries", "12. Increase Salaries\12. Increase Salaries.csproj", "{85B2FA37-489F-4A48-AD4F-D40480381349}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{1736AD28-70F5-4176-94E8-D5C18A8D269E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1736AD28-70F5-4176-94E8-D5C18A8D269E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1736AD28-70F5-4176-94E8-D5C18A8D269E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B2FA37-489F-4A48-AD4F-D40480381349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B2FA37-489F-4A48-AD4F-D40480381349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B2FA37-489F-4A48-AD4F-D40480381349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B2FA37-489F-4A48-AD4F-D40480381349}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
