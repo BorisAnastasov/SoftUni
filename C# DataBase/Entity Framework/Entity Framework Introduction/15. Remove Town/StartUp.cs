@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using Microsoft.VisualBasic;
 using SoftUni.Data;
 using SoftUni.Models;
@@ -13,36 +14,44 @@ namespace SoftUni
               {
                      using SoftUniContext context = new SoftUniContext();
 
-                     string result = DeleteProjectById(context);
+                     string result = RemoveTown(context);
 
                      Console.WriteLine(result);
               }
 
-              public static string DeleteProjectById(SoftUniContext context)
+              public static string RemoveTown(SoftUniContext context)
               {
                      StringBuilder sb = new StringBuilder();
 
-                     var project = context.Projects.Find(2);
+                     Town townToDelete = context.Towns.FirstOrDefault(t => t.Name == "Seattle");
 
-                     var employeesProjects = context.EmployeesProjects
-                                                 .Where(ep => ep.Project == project);
-                     foreach (var ep in employeesProjects)
+                     var addressesToDelete = context.Addresses
+                                                        .Where(a=>a.Town == townToDelete)
+                                                        .ToArray();
+
+                     int count = addressesToDelete.Length;
+
+                     var employeesToSetAddressToNull = context.Employees
+                                                                      .Where(e => addressesToDelete.Contains(e.Address))
+                                                                      .ToArray();
+
+                     foreach (var e in employeesToSetAddressToNull)
                      {
-                            context.EmployeesProjects.Remove(ep);
+                            e.Address = null;
+                     }    
+                     context.SaveChanges();
+
+                     foreach (var a in addressesToDelete)
+                     {
+                            context.Addresses.Remove(a);
                      }
                      context.SaveChanges();
 
-                     context.Projects.Remove(project);
-
+                     context.Towns.Remove(townToDelete);
                      context.SaveChanges();
 
-                     var projects = context.Projects
-                                                 .Take(10);
+                     sb.AppendLine($"{count} addresses in Seattle were deleted");
 
-                     foreach (var p in projects)
-                     {
-                            sb.AppendLine(p.Name);
-                     }
 
                      return sb.ToString().Trim();
               }

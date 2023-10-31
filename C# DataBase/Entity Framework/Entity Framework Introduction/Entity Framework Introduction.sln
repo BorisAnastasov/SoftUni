@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Find Employees by Start
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Delete Project by Id", "14. Delete Project by Id\14. Delete Project by Id.csproj", "{54443CED-A173-44D6-8262-0C5AA6331CFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Remove Town", "15. Remove Town\15. Remove Town.csproj", "{9703AC82-E804-4FB9-BB3B-D9C99DD89FD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{54443CED-A173-44D6-8262-0C5AA6331CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54443CED-A173-44D6-8262-0C5AA6331CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54443CED-A173-44D6-8262-0C5AA6331CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9703AC82-E804-4FB9-BB3B-D9C99DD89FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9703AC82-E804-4FB9-BB3B-D9C99DD89FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9703AC82-E804-4FB9-BB3B-D9C99DD89FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9703AC82-E804-4FB9-BB3B-D9C99DD89FD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
