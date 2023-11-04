@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_Student System", "P01_Student System\P01_Student System.csproj", "{9C86D8BC-C84F-46C0-AD4B-6F5C41222CAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01_Student System", "P01_Student System\P01_Student System.csproj", "{9C86D8BC-C84F-46C0-AD4B-6F5C41222CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_Student System(with Fluent API)", "P01_Student System(with Fluent API)\P01_Student System(with Fluent API).csproj", "{01B10B92-035A-4466-9349-931119FDE91F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02_ FootballBetting", "P02_ FootballBetting\P02_ FootballBetting.csproj", "{8D65984F-14C8-4AFA-83BC-13258F5D36C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9C86D8BC-C84F-46C0-AD4B-6F5C41222CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C86D8BC-C84F-46C0-AD4B-6F5C41222CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C86D8BC-C84F-46C0-AD4B-6F5C41222CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B10B92-035A-4466-9349-931119FDE91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B10B92-035A-4466-9349-931119FDE91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B10B92-035A-4466-9349-931119FDE91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B10B92-035A-4466-9349-931119FDE91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D65984F-14C8-4AFA-83BC-13258F5D36C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D65984F-14C8-4AFA-83BC-13258F5D36C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D65984F-14C8-4AFA-83BC-13258F5D36C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D65984F-14C8-4AFA-83BC-13258F5D36C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

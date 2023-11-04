@@ -14,7 +14,7 @@ public class StudentSystemContext : DbContext
        {
 
        }
-
+       //Tables
        public DbSet<Student> Students { get; set; } = null!;
        public DbSet<Course> Courses { get; set; } = null!;
        public DbSet<Homework> Homeworks { get; set; } = null!;

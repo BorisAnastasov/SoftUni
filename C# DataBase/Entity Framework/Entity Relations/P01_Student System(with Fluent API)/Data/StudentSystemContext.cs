@@ -86,7 +86,7 @@ public class StudentSystemContext : DbContext
 
               modelBuilder.Entity<StudentCourse>(entity =>
               {
-                     entity.HasKey(e => new { e.Student, e.Course });
+                     entity.HasKey(e => new { e.StudentId, e.CourseId });
 
                      entity.HasOne(sc => sc.Student)
                             .WithMany(s => s.StudentsCourses)

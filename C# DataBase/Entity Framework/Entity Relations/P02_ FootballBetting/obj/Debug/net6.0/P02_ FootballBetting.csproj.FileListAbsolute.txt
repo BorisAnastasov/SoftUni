@@ -1,0 +1,5 @@
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Relations\P02_ FootballBetting\obj\Debug\net6.0\P02_ FootballBetting.csproj.AssemblyReference.cache
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Relations\P02_ FootballBetting\obj\Debug\net6.0\P02_ FootballBetting.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Relations\P02_ FootballBetting\obj\Debug\net6.0\P02_ FootballBetting.AssemblyInfoInputs.cache
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Relations\P02_ FootballBetting\obj\Debug\net6.0\P02_ FootballBetting.AssemblyInfo.cs
+D:\Programing Files\C#\GitHub Repos\SoftUni\C# DataBase\Entity Framework\Entity Relations\P02_ FootballBetting\obj\Debug\net6.0\P02_ FootballBetting.csproj.CoreCompileInputs.cache
