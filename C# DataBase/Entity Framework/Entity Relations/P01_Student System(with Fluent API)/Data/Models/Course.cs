@@ -13,15 +13,10 @@ public class Course
               Homeworks = new HashSet<Homework>();
 
        }
-       [Key]
-       [Required]
        public int CourseId { get; set; }
        [Required]
-       [MaxLength(80)]
-       [Unicode]
        public string Name { get; set; }
-       [Unicode]
-       public string? Description { get; set; }
+       public string Description { get; set; }
        [Required]
        public DateTime StartDate { get; set; }
        [Required]
