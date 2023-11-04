@@ -15,8 +15,9 @@ public class Student
        public int StudentId { get; set; }
        public string Name { get; set; }
        public string PhoneNumber { get; set; }
+       [Required]
        public DateTime RegisteredOn { get; set; }
-       public DateTime Birthday { get; set; }
+       public DateTime? Birthday { get; set; }
 
        public ICollection<StudentCourse> StudentsCourses { get; set; }
        public ICollection<Homework> Homeworks { get; set; }

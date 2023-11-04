@@ -11,13 +11,13 @@ public class StudentSystemContext : DbContext
        }
 
 
-       public DbSet<Student>? Students { get; set; }
+       public DbSet<Student> Students { get; set; }
 
-       public DbSet<Course>? Courses { get; set; }
+       public DbSet<Course> Courses { get; set; }
 
-       public DbSet<Resource>? Resources { get; set; }
+       public DbSet<Resource> Resources { get; set; }
 
-       public DbSet<Homework>? Homeworks { get; set; }
+       public DbSet<Homework> Homeworks { get; set; }
 
        public DbSet<StudentCourse>? StudentsCourses { get; set; }
 
@@ -39,9 +39,6 @@ public class StudentSystemContext : DbContext
                      entity.Property(e => e.Name).HasMaxLength(100).IsUnicode();
 
                      entity.Property(e => e.PhoneNumber).HasMaxLength(10).IsUnicode(false).IsRequired(false);
-
-                     entity.Property(e => e.Birthday).IsRequired(false);
-
               });
 
               modelBuilder.Entity<Course>(entity =>
