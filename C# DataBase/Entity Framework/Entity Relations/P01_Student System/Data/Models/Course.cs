@@ -14,7 +14,6 @@ public class Course
 
        }
        [Key]
-       [Required]
        public int CourseId { get; set; }
        [Required]
        [MaxLength(80)]
@@ -22,15 +21,12 @@ public class Course
        public string Name { get; set; }
        [Unicode]
        public string? Description { get; set; }
-       [Required]
        public DateTime StartDate { get; set; }
-       [Required]
        public DateTime EndDate { get; set; }
-       [Required]
        public decimal Price { get; set; }
-       public ICollection<StudentCourse> StudentsCourses { get; set; }
-       public ICollection<Resource> Resources { get; set; }
-       public ICollection<Homework> Homeworks { get; set; }
+       public virtual ICollection<StudentCourse> StudentsCourses { get; set; }
+       public virtual ICollection<Resource> Resources { get; set; }
+       public virtual ICollection<Homework> Homeworks { get; set; }
 
 }
 

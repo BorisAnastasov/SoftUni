@@ -13,7 +13,6 @@ public class Student
               Homeworks = new HashSet<Homework>();
        }
        [Key]
-       [Required]
        public int StudentId { get; set; }
        [MaxLength(100)]
        [Unicode]
@@ -22,12 +21,11 @@ public class Student
        [MinLength(10)]
        [Unicode(false)]
        public string? PhoneNumber { get; set; }
-       [Required]
        public DateTime RegisteredOn { get; set; }
        public DateTime? Birthday { get; set; }
 
-       public ICollection<StudentCourse> StudentsCourses { get; set; }
-       public ICollection<Homework> Homeworks { get; set; }
+       public virtual ICollection<StudentCourse> StudentsCourses { get; set; }
+       public virtual ICollection<Homework> Homeworks { get; set; }
 
 }
 

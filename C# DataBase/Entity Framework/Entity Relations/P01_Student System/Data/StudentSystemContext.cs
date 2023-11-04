@@ -22,7 +22,7 @@ public class StudentSystemContext : DbContext
        
        public DbSet<Homework> Homeworks { get; set; }
 
-       public DbSet<StudentCourse>? StudentsCourses { get; set; }
+       public DbSet<StudentCourse> StudentsCourses { get; set; }
 
        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
        {

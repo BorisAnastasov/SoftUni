@@ -7,23 +7,22 @@ namespace P01_StudentSystem.Data.Models;
 public class Homework
 {
        [Key]
-       [Required]
        public int HomeworkId { get; set; }
        [Unicode(false)]
        [Required]
-       public string Content { get; set; }
+       public string Content { get; set; } = null!;
        [Required]
        public ContentType ContentType { get; set; }
-       [Required]
        public DateTime SubmissionTime { get; set; }
-       [Required]
+
+
+
+       [ForeignKey(nameof(Student))]
        public int StudentId { get; set; }
-       [Required]
-       [ForeignKey(nameof(StudentId))]
-       public Student Student { get; set; }
-       [Required]
+       public virtual Student Student { get; set; } = null!;
+
+
+       [ForeignKey(nameof(Course))]
        public int CourseId { get; set; }
-       [Required]
-       [ForeignKey(nameof(CourseId))]
-       public Course Course { get; set; }
+       public virtual Course Course { get; set; } = null!;
 }

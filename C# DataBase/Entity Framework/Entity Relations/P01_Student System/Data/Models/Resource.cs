@@ -7,20 +7,18 @@ namespace P01_StudentSystem.Data.Models;
 public class Resource
 {
        [Key]
-       [Required]
        public int ResourceId { get; set; }
        [Required]
        [MaxLength(50)]
        [Unicode]
-       public string Name { get; set; }
+       public string Name { get; set; } = null!;
        [Required]
        [Unicode(false)]
-       public string Url { get; set; }
+       public string Url { get; set; } = null!;
        [Required]
        public ResourceType ResourceType { get; set; }
-       [Required]
+
+       [ForeignKey(nameof(Course))]
        public int CourseId { get; set; }
-       [Required]
-       [ForeignKey(nameof(CourseId))]
-       public Course Course { get; set;}
+       public virtual Course Course { get; set; } = null!;
 }
