@@ -17,6 +17,7 @@ public class Game
        public int HomeTeamId { get; set; }
        public virtual Team HomeTeam { get; set; } = null!;
 
+
        [ForeignKey(nameof(AwayTeam))]
        public int AwayTeamId { get; set; }
        public virtual Team AwayTeam { get; set; } = null!;
@@ -30,7 +31,10 @@ public class Game
        [Required]
        public string Result { get; set; } = null!;
 
+       [InverseProperty(nameof(PlayerStatistic.Game))]
        public virtual ICollection<PlayerStatistic> PlayersStatistics { get; set; } = null!;
+
+       [InverseProperty(nameof(Bet.Game))]
        public virtual ICollection<Bet> Bets { get; set; } = null!;
 
 }

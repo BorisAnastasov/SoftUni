@@ -27,6 +27,8 @@ public class Player
 
        public bool IsInjured { get; set; }
 
+
+       [InverseProperty(nameof(PlayerStatistic.Player))]
        public virtual ICollection<PlayerStatistic> PlayersStatistics { get; set; } = null!;
 
 }

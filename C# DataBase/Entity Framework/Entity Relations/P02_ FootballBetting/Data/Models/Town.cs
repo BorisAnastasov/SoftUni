@@ -15,7 +15,6 @@ public class Town
        [Required]
        public string Name { get; set; } = null!;
 
-       [ForeignKey(nameof(Country))]
        public int CountryId { get; set; }
        public virtual Country Country { get; set; } = null!;
 

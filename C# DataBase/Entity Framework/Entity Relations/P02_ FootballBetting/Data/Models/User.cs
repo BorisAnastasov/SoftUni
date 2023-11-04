@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace P02_FootballBetting.Data.Models;
 
@@ -21,5 +22,6 @@ public class User
        [Required]
        public decimal Balance { get; set; }
 
+       [InverseProperty(nameof(Bet.User))]
        public virtual ICollection<Bet> Bets { get; set; } = null!;
 }
