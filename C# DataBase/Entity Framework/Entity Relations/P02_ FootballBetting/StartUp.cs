@@ -1,4 +1,4 @@
-﻿namespace P02__FootballBetting
+﻿namespace P02_FootballBetting
 {
        internal class StartUp
        {

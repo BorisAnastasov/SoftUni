@@ -1,14 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace P02__FootballBetting.Data.Models;
+namespace P02_FootballBetting.Data.Models;
 
 public class Color
 {
-       public int TownId { get; set; }
+       public Color()
+       {
+              PrimaryKitTeams = new HashSet<Team>();
+              SecondaryKitTeams = new HashSet<Team>();
+       }
 
-       public string Name { get; set; }
+       [Key]
+       public int ColorId { get; set; }
+       [Required]
+       public string Name { get; set; } = null!;
+
+       public virtual ICollection<Team> PrimaryKitTeams { get; set; } = null!;
+       public virtual ICollection<Team> SecondaryKitTeams { get; set; } = null!;
 }

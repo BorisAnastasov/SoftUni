@@ -1,26 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace P02__FootballBetting.Data.Models;
+namespace P02_FootballBetting.Data.Models;
 
 public class Team
 {
+       public Team()
+       {
+              HomeGames = new HashSet<Game>();
+              AwayGames = new HashSet<Game>();
+              Players = new HashSet<Player>();
+       }
+       [Key]
        public int TeamId { get; set; }
-       public string Name { get; set; }
-
-       public string LogoUrl { get; set; }
-
-       public string Initials { get; set; }
-
+       [Required]
+       public string Name { get; set; } = null!;
+       [Required]
+       [Column(TypeName = "varchar(255)")]
+       public string LogoUrl { get; set; } = null!;
+       [Required]
+       public string Initials { get; set; } = null!;
+       [Required]
        public decimal Budget { get; set; }
 
+
+       [ForeignKey(nameof(PrimaryKitColor))]
        public int PrimaryKitColorId { get; set; }
+       public virtual Color PrimaryKitColor { get; set; } = null!;
 
+
+       [ForeignKey(nameof(PrimaryKitColor))]
        public int SecondaryKitColorId { get; set; }
+       public virtual Color SecondaryKitColor { get; set; } = null!;
 
+
+       [ForeignKey(nameof(Town))]
        public int TownId { get; set; }
+       public virtual Town Town { get; set; } = null!;
+
+
+       public virtual ICollection<Game> HomeGames { get; set; } = null!;
+       public virtual ICollection<Game> AwayGames { get; set; } = null!;
+       public virtual ICollection<Player> Players { get; set; } = null!;
 
 }

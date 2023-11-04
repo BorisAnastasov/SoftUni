@@ -1,17 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace P02__FootballBetting.Data.Models;
+namespace P02_FootballBetting.Data.Models;
 
 public class User
 {
+       public User()
+       {
+              Bets = new HashSet<Bet>();
+       }
+       [Key]
        public int UserId { get; set; }
-       public string Username { get; set; }
-       public string Password { get; set; }
-       public string Email { get; set; }
-       public string Name { get; set; }
+       [Required]
+       public string Username { get; set; } = null!;
+       [Required]
+       public string Password { get; set; } = null!;
+       [Required]
+       public string Email { get; set; } = null!;
+       [Required]
+       public string Name { get; set; } = null!;
+       [Required]
        public decimal Balance { get; set; }
+
+       public virtual ICollection<Bet> Bets { get; set; } = null!;
 }

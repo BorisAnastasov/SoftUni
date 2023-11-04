@@ -1,8 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-using P01_StudentSystem.Data;
+using P02_FootballBetting.Data.Models;
 
-namespace P02__FootballBetting.Data;
+namespace P02_FootballBetting.Data;
 
 public class FootballBettingContext : DbContext
 {
@@ -16,6 +15,17 @@ public class FootballBettingContext : DbContext
 
        }
        //Tables
+       public DbSet<Team> Teams { get; set; }
+       public DbSet<Color> Colors { get; set; }
+       public DbSet<Town> Towns { get; set; }
+       public DbSet<Country> Countries { get; set; }
+       public DbSet<Player> Players { get; set; }
+       public DbSet<Position> Positions { get; set; }
+       public DbSet<PlayerStatistic> PlayersStatistics { get; set; }
+       public DbSet<Game> Games { get; set; }
+       public DbSet<Bet> Bets { get; set; }
+       public DbSet<User> Users { get; set; }
+
 
        //Configuration
        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -32,7 +42,10 @@ public class FootballBettingContext : DbContext
 
        protected override void OnModelCreating(ModelBuilder modelBuilder)
        {
-              
+              modelBuilder.Entity<PlayerStatistic>(entity =>
+              {
+                     entity.HasKey(pk => new { pk.PlayerId, pk.GameId });
+              });
 
               base.OnModelCreating(modelBuilder);
        }
