@@ -1,9 +1,9 @@
 ﻿namespace MusicHub
 {
-       using System;
-       using System.Text;
        using Data;
        using Initializer;
+       using System;
+       using System.Text;
 
        public class StartUp
        {
@@ -15,9 +15,9 @@
                      DbInitializer.ResetDatabase(context);
 
                      //Test your solutions here
-                     string result = ExportAlbumsInfo(context, 4);
-                     Console.WriteLine(result);
+                     Console.WriteLine(ExportSongsAboveDuration(context, 4));
               }
+
 
               public static string ExportAlbumsInfo(MusicHubDbContext context, int producerId)
               {
@@ -52,7 +52,7 @@
 
                             for (int i = 0; i < a.Songs.Length; i++)
                             {
-                                   sb.AppendLine($"---#{i+1}");
+                                   sb.AppendLine($"---#{i + 1}");
                                    sb.AppendLine($"---SongName: {a.Songs[i].Name}");
                                    sb.AppendLine($"---Price: {a.Songs[i].Price}");
                                    sb.AppendLine($"---Writer: {a.Songs[i].WriterName}");
@@ -64,7 +64,49 @@
 
               public static string ExportSongsAboveDuration(MusicHubDbContext context, int duration)
               {
-                     throw new NotImplementedException();
+
+
+                     var songs = context.Songs
+                                          .Where(s => s.Duration.TotalSeconds > duration)
+                                          .Select(s => new
+                                          {
+                                                 s.Name,
+                                                 WriterName = s.Writer.Name,
+                                                 AlbumProducer = s.Album.Producer.Name,
+                                                 Duration = s.Duration.ToString("c"),
+                                                 Performers = s.SongPerformers
+                                                        .Select(sp => new
+                                                        {
+                                                               FullName = sp.Performer.FirstName + ' ' + sp.Performer.LastName
+                                                        })
+                                                        .OrderBy(p=>p.FullName)
+                                                        .ToList()
+
+                                          })
+                                          .OrderBy(s => s.Name)
+                                          .ThenBy(s => s.WriterName)
+                                          .ToList();
+
+
+                     StringBuilder sb = new StringBuilder();
+                     int count = 1;
+                     foreach (var s in songs)
+                     {
+                            sb.AppendLine($"-Song #{count++}");
+                            sb.AppendLine($"---SongName: {s.Name}");
+                            sb.AppendLine($"---Writer: {s.WriterName}");
+
+                            foreach (var p in s.Performers)
+                            {
+                                   sb.AppendLine($"---Performer: {p.FullName}");
+                            }
+
+                            sb.AppendLine($"---AlbumProducer: {s.AlbumProducer}");
+                            sb.AppendLine($"---Duration: {s.Duration}");
+                     }
+
+
+                     return sb.ToString().Trim();
               }
        }
 }
