@@ -74,9 +74,25 @@
               }
 
               //05. Not Released In 
-              public static string GetBooksNotReleasedIn(BookShopContext context, int year) 
+              public static string GetBooksNotReleasedIn(BookShopContext context, int year)
               {
-                     return "";
+                     var books = context.Books
+                                          .Where(b => b.ReleaseDate.Value.Year != year)
+                                          .Select(b => new
+                                          {
+                                                 b.BookId,
+                                                 b.Title
+                                          })
+                                          .OrderBy(b => b.BookId)
+                                          .ToArray();
+                     StringBuilder sb = new StringBuilder();
+
+                     foreach (var book in books) 
+                     {
+                            sb.AppendLine($"{book.Title}");
+                     }
+
+                     return sb.ToString();
               }
        }
 }
