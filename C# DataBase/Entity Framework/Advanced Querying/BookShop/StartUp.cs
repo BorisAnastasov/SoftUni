@@ -3,6 +3,7 @@
        using BookShop.Models.Enums;
        using Data;
        using Initializer;
+       using Microsoft.EntityFrameworkCore;
        using System.Text;
 
        public class StartUp
@@ -12,13 +13,14 @@
                      using var db = new BookShopContext();
                      DbInitializer.ResetDatabase(db);
 
-                     string command = Console.ReadLine();
+                     int year = int.Parse(Console.ReadLine());
 
-                     string result = GetBooksByAgeRestriction(db, command);
+                     string result = GetBooksNotReleasedIn(db, year);
                      Console.WriteLine(result);
 
               }
 
+              //02. Age Restriction 
               public static string GetBooksByAgeRestriction(BookShopContext context, string command)
               {
                      if (!Enum.TryParse<AgeRestriction>(command, true, out var ageRestriction))
@@ -32,6 +34,49 @@
                                           .OrderBy(b => b)
                                           .ToArray();
                      return string.Join("\n", books);
+              }
+
+              //03. Golden Books 
+              public static string GetGoldenBooks(BookShopContext context)
+              {
+                     var books = context.Books
+                                          .Where(b => b.Copies < 5000 && b.EditionType == EditionType.Gold)
+                                          .OrderBy(b => b.BookId)
+                                          .Select(b => b.Title)
+                                          .ToArray();
+
+                     return string.Join("\n", books);
+              }
+
+              //04. Books by Price 
+              public static string GetBooksByPrice(BookShopContext context)
+              {
+                     var books = context.Books
+                                          .Where(b => b.Price > 40)
+                                          .OrderByDescending(b => b.Price)
+                                          .Select(b => new
+                                          {
+                                                 b.Title,
+                                                 b.Price,
+                                          })
+                                          .ToArray();
+
+                     StringBuilder sb = new StringBuilder();
+
+                     foreach (var book in books)
+                     {
+                            sb.AppendLine($"{book.Title} - ${book.Price:f2}");
+                     }
+
+                     return sb.ToString().Trim();
+
+
+              }
+
+              //05. Not Released In 
+              public static string GetBooksNotReleasedIn(BookShopContext context, int year) 
+              {
+                     return "";
               }
        }
 }
