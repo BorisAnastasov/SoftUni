@@ -17,9 +17,9 @@
                      using var db = new BookShopContext();
                      DbInitializer.ResetDatabase(db);
 
-                     int n = int.Parse(Console.ReadLine());
+                     //int n = int.Parse(Console.ReadLine());
 
-                     int result = CountBooks(db, n);
+                     string result = GetTotalProfitByCategory(db);
                      Console.WriteLine(result);
 
               }
@@ -219,6 +219,50 @@
                                                  .Where(b => b.Title.Length > lengthCheck)
                                                  .Count();
                      return numberOfBooks;
+              }
+
+              //12. Total Book Copies 
+              public static string CountCopiesByAuthor(BookShopContext context)
+              {
+                     var copiesPerAuthor = context.Authors
+                                                        .Select(a => new
+                                                        {
+                                                               Name = a.FirstName + " " + a.LastName,
+                                                               Copies = a.Books.Sum(b=>b.Copies)
+                                                        })
+                                                        .OrderByDescending(a=>a.Copies)
+                                                        .ToArray();
+                     StringBuilder sb = new StringBuilder();
+
+                     foreach (var a in copiesPerAuthor)
+                     {
+                            sb.AppendLine($"{a.Name} - {a.Copies}");
+                     }
+
+                     return sb.ToString();
+              }
+
+              //13. Profit by Category 
+              public static string GetTotalProfitByCategory(BookShopContext context) 
+              {
+                     var categories = context.Categories
+                                                 .Select(c => new
+                                                 {
+                                                        c.Name,
+                                                        Total = c.CategoryBooks.Sum(cb => cb.Book.Price * cb.Book.Copies)
+                                                 })
+                                                 .OrderByDescending(c => c.Total)
+                                                 .ThenBy(c => c.Name)
+                                                 .ToArray();
+                     
+                     StringBuilder sb = new StringBuilder();
+
+                     foreach (var c in categories)
+                     {
+                            sb.AppendLine($"{c.Name} ${c.Total.ToString("f2")}");
+                     }
+
+                     return sb.ToString();
               }
        }
 }
