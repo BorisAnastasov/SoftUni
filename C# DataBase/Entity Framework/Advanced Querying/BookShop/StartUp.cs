@@ -19,7 +19,7 @@
 
                      //int n = int.Parse(Console.ReadLine());
 
-                     string result = GetTotalProfitByCategory(db);
+                     string result = GetMostRecentBooks(db);
                      Console.WriteLine(result);
 
               }
@@ -260,6 +260,38 @@
                      foreach (var c in categories)
                      {
                             sb.AppendLine($"{c.Name} ${c.Total.ToString("f2")}");
+                     }
+
+                     return sb.ToString();
+              }
+
+              //14. Most Recent Books 
+              public static string GetMostRecentBooks(BookShopContext context) 
+              {
+                     var categories = context.Categories
+                                          .Select(c => new
+                                          {
+                                                 c.Name,
+                                                 Books = c.CategoryBooks.Select(cb => new
+                                                 {
+                                                        Title = cb.Book.Title,
+                                                        ReleaseDate = cb.Book.ReleaseDate
+                                                 })
+                                                 .OrderByDescending(b => b.ReleaseDate)
+                                                 .Take(3)
+                                                 .ToArray()
+                                          })
+                                          .OrderBy(c=>c.Name)
+                                          .ToArray();
+                     StringBuilder sb = new StringBuilder();
+
+                     foreach (var c in categories)
+                     {
+                            sb.AppendLine($"--{c.Name}");
+                            foreach (var b in c.Books)
+                            {
+                                   sb.AppendLine($"{b.Title} ({b.ReleaseDate.Value.Year})");
+                            }
                      }
 
                      return sb.ToString();
