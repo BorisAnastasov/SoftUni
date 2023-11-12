@@ -19,7 +19,7 @@
 
                      string input = Console.ReadLine();
 
-                     string result = GetBookTitlesContaining(db, input);
+                     string result = GetBooksByAuthor(db, input);
                      Console.WriteLine(result);
 
               }
@@ -172,12 +172,12 @@
               }
 
               //09. Book Search 
-              public static string GetBookTitlesContaining(BookShopContext context, string input) 
+              public static string GetBookTitlesContaining(BookShopContext context, string input)
               {
                      var books = context.Books
                                        .AsNoTracking()
-                                       .Where(b=>b.Title.ToLower().Contains(input.ToLower()))
-                                       .Select(b=>b.Title)
+                                       .Where(b => b.Title.ToLower().Contains(input.ToLower()))
+                                       .Select(b => b.Title)
                                        .OrderBy(b => b)
                                        .ToArray();
 
@@ -188,6 +188,28 @@
                      }
 
                      return sb.ToString().TrimEnd();
+              }
+
+              //10. Book Search by Author 
+              public static string GetBooksByAuthor(BookShopContext context, string input)
+              {
+                     var books = context.Books
+                                          .AsNoTracking()
+                                          .Where(b => b.Author.LastName.ToLower().StartsWith(input.ToLower()))
+                                          .OrderBy(b => b.BookId)
+                                          .Select(b => new
+                                          {
+                                                 b.Title,
+                                                 Author = b.Author.FirstName + " " + b.Author.LastName
+                                          })
+                                          .ToArray();
+                     StringBuilder sb = new StringBuilder();
+
+                     foreach (var b in books)
+                     {
+                            sb.AppendLine($"{b.Title} ({b.Author})");
+                     }
+                     return sb.ToString();
               }
        }
 }
