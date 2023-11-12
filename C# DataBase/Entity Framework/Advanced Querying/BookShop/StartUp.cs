@@ -5,6 +5,7 @@
        using Initializer;
        using Microsoft.EntityFrameworkCore;
        using System.Text;
+       using System.Linq;
 
        public class StartUp
        {
@@ -13,9 +14,9 @@
                      using var db = new BookShopContext();
                      DbInitializer.ResetDatabase(db);
 
-                     int year = int.Parse(Console.ReadLine());
+                     string input = Console.ReadLine();
 
-                     string result = GetBooksNotReleasedIn(db, year);
+                     string result = GetBooksByCategory(db, input);
                      Console.WriteLine(result);
 
               }
@@ -93,6 +94,39 @@
                      }
 
                      return sb.ToString();
+              }
+
+              //06. Book Titles by Category 
+              public static string GetBooksByCategory(BookShopContext context, string input) 
+              { 
+                     string[] categories = input.ToLower().Split(" ").ToArray();
+                     //var books = context.BooksCategories
+                     //                     .AsNoTracking()
+                     //                     .Where(bc=>categories.Contains(bc.Category.Name.ToLower()))
+                     //                     .Select(bc=>bc.Book.Title)
+                     //                     .OrderBy(bc=>bc)
+
+                     var books = context.Books
+                                          .AsNoTracking()
+                                          .Where(b => b.BookCategories.Any(bc => categories.Contains(bc.Category.Name.ToLower())))
+                                          .Select(b=>b.Title)
+                                          .OrderBy(b=>b)
+                                          .ToArray();
+
+
+                     StringBuilder sb = new StringBuilder();
+                     foreach (var book in books) 
+                     {
+                            sb.AppendLine(book);
+                     }
+
+                     return sb.ToString();
+              }
+
+              //07. Released Before Date 
+              public static string GetBooksReleasedBefore(BookShopContext context, string date) 
+              {
+                     return "";
               }
        }
 }
