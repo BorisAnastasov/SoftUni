@@ -6,6 +6,9 @@
        using Microsoft.EntityFrameworkCore;
        using System.Text;
        using System.Linq;
+       using Castle.DynamicProxy.Contributors;
+       using System.Globalization;
+       using Microsoft.Data.SqlClient.Server;
 
        public class StartUp
        {
@@ -16,7 +19,7 @@
 
                      string input = Console.ReadLine();
 
-                     string result = GetBooksByCategory(db, input);
+                     string result = GetBooksReleasedBefore(db, input);
                      Console.WriteLine(result);
 
               }
@@ -124,9 +127,29 @@
               }
 
               //07. Released Before Date 
-              public static string GetBooksReleasedBefore(BookShopContext context, string date) 
+              public static string GetBooksReleasedBefore(BookShopContext context, string input) 
               {
-                     return "";
+                     DateTime date = DateTime.ParseExact(input, "dd-MM-yyyy", null);
+
+                     var booksReleasedBefore = context.Books
+                         .AsNoTracking()
+                         .Where(b => b.ReleaseDate < date)
+                         .OrderByDescending(b => b.ReleaseDate)
+                         .Select(b => new
+                         {
+                                Title = b.Title,
+                                EditionType = b.EditionType,
+                                Price = b.Price
+                         })
+                         .ToArray();
+
+                     StringBuilder sb = new StringBuilder();
+                     foreach (var book in booksReleasedBefore)
+                     {
+                            sb.AppendLine($"{book.Title} - {book.EditionType} - ${book.Price:f2}");
+                     }
+
+                     return sb.ToString().TrimEnd();
               }
        }
 }
