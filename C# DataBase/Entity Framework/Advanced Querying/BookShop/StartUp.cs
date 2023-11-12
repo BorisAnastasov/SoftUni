@@ -19,7 +19,7 @@
 
                      string input = Console.ReadLine();
 
-                     string result = GetAuthorNamesEndingIn(db, input);
+                     string result = GetBookTitlesContaining(db, input);
                      Console.WriteLine(result);
 
               }
@@ -166,6 +166,25 @@
                      foreach (var a in authors)
                      {
                             sb.AppendLine(a);
+                     }
+
+                     return sb.ToString().TrimEnd();
+              }
+
+              //09. Book Search 
+              public static string GetBookTitlesContaining(BookShopContext context, string input) 
+              {
+                     var books = context.Books
+                                       .AsNoTracking()
+                                       .Where(b=>b.Title.ToLower().Contains(input.ToLower()))
+                                       .Select(b=>b.Title)
+                                       .OrderBy(b => b)
+                                       .ToArray();
+
+                     StringBuilder sb = new StringBuilder();
+                     foreach (var b in books)
+                     {
+                            sb.AppendLine(b);
                      }
 
                      return sb.ToString().TrimEnd();
