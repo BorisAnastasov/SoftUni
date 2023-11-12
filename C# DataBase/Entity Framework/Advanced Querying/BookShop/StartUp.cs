@@ -19,7 +19,7 @@
 
                      string input = Console.ReadLine();
 
-                     string result = GetBooksReleasedBefore(db, input);
+                     string result = GetAuthorNamesEndingIn(db, input);
                      Console.WriteLine(result);
 
               }
@@ -91,7 +91,7 @@
                                           .ToArray();
                      StringBuilder sb = new StringBuilder();
 
-                     foreach (var book in books) 
+                     foreach (var book in books)
                      {
                             sb.AppendLine($"{book.Title}");
                      }
@@ -100,8 +100,8 @@
               }
 
               //06. Book Titles by Category 
-              public static string GetBooksByCategory(BookShopContext context, string input) 
-              { 
+              public static string GetBooksByCategory(BookShopContext context, string input)
+              {
                      string[] categories = input.ToLower().Split(" ").ToArray();
                      //var books = context.BooksCategories
                      //                     .AsNoTracking()
@@ -112,13 +112,13 @@
                      var books = context.Books
                                           .AsNoTracking()
                                           .Where(b => b.BookCategories.Any(bc => categories.Contains(bc.Category.Name.ToLower())))
-                                          .Select(b=>b.Title)
-                                          .OrderBy(b=>b)
+                                          .Select(b => b.Title)
+                                          .OrderBy(b => b)
                                           .ToArray();
 
 
                      StringBuilder sb = new StringBuilder();
-                     foreach (var book in books) 
+                     foreach (var book in books)
                      {
                             sb.AppendLine(book);
                      }
@@ -127,11 +127,11 @@
               }
 
               //07. Released Before Date 
-              public static string GetBooksReleasedBefore(BookShopContext context, string input) 
+              public static string GetBooksReleasedBefore(BookShopContext context, string input)
               {
                      DateTime date = DateTime.ParseExact(input, "dd-MM-yyyy", null);
 
-                     var booksReleasedBefore = context.Books
+                     var books = context.Books
                          .AsNoTracking()
                          .Where(b => b.ReleaseDate < date)
                          .OrderByDescending(b => b.ReleaseDate)
@@ -144,9 +144,28 @@
                          .ToArray();
 
                      StringBuilder sb = new StringBuilder();
-                     foreach (var book in booksReleasedBefore)
+                     foreach (var book in books)
                      {
                             sb.AppendLine($"{book.Title} - {book.EditionType} - ${book.Price:f2}");
+                     }
+
+                     return sb.ToString().TrimEnd();
+              }
+
+              //08. Author Search 
+              public static string GetAuthorNamesEndingIn(BookShopContext context, string input)
+              {
+                     var authors = context.Authors
+                                .AsNoTracking()
+                                .Where(a => a.FirstName.EndsWith(input))
+                                .Select(a => a.FirstName + " " + a.LastName)
+                                .OrderBy(a => a)
+                                .ToArray();
+
+                     StringBuilder sb = new StringBuilder();
+                     foreach (var a in authors)
+                     {
+                            sb.AppendLine(a);
                      }
 
                      return sb.ToString().TrimEnd();
