@@ -17,9 +17,9 @@
                      using var db = new BookShopContext();
                      DbInitializer.ResetDatabase(db);
 
-                     //int n = int.Parse(Console.ReadLine());
+                     int n = RemoveBooks(db);
 
-                     IncreasePrices(db);
+                     Console.WriteLine(n);
 
               }
 
@@ -307,7 +307,19 @@
                      {
                             b.Price += 5;
                      }
+              }
 
+              //16. Remove Books 
+              public static int RemoveBooks(BookShopContext context)
+              {
+                     var books = context.Books
+                                           .Where(b => b.Copies < 4200)
+                                           .ToArray();
+
+                     context.Books.RemoveRange(books);
+                     context.SaveChanges();
+
+                     return books.Length;
               }
        }
 }
