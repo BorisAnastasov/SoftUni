@@ -19,8 +19,7 @@
 
                      //int n = int.Parse(Console.ReadLine());
 
-                     string result = GetMostRecentBooks(db);
-                     Console.WriteLine(result);
+                     IncreasePrices(db);
 
               }
 
@@ -228,9 +227,9 @@
                                                         .Select(a => new
                                                         {
                                                                Name = a.FirstName + " " + a.LastName,
-                                                               Copies = a.Books.Sum(b=>b.Copies)
+                                                               Copies = a.Books.Sum(b => b.Copies)
                                                         })
-                                                        .OrderByDescending(a=>a.Copies)
+                                                        .OrderByDescending(a => a.Copies)
                                                         .ToArray();
                      StringBuilder sb = new StringBuilder();
 
@@ -243,7 +242,7 @@
               }
 
               //13. Profit by Category 
-              public static string GetTotalProfitByCategory(BookShopContext context) 
+              public static string GetTotalProfitByCategory(BookShopContext context)
               {
                      var categories = context.Categories
                                                  .Select(c => new
@@ -254,7 +253,7 @@
                                                  .OrderByDescending(c => c.Total)
                                                  .ThenBy(c => c.Name)
                                                  .ToArray();
-                     
+
                      StringBuilder sb = new StringBuilder();
 
                      foreach (var c in categories)
@@ -266,7 +265,7 @@
               }
 
               //14. Most Recent Books 
-              public static string GetMostRecentBooks(BookShopContext context) 
+              public static string GetMostRecentBooks(BookShopContext context)
               {
                      var categories = context.Categories
                                           .Select(c => new
@@ -281,7 +280,7 @@
                                                  .Take(3)
                                                  .ToArray()
                                           })
-                                          .OrderBy(c=>c.Name)
+                                          .OrderBy(c => c.Name)
                                           .ToArray();
                      StringBuilder sb = new StringBuilder();
 
@@ -295,6 +294,20 @@
                      }
 
                      return sb.ToString();
+              }
+
+              //15. Increase Prices
+              public static void IncreasePrices(BookShopContext context)
+              {
+                     var books = context.Books
+                                          .Where(b => b.ReleaseDate.Value.Year < 2010)
+                                          .ToArray();
+
+                     foreach (var b in books)
+                     {
+                            b.Price += 5;
+                     }
+
               }
        }
 }
