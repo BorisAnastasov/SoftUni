@@ -17,9 +17,9 @@
                      using var db = new BookShopContext();
                      DbInitializer.ResetDatabase(db);
 
-                     string input = Console.ReadLine();
+                     int n = int.Parse(Console.ReadLine());
 
-                     string result = GetBooksByAuthor(db, input);
+                     int result = CountBooks(db, n);
                      Console.WriteLine(result);
 
               }
@@ -210,6 +210,15 @@
                             sb.AppendLine($"{b.Title} ({b.Author})");
                      }
                      return sb.ToString();
+              }
+
+              //11. Count Books 
+              public static int CountBooks(BookShopContext context, int lengthCheck)
+              {
+                     int numberOfBooks = context.Books
+                                                 .Where(b => b.Title.Length > lengthCheck)
+                                                 .Count();
+                     return numberOfBooks;
               }
        }
 }
