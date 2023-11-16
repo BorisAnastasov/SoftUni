@@ -36,14 +36,16 @@ namespace P02__FootballBetting.Migrations
                     b.Property<DateTime>("DateTime")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("GameId")
+                    b.Property<int?>("GameId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<string>("Prediction")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UserId")
+                    b.Property<int?>("UserId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.HasKey("BetId");
@@ -103,7 +105,8 @@ namespace P02__FootballBetting.Migrations
                     b.Property<int>("AwayTeamGoals")
                         .HasColumnType("int");
 
-                    b.Property<int>("AwayTeamId")
+                    b.Property<int?>("AwayTeamId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<DateTime>("DateTime")
@@ -118,7 +121,8 @@ namespace P02__FootballBetting.Migrations
                     b.Property<int>("HomeTeamGoals")
                         .HasColumnType("int");
 
-                    b.Property<int>("HomeTeamId")
+                    b.Property<int?>("HomeTeamId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<string>("Result")
@@ -149,13 +153,15 @@ namespace P02__FootballBetting.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PositionId")
+                    b.Property<int?>("PositionId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int>("SquadNumber")
                         .HasColumnType("int");
 
-                    b.Property<int>("TeamId")
+                    b.Property<int?>("TeamId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.HasKey("PlayerId");
@@ -169,10 +175,10 @@ namespace P02__FootballBetting.Migrations
 
             modelBuilder.Entity("P02_FootballBetting.Data.Models.PlayerStatistic", b =>
                 {
-                    b.Property<int>("PlayerId")
+                    b.Property<int?>("PlayerId")
                         .HasColumnType("int");
 
-                    b.Property<int>("GameId")
+                    b.Property<int?>("GameId")
                         .HasColumnType("int");
 
                     b.Property<int>("Assists")
@@ -193,11 +199,11 @@ namespace P02__FootballBetting.Migrations
 
             modelBuilder.Entity("P02_FootballBetting.Data.Models.Position", b =>
                 {
-                    b.Property<int>("PositionId")
+                    b.Property<int?>("PositionId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("PositionId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("PositionId"), 1L, 1);
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -231,13 +237,16 @@ namespace P02__FootballBetting.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PrimaryKitColorId")
+                    b.Property<int?>("PrimaryKitColorId")
+                        .IsRequired()
                         .HasColumnType("int");
 
-                    b.Property<int>("SecondaryKitColorId")
+                    b.Property<int?>("SecondaryKitColorId")
+                        .IsRequired()
                         .HasColumnType("int");
 
-                    b.Property<int>("TownId")
+                    b.Property<int?>("TownId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.HasKey("TeamId");
@@ -259,7 +268,8 @@ namespace P02__FootballBetting.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TownId"), 1L, 1);
 
-                    b.Property<int>("CountryId")
+                    b.Property<int?>("CountryId")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<string>("Name")

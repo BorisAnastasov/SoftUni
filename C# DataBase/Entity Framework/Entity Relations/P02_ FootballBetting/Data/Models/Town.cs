@@ -15,9 +15,11 @@ public class Town
        [Required]
        public string Name { get; set; } = null!;
 
-       public int CountryId { get; set; }
+       [ForeignKey(nameof(Country))]
+       public int? CountryId { get; set; }
        public virtual Country Country { get; set; } = null!;
 
+       [InverseProperty(nameof(Team.Town))]
        public virtual ICollection<Team> Teams { get; set; } = null!;
 
 

@@ -18,11 +18,11 @@ public class Player
        public int SquadNumber { get; set; }
 
        [ForeignKey(nameof(Team))]
-       public int TeamId { get; set; }
+       public int? TeamId { get; set; }
        public virtual Team Team { get; set; } = null!;
 
        [ForeignKey(nameof(Position))]
-       public int PositionId { get; set; }
+       public int? PositionId { get; set; }
        public virtual Position Position { get; set; } = null!;
 
        public bool IsInjured { get; set; }

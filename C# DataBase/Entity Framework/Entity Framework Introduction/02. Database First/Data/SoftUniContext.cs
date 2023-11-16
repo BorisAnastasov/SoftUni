@@ -1,37 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore;
 using SoftUni.Models;
 
 namespace SoftUni.Data
 {
-    public partial class SoftUniContext : DbContext
-    {
-        public SoftUniContext()
-        {
-        }
+       public partial class SoftUniContext : DbContext
+       {
+              public SoftUniContext()
+              {
+              }
 
-        public SoftUniContext(DbContextOptions<SoftUniContext> options)
-            : base(options)
-        {
-        }
+              public SoftUniContext(DbContextOptions<SoftUniContext> options)
+                  : base(options)
+              {
+              }
 
-        public virtual DbSet<Address> Addresses { get; set; } = null!;
-        public virtual DbSet<Department> Departments { get; set; } = null!;
-        public virtual DbSet<Employee> Employees { get; set; } = null!;
-        public virtual DbSet<Project> Projects { get; set; } = null!;
-        public virtual DbSet<Town> Towns { get; set; } = null!;
-        public virtual DbSet<EmployeeProject> EmployeesProjects { get; set; } = null!;
+              public virtual DbSet<Address> Addresses { get; set; } = null!;
+              public virtual DbSet<Department> Departments { get; set; } = null!;
+              public virtual DbSet<Employee> Employees { get; set; } = null!;
+              public virtual DbSet<Project> Projects { get; set; } = null!;
+              public virtual DbSet<Town> Towns { get; set; } = null!;
+              public virtual DbSet<EmployeeProject> EmployeesProjects { get; set; } = null!;
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=SoftUni;Integrated Security=True;");
-            }
-        }
+              protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+              {
+                     if (!optionsBuilder.IsConfigured)
+                     {
+                            optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=SoftUni;Integrated Security=True;");
+                     }
+              }
 
               protected override void OnModelCreating(ModelBuilder modelBuilder)
               {
@@ -142,7 +138,7 @@ namespace SoftUni.Data
                      modelBuilder.Entity<EmployeeProject>(entity =>
                      {
                             //The compose PK
-                            entity.HasKey(pk=>new { pk.EmployeeId, pk.ProjectId });
+                            entity.HasKey(pk => new { pk.EmployeeId, pk.ProjectId });
 
                             //FK=>
                             //-ProjectId
@@ -159,9 +155,9 @@ namespace SoftUni.Data
 
 
 
-            OnModelCreatingPartial(modelBuilder);
-        }
+                     OnModelCreatingPartial(modelBuilder);
+              }
 
-        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
-    }
+              partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+       }
 }

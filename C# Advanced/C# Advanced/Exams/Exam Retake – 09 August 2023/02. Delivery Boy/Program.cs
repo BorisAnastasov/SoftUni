@@ -118,7 +118,7 @@
 
               public static void DeliveryMover(ref char[,] matrix)
               {
-                     if (matrix[rowBoy, colBoy] == '-' || matrix[rowBoy, colBoy] == 'B' || matrix[rowBoy, colBoy] == '.')
+                     if (matrix[rowBoy, colBoy] == '-' || matrix[rowBoy, colBoy] == '.')
                      {
                             matrix[rowBoy, colBoy] = '.';
                      }

@@ -13,10 +13,10 @@ public class Bet
        public DateTime DateTime { get; set; }
 
        [ForeignKey(nameof(User))]
-       public int UserId { get; set; }
+       public int? UserId { get; set; }
        public virtual User User { get; set; } = null!;
 
        [ForeignKey(nameof(Game))]
-       public int GameId { get; set; }
+       public int? GameId { get; set; }
        public virtual Game Game { get; set; } = null!;
 }

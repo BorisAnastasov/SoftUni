@@ -10,7 +10,7 @@ public class Position
               Players = new HashSet<Player>();
        }
        [Key]
-       public int PositionId { get; set; }
+       public int? PositionId { get; set; }
        [Required]
        public string Name { get; set; } = null!;
 
