@@ -27,7 +27,7 @@ namespace ProductShop
 
 
 
-                     Console.WriteLine(GetSoldProducts(context));
+                     Console.WriteLine(GetUsersWithProducts(context));
               }
 
               //01. Import Users 
@@ -105,7 +105,7 @@ namespace ProductShop
               public static string GetSoldProducts(ProductShopContext context)
               {
                      var products = context.Users
-                                                 .Where(u => u.ProductsSold.Count > 0&&u.ProductsSold.Any(p=>p.Buyer!= null))
+                                                 .Where(u => u.ProductsSold.Count > 0 && u.ProductsSold.Any(p => p.Buyer != null))
                                                  .OrderBy(u => u.LastName)
                                                  .ThenBy(u => u.FirstName)
                                                  .Select(u => new
@@ -113,9 +113,9 @@ namespace ProductShop
                                                         u.FirstName,
                                                         u.LastName,
                                                         SoldProducts = u.ProductsSold
-                                                                             .Where(p=>p.Buyer != null)
-                                                                             .Select(p => new 
-                                                                             { 
+                                                                             .Where(p => p.Buyer != null)
+                                                                             .Select(p => new
+                                                                             {
                                                                                     p.Name,
                                                                                     p.Price,
                                                                                     BuyerFirstName = p.Buyer.FirstName,
@@ -124,15 +124,86 @@ namespace ProductShop
                                                                              .ToArray()
                                                  })
                                                  .ToArray();
-                     JsonSerializerSettings settings = new() 
-                     { 
+                     JsonSerializerSettings settings = new()
+                     {
                             Formatting = Formatting.Indented,
                             ContractResolver = new CamelCasePropertyNamesContractResolver()
                      };
 
-                     string json = JsonConvert.SerializeObject(products,settings);
+                     string json = JsonConvert.SerializeObject(products, settings);
 
                      return json;
+              }
+
+              //07. Export Categories By Products Count 
+              public static string GetCategoriesByProductsCount(ProductShopContext context)
+              {
+                     var categories = context.Categories
+                                                 .OrderByDescending(c => c.CategoriesProducts.Count)
+                                                 .Select(c => new
+                                                 {
+                                                        Category = c.Name,
+                                                        ProductsCount = c.CategoriesProducts.Count,
+                                                        AveragePrice = c.CategoriesProducts.Average(cp => cp.Product.Price).ToString("f2"),
+                                                        TotalRevenue = c.CategoriesProducts.Sum(cp => cp.Product.Price).ToString("f2")
+                                                 })
+                                                 .ToArray();
+                     JsonSerializerSettings settings = new()
+                     {
+                            Formatting = Formatting.Indented,
+                            ContractResolver = new CamelCasePropertyNamesContractResolver()
+                     };
+
+                     string json = JsonConvert.SerializeObject (categories, settings);
+
+                     return json;
+
+              }
+
+              //08. Export Users and Products 
+              public static string GetUsersWithProducts(ProductShopContext context)
+              {
+                     var users = context.Users
+                                          .Where(u => u.ProductsSold.Any(p => p.Buyer != null))
+                                          .OrderByDescending(u => u.ProductsSold.Count(p => p.Buyer != null))
+                                          .Select(u => new 
+                                          { 
+                                                 u.FirstName,
+                                                 u.LastName,
+                                                 u.Age,
+                                                 SoldProducts = new 
+                                                 { 
+                                                        u.ProductsSold.Count,
+                                                        Products = u.ProductsSold
+                                                                      .OrderBy(p => p.Id)
+                                                                      .Select(p => new 
+                                                                      {
+                                                                             p.Name,
+                                                                             p.Price,
+                                                                      })
+                                                                      .ToArray()
+                                                 },
+                                          })
+                                          .ToList();
+
+                     object obj = new
+                     {
+                            UsersCount = users.Count,
+                            Users = users
+                     };
+
+                     JsonSerializerSettings settings = new()
+                     {
+                            Formatting = Formatting.Indented,
+                            ContractResolver = new CamelCasePropertyNamesContractResolver(),
+                            NullValueHandling = NullValueHandling.Ignore
+                     };
+
+                     string json = JsonConvert.SerializeObject(obj,settings);
+
+                     return json;
+
+
               }
        }
 }
