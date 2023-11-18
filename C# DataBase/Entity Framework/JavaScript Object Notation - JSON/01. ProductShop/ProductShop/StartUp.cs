@@ -173,9 +173,9 @@ namespace ProductShop
                                                  u.Age,
                                                  SoldProducts = new 
                                                  { 
-                                                        u.ProductsSold.Count,
+                                                        Count = u.ProductsSold.Count(p => p.Buyer != null),
                                                         Products = u.ProductsSold
-                                                                      .OrderBy(p => p.Id)
+                                                                      .Where(p=>p.Buyer != null)
                                                                       .Select(p => new 
                                                                       {
                                                                              p.Name,
@@ -184,11 +184,11 @@ namespace ProductShop
                                                                       .ToArray()
                                                  },
                                           })
-                                          .ToList();
+                                          .ToArray();
 
                      object obj = new
                      {
-                            UsersCount = users.Count,
+                            UsersCount = users.Length,
                             Users = users
                      };
 
