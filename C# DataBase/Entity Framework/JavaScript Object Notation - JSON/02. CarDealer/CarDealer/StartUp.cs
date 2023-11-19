@@ -3,6 +3,7 @@ using CarDealer.Models;
 using CarDealer.Models.DTOs;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace CarDealer
 {
@@ -27,7 +28,7 @@ namespace CarDealer
                      //ImportCustomers(context, costumersJson);
                      //Console.WriteLine(ImportSales(context, salesJson));
 
-                     Console.WriteLine(GetCarsWithTheirListOfParts(context));
+                     Console.WriteLine(GetSalesWithAppliedDiscount(context));
               }
 
               //09. Import Suppliers 
@@ -178,7 +179,7 @@ namespace CarDealer
                      return json;
               }
 
-              //17. Export Cars With Their List Of Parts 
+              //17. Export Cars With Their List Of Parts ??
               public static string GetCarsWithTheirListOfParts(CarDealerContext context)
               {
                      var cars = context.Cars
@@ -196,7 +197,64 @@ namespace CarDealer
                                           })
                                           .ToArray();
 
-                     string json = JsonConvert.SerializeObject (cars, Formatting.Indented);
+                     string json = JsonConvert.SerializeObject(cars, Formatting.Indented);
+
+                     return json;
+              }
+
+              //18. Export Total Sales By Customer 
+              public static string GetTotalSalesByCustomer(CarDealerContext context)
+              {
+                     var customers = context.Customers
+                                                 .Where(c => c.Sales.Count > 0)
+                                                 .Select(c => new
+                                                 {
+                                                        FullName = c.Name,
+                                                        BoughtCars = c.Sales.Count,
+                                                        SpentMoney = c.Sales.SelectMany(s => s.Car.PartsCars).Sum(pc => pc.Part.Price)
+                                                 })
+                                                 .OrderByDescending(c => c.SpentMoney)
+                                                 .ThenByDescending(c => c.BoughtCars)
+                                                 .ToArray();
+                     JsonSerializerSettings settings = new()
+                     {
+                            Formatting = Formatting.Indented,
+                            ContractResolver = new CamelCasePropertyNamesContractResolver()
+                     };
+
+                     string json = JsonConvert.SerializeObject(customers, settings);
+
+                     return json;
+              }
+
+              //19. Export Sales With Applied Discount 
+              public static string GetSalesWithAppliedDiscount(CarDealerContext context)
+              {
+                     var sales = context.Sales
+                                          .Take(10)
+                                          .Select(s => new
+                                          {
+                                                 Car = new
+                                                 {
+                                                        s.Car.Make,
+                                                        s.Car.Model,
+                                                        s.Car.TraveledDistance
+                                                 },
+                                                 CustomerName = s.Customer.Name,
+                                                 s.Discount,
+                                                 Price = s.Car.PartsCars.Sum(pc => pc.Part.Price)
+                                          })
+                                          .Select(s => new
+                                          {
+                                                 car = s.Car,
+                                                 customerName = s.CustomerName,
+                                                 discount = s.Discount.ToString(),
+                                                 price = s.Price.ToString(),
+                                                 priceWithDiscount = (s.Price * (1 - s.Discount / 100)).ToString("f2")
+                                          })
+                                          .ToArray();
+
+                     string json = JsonConvert.SerializeObject(sales, Formatting.Indented);
 
                      return json;
               }
