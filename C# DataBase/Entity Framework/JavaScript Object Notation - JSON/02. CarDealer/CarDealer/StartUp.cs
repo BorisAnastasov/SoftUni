@@ -1,6 +1,7 @@
 ﻿using CarDealer.Data;
 using CarDealer.Models;
 using CarDealer.Models.DTOs;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
 namespace CarDealer
@@ -26,7 +27,7 @@ namespace CarDealer
                      //ImportCustomers(context, costumersJson);
                      //Console.WriteLine(ImportSales(context, salesJson));
 
-                     Console.WriteLine(GetCarsFromMakeToyota(context));
+                     Console.WriteLine(GetCarsWithTheirListOfParts(context));
               }
 
               //09. Import Suppliers 
@@ -112,10 +113,10 @@ namespace CarDealer
                      var customers = context.Customers
                                                  .OrderBy(c => c.BirthDate)
                                                  .ThenBy(c => c.IsYoungDriver)
-                                                 .Select(c=>new 
-                                                 { 
+                                                 .Select(c => new
+                                                 {
                                                         c.Name,
-                                                        BirthDate = c.BirthDate.ToString("dd/MM/yyyy"), 
+                                                        BirthDate = c.BirthDate.ToString("dd/MM/yyyy"),
                                                         c.IsYoungDriver
                                                  })
                                                  .ToArray();
@@ -130,7 +131,7 @@ namespace CarDealer
               }
 
               //15. Export Cars From Make Toyota 
-              public static string GetCarsFromMakeToyota(CarDealerContext context) 
+              public static string GetCarsFromMakeToyota(CarDealerContext context)
               {
                      var cars = context.Cars
                                           .Where(c => c.Make == "Toyota")
@@ -149,15 +150,55 @@ namespace CarDealer
                             Formatting = Formatting.Indented
                      };
 
-                     string json = JsonConvert.SerializeObject (cars, settings);
+                     string json = JsonConvert.SerializeObject(cars, settings);
 
                      return json;
               }
 
               //16. Export Local Suppliers 
-              public static string GetLocalSuppliers(CarDealerContext context) 
-              { 
-                     
+              public static string GetLocalSuppliers(CarDealerContext context)
+              {
+                     var suppliers = context.Suppliers
+                                                 .Where(s => s.IsImporter == false)
+                                                 .Select(s => new
+                                                 {
+                                                        s.Id,
+                                                        s.Name,
+                                                        PartsCount = s.Parts.Count
+                                                 })
+                                                 .ToArray();
+
+                     JsonSerializerSettings settings = new()
+                     {
+                            Formatting = Formatting.Indented
+                     };
+
+                     string json = JsonConvert.SerializeObject(suppliers, settings);
+
+                     return json;
+              }
+
+              //17. Export Cars With Their List Of Parts 
+              public static string GetCarsWithTheirListOfParts(CarDealerContext context)
+              {
+                     var cars = context.Cars
+                                          .Select(c => new
+                                          {
+                                                 c.Make,
+                                                 c.Model,
+                                                 c.TraveledDistance,
+                                                 parts = c.PartsCars.Select(p => new
+                                                 {
+                                                        p.Part.Name,
+                                                        Price = p.Part.Price.ToString("f2"),
+                                                 })
+                                                 .ToArray()
+                                          })
+                                          .ToArray();
+
+                     string json = JsonConvert.SerializeObject (cars, Formatting.Indented);
+
+                     return json;
               }
        }
 }
