@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ProductShop.Data;
+using ProductShop.DTOs.Export;
 using ProductShop.DTOs.Import;
 using ProductShop.Models;
 using System.Xml.Serialization;
@@ -12,19 +13,20 @@ namespace ProductShop
               {
                      ProductShopContext context = new ProductShopContext();
 
-                     string users = File.ReadAllText("../../../Datasets/users.xml");
-                     string products = File.ReadAllText("../../../Datasets/products.xml");
-                     string categories = File.ReadAllText("../../../Datasets/categories.xml");
-                     string categoriesProducts = File.ReadAllText("../../../Datasets/categories-products.xml");
+                     //string users = File.ReadAllText("../../../Datasets/users.xml");
+                     //string products = File.ReadAllText("../../../Datasets/products.xml");
+                     //string categories = File.ReadAllText("../../../Datasets/categories.xml");
+                     //string categoriesProducts = File.ReadAllText("../../../Datasets/categories-products.xml");
 
-                     context.Database.EnsureDeleted();
-                     context.Database.EnsureCreated();
+                     //context.Database.EnsureDeleted();
+                     //context.Database.EnsureCreated();
 
-                     ImportUsers(context, users);
-                     ImportProducts(context, products);
-                     ImportCategories(context, categories);
+                     //ImportUsers(context, users);
+                     //ImportProducts(context, products);
+                     //ImportCategories(context, categories);
+                     //ImportCategoryProducts(context, categoriesProducts);
 
-                     Console.WriteLine(ImportCategoryProducts(context, categoriesProducts));
+                     Console.WriteLine(GetProductsInRange(context));
               }
 
               //01. Import Users 
@@ -136,22 +138,23 @@ namespace ProductShop
               //05. Export Products In Range 
               public static string GetProductsInRange(ProductShopContext context) 
               {
-
+                     IMapper mapper = InitializeAutoMapper() ;
                      var products = context.Products
                                                  .Where(p => p.Price>=500&&p.Price<=1000)
                                                  .OrderBy(p => p.Price)
                                                  .Take(10)
-                                                 .Select(p=>new 
-                                                 { 
-                                                        ProductName = p.Name,
-                                                        p.Price,
-                                                        Buyer = p.Buyer.FirstName + " " + p.Buyer.LastName
-                                                 })
                                                  .ToArray();
+                     var productDtos = new HashSet<ExportProductsInRangeDto>();
 
-                     
+                     foreach (var product in products) 
+                     { 
+                            ExportProductsInRangeDto productDto = mapper.Map<ExportProductsInRangeDto>(product);
+                            productDtos.Add(productDto);
+                     }
+
                      XmlConverter xmlConverter = new XmlConverter();
-                     string xml = xmlConverter.Serialize(products, "Products");
+
+                     string xml = xmlConverter.Serialize(productDtos, "Products");
 
                      return xml;
               }
