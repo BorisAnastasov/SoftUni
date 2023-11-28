@@ -21,9 +21,13 @@ namespace ProductShop
                      context.Database.EnsureCreated();
 
                      ImportUsers(context, users);
+                     ImportProducts(context, products);
+                     ImportCategories(context, categories);
 
-                     Console.WriteLine(ImportProducts(context, products));
+                     Console.WriteLine(ImportCategoryProducts(context, categoriesProducts));
               }
+
+              //01. Import Users 
               public static string ImportUsers(ProductShopContext context, string inputXml)
               {
                      IMapper mapper = InitializeAutoMapper();
@@ -46,6 +50,7 @@ namespace ProductShop
                      return $"Successfully imported {userDtos.Length}";
               }
 
+              //02. Import Products 
               public static string ImportProducts(ProductShopContext context, string inputXml)
               {
                      IMapper mapper = InitializeAutoMapper();
@@ -69,6 +74,7 @@ namespace ProductShop
                      return $"Successfully imported {productDtos.Length}";
               }
 
+              //03. Import Categories 
               public static string ImportCategories(ProductShopContext context, string inputXml)
               {
                      IMapper mapper = InitializeAutoMapper();
@@ -76,18 +82,21 @@ namespace ProductShop
 
                      ImportCategoryDto[] categoryDtos = xmlConverter.Deserializer<ImportCategoryDto>(inputXml, "Categories");
 
+                     var categories = new HashSet<Category>(); 
 
                      foreach (var categoryDto in categoryDtos)
                      {
                             Category category = mapper.Map<Category>(categoryDto);
-                            context.Categories.Add(category);
+                            categories.Add(category);
                      }
 
+                     context.Categories.AddRange(categories);
                      context.SaveChanges();
 
                      return $"Successfully imported {categoryDtos.Length}";
               }
 
+              //04. Import Categories and Products 
               public static string ImportCategoryProducts(ProductShopContext context, string inputXml)
               {
                      IMapper mapper = InitializeAutoMapper();
@@ -96,7 +105,7 @@ namespace ProductShop
                      ImportCategoryProductDto[] categoryProductDtos = xmlConverter
                                                         .Deserializer<ImportCategoryProductDto>
                                                         (inputXml, "CategoryProducts");
-
+                     var categoriesProducts = new HashSet<CategoryProduct>();
 
                      foreach (var categoryProductDto in categoryProductDtos)
                      {
@@ -114,14 +123,17 @@ namespace ProductShop
                             }
 
                             CategoryProduct categoryProduct = mapper.Map<CategoryProduct>(categoryProductDto);
-                            context.CategoryProducts.Add(categoryProduct);
+                            categoriesProducts.Add(categoryProduct);
                      }
+
+                     context.CategoryProducts.AddRange(categoriesProducts);
 
                      context.SaveChanges();
 
                      return $"Successfully imported {categoryProductDtos.Length}";
               }
 
+              //05. Export Products In Range 
               public static string GetProductsInRange(ProductShopContext context) 
               {
 
