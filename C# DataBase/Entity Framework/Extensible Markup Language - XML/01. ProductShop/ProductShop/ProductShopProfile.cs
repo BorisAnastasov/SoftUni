@@ -21,7 +21,8 @@ namespace ProductShop
                                                  .ForMember(expProd => expProd.BuyerName,
                                                  opt =>
                                                         opt.MapFrom(src => src.Buyer.FirstName + " " + src.Buyer.LastName));
-
+                     this.CreateMap<Product, ExportSoldProductUsersDto>();
+                     this.CreateMap<User, ExportUsersWithSoldProductDto>();
               }
        }
 }

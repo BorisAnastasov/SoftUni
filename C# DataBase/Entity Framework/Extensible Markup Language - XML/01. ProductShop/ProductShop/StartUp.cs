@@ -84,7 +84,7 @@ namespace ProductShop
 
                      ImportCategoryDto[] categoryDtos = xmlConverter.Deserializer<ImportCategoryDto>(inputXml, "Categories");
 
-                     var categories = new HashSet<Category>(); 
+                     var categories = new HashSet<Category>();
 
                      foreach (var categoryDto in categoryDtos)
                      {
@@ -136,27 +136,46 @@ namespace ProductShop
               }
 
               //05. Export Products In Range 
-              public static string GetProductsInRange(ProductShopContext context) 
+              public static string GetProductsInRange(ProductShopContext context)
               {
-                     IMapper mapper = InitializeAutoMapper() ;
-                     var products = context.Products
-                                                 .Where(p => p.Price>=500&&p.Price<=1000)
-                                                 .OrderBy(p => p.Price)
-                                                 .Take(10)
-                                                 .ToArray();
-                     var productDtos = new HashSet<ExportProductsInRangeDto>();
+                     var productsInRange = context.Products
+                                   .Where(p => p.Price >= 500 && p.Price <= 1000)
+                                   .OrderBy(p => p.Price)
+                                   .Take(10)
+                                   .Select(p => new ExportProductsInRangeDto()
+                                   {
+                                          Price = p.Price,
+                                          Name = p.Name,
+                                          BuyerName = p.Buyer.FirstName + " " + p.Buyer.LastName
+                                   })
+                                   .ToArray();
+                     XmlConverter xmlConverter = new XmlConverter();
+                     return xmlConverter.Serialize<ExportProductsInRangeDto[]>(productsInRange, "Products");
+              }
 
-                     foreach (var product in products) 
-                     { 
-                            ExportProductsInRangeDto productDto = mapper.Map<ExportProductsInRangeDto>(product);
-                            productDtos.Add(productDto);
-                     }
-
+              //06. Export Sold Products 
+              public static string GetSoldProducts(ProductShopContext context) 
+              {
+                     var users = context.Users
+                                   .Where(u => u.ProductsSold.Count>=1)
+                                   .OrderBy(u => u.LastName)
+                                   .ThenBy(u => u.FirstName)
+                                   .Take(5)
+                                   .Select(u => new ExportUsersWithSoldProductDto()
+                                   {
+                                          FirstName = u.FirstName,
+                                          LastName = u.LastName,
+                                          SoldProducts = u.ProductsSold.Select(p => new ExportSoldProductUsersDto()
+                                          { 
+                                                 Name = p.Name,
+                                                 Price = p.Price
+                                          
+                                          }).ToArray()
+                                   })
+                                   .ToArray();
                      XmlConverter xmlConverter = new XmlConverter();
 
-                     string xml = xmlConverter.Serialize(productDtos, "Products");
-
-                     return xml;
+                     return xmlConverter.Serialize<ExportUsersWithSoldProductDto[]>(users, "Products");
               }
 
 
