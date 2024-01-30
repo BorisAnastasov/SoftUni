@@ -9,9 +9,7 @@
 *.user
 *.userosscache
 *.sln.docstates
-*.docx 
-*pdf
-*.zip
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -303,7 +301,7 @@ node_modules/
 *.dsw
 *.dsp
 
-# Visual Studio 6 technical files 
+# Visual Studio 6 technical files
 *.ncb
 *.aps
 
