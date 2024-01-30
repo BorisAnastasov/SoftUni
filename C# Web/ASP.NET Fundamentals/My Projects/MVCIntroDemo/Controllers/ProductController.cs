@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Net.Http.Headers;
 using MVCIntroDemo.Models.Product;
 using Newtonsoft.Json;
+using System.Text;
 using System.Text.Json;
 
 namespace MVCIntroDemo.Controllers
@@ -34,8 +36,14 @@ namespace MVCIntroDemo.Controllers
             return View();
         }
 
-        public IActionResult All()
+        [ActionName("My-Products")]
+        public IActionResult All(string keyword)
         {
+            if (keyword != null) 
+            {
+                var foundProducts = _products.Where(p => p.Name.ToLower().Contains(keyword.ToLower()));
+                return View(foundProducts);
+            }
             return View(_products);
         }
 
@@ -50,9 +58,30 @@ namespace MVCIntroDemo.Controllers
         }
 		public IActionResult AllAsJson()
 		{
-            string products = JsonConvert.SerializeObject(_products, Formatting.Indented);
-			return View(products);
+			return Json(_products, new JsonSerializerOptions {WriteIndented = true });
 		}
 
+        public IActionResult AllAsText() 
+        { 
+            var text = string.Empty;
+            foreach (var item in _products) 
+            {
+                text += $"Product {item.Id}: {item.Name} - {item.Price} lv.";
+                text += "\r\n";
+            }
+            return Content(text);
+        }
+
+        public IActionResult AllAsTextFile() 
+        { 
+            StringBuilder sb = new StringBuilder();
+            foreach (var product in _products) 
+            {
+                sb.AppendLine($"Product: {product.Id}: {product.Name} - {product.Price} lv.");
+            }
+            Response.Headers.Add(HeaderNames.ContentDisposition, @"attachment;filename = products.txt");
+
+            return File(Encoding.UTF8.GetBytes(sb.ToString().TrimEnd()), "text/plain");
+        }
 	}
 }
