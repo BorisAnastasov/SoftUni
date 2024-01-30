@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MVCIntroDemo.Models.Product;
+using Newtonsoft.Json;
+using System.Text.Json;
 
 namespace MVCIntroDemo.Controllers
 {
@@ -46,5 +48,11 @@ namespace MVCIntroDemo.Controllers
             }
             return View(product);
         }
-    }
+		public IActionResult AllAsJson()
+		{
+            string products = JsonConvert.SerializeObject(_products, Formatting.Indented);
+			return View(products);
+		}
+
+	}
 }

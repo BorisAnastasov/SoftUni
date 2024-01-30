@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using MVCIntroDemo.Models;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Text.Json;
 
 namespace MVCIntroDemo.Controllers
 {
@@ -37,6 +38,7 @@ namespace MVCIntroDemo.Controllers
 			ViewBag.Count = count;
 			return View();
 		}
+
 
 
 		public IActionResult Privacy()
