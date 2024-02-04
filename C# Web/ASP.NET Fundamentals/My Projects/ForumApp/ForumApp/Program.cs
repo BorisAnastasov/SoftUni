@@ -1,4 +1,4 @@
-
+using Forum.Data;
 namespace Forum.App
 {
 	public class Program
@@ -10,7 +10,10 @@ namespace Forum.App
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
 
-			builder.Services.AddDbContext<>
+			builder.Services.AddDbContext<ForumDbContext>(options =>
+			{
+				
+			});
 
 
 
