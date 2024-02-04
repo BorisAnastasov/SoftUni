@@ -4,13 +4,14 @@ namespace Forum.Data.Seeding
 {
 	public class PostSeeder
 	{
-		internal Post[] GeneratePosts() 
+		internal Post[] GeneratePosts()
 		{
 			ICollection<Post> posts = new HashSet<Post>();
 			Post currPost;
 
 			currPost = new Post()
 			{
+				Id = Guid.NewGuid(),
 				Title = "My first post",
 				Content = "My first post will be about performing CRUD operations in MVC. It's so much fun!"
 			};
@@ -19,6 +20,7 @@ namespace Forum.Data.Seeding
 
 			currPost = new Post()
 			{
+				Id = Guid.NewGuid(),
 				Title = "My second post",
 				Content = "This is my second post. CRUD operations in MVC are getting more and more interesting!"
 			};
@@ -27,6 +29,7 @@ namespace Forum.Data.Seeding
 
 			currPost = new Post()
 			{
+				Id = Guid.NewGuid(),
 				Title = "My third post",
 				Content = "Hello there! I'm getting better and better with the CRUD operations in MVC. Stay tuned!"
 			};
