@@ -16,7 +16,7 @@ namespace Forum.Data.Configuration
         public void Configure(EntityTypeBuilder<Post> builder)
 		{
 			builder.
-					HasData(this._postseeder.GeneratePosts().ToArray());
+					HasData(this._postseeder.GeneratePosts());
 
 		}
 	}

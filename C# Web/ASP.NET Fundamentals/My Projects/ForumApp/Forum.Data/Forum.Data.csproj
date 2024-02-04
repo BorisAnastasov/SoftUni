@@ -20,7 +20,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Forum.Data.Models\Forum.Data.Models.csproj" />
-    <ProjectReference Include="..\ForumApp\Forum.App.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,5 @@
 using Forum.Data;
+using Microsoft.EntityFrameworkCore;
 namespace Forum.App
 {
 	public class Program
@@ -6,15 +7,15 @@ namespace Forum.App
 		public static void Main(string[] args)
 		{
 			var builder = WebApplication.CreateBuilder(args);
-
+			var connectionstring = builder.Configuration
+												.GetConnectionString("DefaultConnection");
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
 
 			builder.Services.AddDbContext<ForumDbContext>(options =>
 			{
-				
+				options.UseSqlServer(connectionstring);
 			});
-
 
 
 			var app = builder.Build();

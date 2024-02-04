@@ -19,7 +19,6 @@ namespace Forum.Data
 		{
 			modelBuilder.ApplyConfiguration(new PostEntityConfiguration());
 
-
 			base.OnModelCreating(modelBuilder);
 		}
 	}
