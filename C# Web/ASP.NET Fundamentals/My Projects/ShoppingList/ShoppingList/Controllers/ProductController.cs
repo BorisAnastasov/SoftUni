@@ -40,7 +40,6 @@ namespace ShoppingList.Controllers
 
             return RedirectToAction("All");
         }
-        [HttpGet]
         public IActionResult Edit(int id)
         {
             var product = _data.Products.Find(id);
@@ -60,5 +59,17 @@ namespace ShoppingList.Controllers
 
             return RedirectToAction("All");
 		}
+
+        public IActionResult Delete(int id) 
+        {
+            var product = _data.Products.Find(id);
+
+            _data.Products.Remove(product);
+            _data.SaveChanges();
+
+            return RedirectToAction("All");
+        }
+
+
     }
 }
