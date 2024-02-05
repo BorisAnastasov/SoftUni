@@ -1,4 +1,6 @@
 using Forum.Data;
+using Forum.Services;
+using Forum.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 namespace Forum.App
 {
@@ -7,15 +9,19 @@ namespace Forum.App
 		public static void Main(string[] args)
 		{
 			var builder = WebApplication.CreateBuilder(args);
-			var connectionstring = builder.Configuration
+			var connectionString = builder.Configuration
 												.GetConnectionString("DefaultConnection");
 			// Add services to the container.
 			builder.Services.AddControllersWithViews();
 
 			builder.Services.AddDbContext<ForumDbContext>(options =>
 			{
-				options.UseSqlServer(connectionstring);
+				options.UseSqlServer(connectionString);
 			});
+
+			//Add custom services
+			builder.Services.AddScoped<IPostService, PostService>();
+
 
 
 			var app = builder.Build();
